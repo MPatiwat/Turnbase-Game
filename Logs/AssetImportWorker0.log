@@ -493,3 +493,4 @@ Received Import Request.
 Start importing Assets/Art/SkillTree/Sprites/Skills/Skill_04.png using Guid(f60435091fbf04767b289c7e0e6d87df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a62a90911de749aac8bc28930212553') in 0.021304 seconds
   Import took 0.027028 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
