@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a4fdafe2fbe6147bd43b10f4358100, type: 3}
+  m_Name: Con2
+  m_EditorClassIdentifier: 
+  allLines:
+  - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
+    dialog: Sawad Dee
+  - characterSpeaker: {fileID: 11400000, guid: 3ce1acf50f5d3b0478268bbd590024f8, type: 2}
+    dialog: 'How are you ? '
+  - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
+    dialog: I'm fine thank you
+  conName: yedmaui
+  quest: {fileID: 11400000, guid: f6554d9b751187840aec6285b2b7d850, type: 2}

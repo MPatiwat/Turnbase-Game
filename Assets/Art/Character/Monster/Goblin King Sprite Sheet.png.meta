@@ -1,0 +1,4170 @@
+fileFormatVersion: 2
+guid: e5fdca7ed201f5e42984f9c7fc7c2abf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3084472202944799101
+    second: Goblin King Sprite Sheet_0
+  - first:
+      213: -3267801681500595072
+    second: Goblin King Sprite Sheet_1
+  - first:
+      213: 9077161375292067266
+    second: Goblin King Sprite Sheet_2
+  - first:
+      213: 5780712568294528099
+    second: Goblin King Sprite Sheet_3
+  - first:
+      213: -6563596470052181951
+    second: Goblin King Sprite Sheet_4
+  - first:
+      213: 763924026007532991
+    second: Goblin King Sprite Sheet_5
+  - first:
+      213: -7673457119488555420
+    second: Goblin King Sprite Sheet_6
+  - first:
+      213: -5865984666730367549
+    second: Goblin King Sprite Sheet_7
+  - first:
+      213: -3676366397676470598
+    second: Goblin King Sprite Sheet_8
+  - first:
+      213: -7154128226271406832
+    second: Goblin King Sprite Sheet_9
+  - first:
+      213: -7476208285095497111
+    second: Goblin King Sprite Sheet_10
+  - first:
+      213: 6063005006906922945
+    second: Goblin King Sprite Sheet_11
+  - first:
+      213: 4921899431572892617
+    second: Goblin King Sprite Sheet_12
+  - first:
+      213: -1899308460389963783
+    second: Goblin King Sprite Sheet_13
+  - first:
+      213: 1143387619500623625
+    second: Goblin King Sprite Sheet_14
+  - first:
+      213: -7976285102818788903
+    second: Goblin King Sprite Sheet_15
+  - first:
+      213: -6044711509220391116
+    second: Goblin King Sprite Sheet_16
+  - first:
+      213: -9159761087304058496
+    second: Goblin King Sprite Sheet_17
+  - first:
+      213: -5581347161570321500
+    second: Goblin King Sprite Sheet_18
+  - first:
+      213: 8637116442464404790
+    second: Goblin King Sprite Sheet_19
+  - first:
+      213: 6546355906914283033
+    second: Goblin King Sprite Sheet_20
+  - first:
+      213: 5658970605794351638
+    second: Goblin King Sprite Sheet_21
+  - first:
+      213: 4680393402410768619
+    second: Goblin King Sprite Sheet_22
+  - first:
+      213: -6751749177203845713
+    second: Goblin King Sprite Sheet_23
+  - first:
+      213: -9060241743387066264
+    second: Goblin King Sprite Sheet_24
+  - first:
+      213: 4218363795381085079
+    second: Goblin King Sprite Sheet_25
+  - first:
+      213: 265039341996740417
+    second: Goblin King Sprite Sheet_26
+  - first:
+      213: -3837195855908331489
+    second: Goblin King Sprite Sheet_27
+  - first:
+      213: -671758582016180256
+    second: Goblin King Sprite Sheet_28
+  - first:
+      213: 347455193585861809
+    second: Goblin King Sprite Sheet_29
+  - first:
+      213: 6723313656949094593
+    second: Goblin King Sprite Sheet_30
+  - first:
+      213: 3573787327457490507
+    second: Goblin King Sprite Sheet_31
+  - first:
+      213: 3211277010269834289
+    second: Goblin King Sprite Sheet_32
+  - first:
+      213: -3743412917159853134
+    second: Goblin King Sprite Sheet_33
+  - first:
+      213: 1898105422731207118
+    second: Goblin King Sprite Sheet_34
+  - first:
+      213: -9090312065081864612
+    second: Goblin King Sprite Sheet_35
+  - first:
+      213: 2093316316313979930
+    second: Goblin King Sprite Sheet_36
+  - first:
+      213: 8733268230945637360
+    second: Goblin King Sprite Sheet_37
+  - first:
+      213: 7909932940230747192
+    second: Goblin King Sprite Sheet_38
+  - first:
+      213: -4592178555430711637
+    second: Goblin King Sprite Sheet_39
+  - first:
+      213: -8979711462631837503
+    second: Goblin King Sprite Sheet_40
+  - first:
+      213: -7970936887613467301
+    second: Goblin King Sprite Sheet_41
+  - first:
+      213: 1158150673644880871
+    second: Goblin King Sprite Sheet_42
+  - first:
+      213: 2693530185530047293
+    second: Goblin King Sprite Sheet_43
+  - first:
+      213: 6719397359236468548
+    second: Goblin King Sprite Sheet_44
+  - first:
+      213: 4197999444982687157
+    second: Goblin King Sprite Sheet_45
+  - first:
+      213: 8250462999531309229
+    second: Goblin King Sprite Sheet_46
+  - first:
+      213: -1042895846403795502
+    second: Goblin King Sprite Sheet_47
+  - first:
+      213: -2087336550309761094
+    second: Goblin King Sprite Sheet_48
+  - first:
+      213: -5286689804504913268
+    second: Goblin King Sprite Sheet_49
+  - first:
+      213: -7056937424279740845
+    second: Goblin King Sprite Sheet_50
+  - first:
+      213: -4547977184170327881
+    second: Goblin King Sprite Sheet_51
+  - first:
+      213: 2602572365577812413
+    second: Goblin King Sprite Sheet_52
+  - first:
+      213: 1516476287654798328
+    second: Goblin King Sprite Sheet_53
+  - first:
+      213: 1210795810570116323
+    second: Goblin King Sprite Sheet_54
+  - first:
+      213: -9058044868387251622
+    second: Goblin King Sprite Sheet_55
+  - first:
+      213: 689142952570116947
+    second: Goblin King Sprite Sheet_56
+  - first:
+      213: 7929327091599110614
+    second: Goblin King Sprite Sheet_57
+  - first:
+      213: 3090352323269916290
+    second: Goblin King Sprite Sheet_58
+  - first:
+      213: -1081586478174408106
+    second: Goblin King Sprite Sheet_59
+  - first:
+      213: 8561241785321275630
+    second: Goblin King Sprite Sheet_60
+  - first:
+      213: -8375742742993018753
+    second: Goblin King Sprite Sheet_61
+  - first:
+      213: 5354810134919802727
+    second: Goblin King Sprite Sheet_62
+  - first:
+      213: 6381826310272855877
+    second: Goblin King Sprite Sheet_63
+  - first:
+      213: 3892823689203871618
+    second: Goblin King Sprite Sheet_64
+  - first:
+      213: -576472543197172139
+    second: Goblin King Sprite Sheet_65
+  - first:
+      213: 5045827217841183415
+    second: Goblin King Sprite Sheet_66
+  - first:
+      213: 2243203614921836026
+    second: Goblin King Sprite Sheet_67
+  - first:
+      213: 8108028018017069762
+    second: Goblin King Sprite Sheet_68
+  - first:
+      213: -1263347641320548524
+    second: Goblin King Sprite Sheet_69
+  - first:
+      213: -530938501797878530
+    second: Goblin King Sprite Sheet_70
+  - first:
+      213: -3000314221914715701
+    second: Goblin King Sprite Sheet_71
+  - first:
+      213: 3451883091051253988
+    second: Goblin King Sprite Sheet_72
+  - first:
+      213: -520674296825424913
+    second: Goblin King Sprite Sheet_73
+  - first:
+      213: -8572577198429208771
+    second: Goblin King Sprite Sheet_74
+  - first:
+      213: 1411012958686592694
+    second: Goblin King Sprite Sheet_75
+  - first:
+      213: -8670620724524552765
+    second: Goblin King Sprite Sheet_76
+  - first:
+      213: 3291044521647356353
+    second: Goblin King Sprite Sheet_77
+  - first:
+      213: -4959109497288044487
+    second: Goblin King Sprite Sheet_78
+  - first:
+      213: -766209938559357557
+    second: Goblin King Sprite Sheet_79
+  - first:
+      213: 3274581444112011216
+    second: Goblin King Sprite Sheet_80
+  - first:
+      213: 5116383000596285700
+    second: Goblin King Sprite Sheet_81
+  - first:
+      213: 7078478464769317726
+    second: Goblin King Sprite Sheet_82
+  - first:
+      213: -2305592820039656584
+    second: Goblin King Sprite Sheet_83
+  - first:
+      213: -4016291763289227803
+    second: Goblin King Sprite Sheet_84
+  - first:
+      213: -2189576495201958027
+    second: Goblin King Sprite Sheet_85
+  - first:
+      213: 3267935943014383293
+    second: Goblin King Sprite Sheet_86
+  - first:
+      213: -8962399257727410804
+    second: Goblin King Sprite Sheet_87
+  - first:
+      213: 5936778450173880956
+    second: Goblin King Sprite Sheet_88
+  - first:
+      213: -4028895589867260163
+    second: Goblin King Sprite Sheet_89
+  - first:
+      213: -1058497954871963513
+    second: Goblin King Sprite Sheet_90
+  - first:
+      213: -2093371175363560856
+    second: Goblin King Sprite Sheet_91
+  - first:
+      213: -8938715179502007714
+    second: Goblin King Sprite Sheet_92
+  - first:
+      213: 6868507568892538659
+    second: Goblin King Sprite Sheet_93
+  - first:
+      213: 8172111659602064386
+    second: Goblin King Sprite Sheet_94
+  - first:
+      213: -8649337393883040038
+    second: Goblin King Sprite Sheet_95
+  - first:
+      213: -234581367273101691
+    second: Goblin King Sprite Sheet_96
+  - first:
+      213: -8722747542040840111
+    second: Goblin King Sprite Sheet_97
+  - first:
+      213: -5705566388917895862
+    second: Goblin King Sprite Sheet_98
+  - first:
+      213: 3787359263497935281
+    second: Goblin King Sprite Sheet_99
+  - first:
+      213: -8897761281465121914
+    second: Goblin King Sprite Sheet_100
+  - first:
+      213: 7710104761975087699
+    second: Goblin King Sprite Sheet_101
+  - first:
+      213: -8197587229338098572
+    second: Goblin King Sprite Sheet_102
+  - first:
+      213: -8124855006734336076
+    second: Goblin King Sprite Sheet_103
+  - first:
+      213: -2740952953410851991
+    second: Goblin King Sprite Sheet_104
+  - first:
+      213: -5789326243801984112
+    second: Goblin King Sprite Sheet_105
+  - first:
+      213: -7640540629609277106
+    second: Goblin King Sprite Sheet_106
+  - first:
+      213: -5777042581573485295
+    second: Goblin King Sprite Sheet_107
+  - first:
+      213: -7043386521423516595
+    second: Goblin King Sprite Sheet_108
+  - first:
+      213: 5983948441104986732
+    second: Goblin King Sprite Sheet_109
+  - first:
+      213: 1024783273657817700
+    second: Goblin King Sprite Sheet_110
+  - first:
+      213: 492551337945910360
+    second: Goblin King Sprite Sheet_111
+  - first:
+      213: -771885876318029419
+    second: Goblin King Sprite Sheet_112
+  - first:
+      213: -4540106104288482401
+    second: Goblin King Sprite Sheet_113
+  - first:
+      213: -6362173926936380094
+    second: Goblin King Sprite Sheet_114
+  - first:
+      213: -5611653293277296926
+    second: Goblin King Sprite Sheet_115
+  - first:
+      213: 713858210062759617
+    second: Goblin King Sprite Sheet_116
+  - first:
+      213: -6097541421015143232
+    second: Goblin King Sprite Sheet_117
+  - first:
+      213: 5882825333487042542
+    second: Goblin King Sprite Sheet_118
+  - first:
+      213: 8464416656659014788
+    second: Goblin King Sprite Sheet_119
+  - first:
+      213: -6669778283214350279
+    second: Goblin King Sprite Sheet_120
+  - first:
+      213: 8724360126705956564
+    second: Goblin King Sprite Sheet_121
+  - first:
+      213: -3894138056655411109
+    second: Goblin King Sprite Sheet_122
+  - first:
+      213: -6751696804581855877
+    second: Goblin King Sprite Sheet_123
+  - first:
+      213: -5910056046172675983
+    second: Goblin King Sprite Sheet_124
+  - first:
+      213: -2544968026019674050
+    second: Goblin King Sprite Sheet_125
+  - first:
+      213: -9109621184986225626
+    second: Goblin King Sprite Sheet_126
+  - first:
+      213: 8203820830048176738
+    second: Goblin King Sprite Sheet_127
+  - first:
+      213: 4531450863669496830
+    second: Goblin King Sprite Sheet_128
+  - first:
+      213: 6689103580126878682
+    second: Goblin King Sprite Sheet_129
+  - first:
+      213: 786447977987191445
+    second: Goblin King Sprite Sheet_130
+  - first:
+      213: -4636851555082263814
+    second: Goblin King Sprite Sheet_131
+  - first:
+      213: 557465106202208578
+    second: Goblin King Sprite Sheet_132
+  - first:
+      213: -1539197248834391060
+    second: Goblin King Sprite Sheet_133
+  - first:
+      213: 9202614399400711318
+    second: Goblin King Sprite Sheet_134
+  - first:
+      213: 6381601486877195869
+    second: Goblin King Sprite Sheet_135
+  - first:
+      213: 567954239465040172
+    second: Goblin King Sprite Sheet_136
+  - first:
+      213: 1086159927045747316
+    second: Goblin King Sprite Sheet_137
+  - first:
+      213: 4943990824430270929
+    second: Goblin King Sprite Sheet_138
+  - first:
+      213: -4329312123083933936
+    second: Goblin King Sprite Sheet_139
+  - first:
+      213: 4452599708897895657
+    second: Goblin King Sprite Sheet_140
+  - first:
+      213: -5711720369563980947
+    second: Goblin King Sprite Sheet_141
+  - first:
+      213: -3762432214603245356
+    second: Goblin King Sprite Sheet_142
+  - first:
+      213: 4009577655228088207
+    second: Goblin King Sprite Sheet_143
+  - first:
+      213: 72829212077622393
+    second: Goblin King Sprite Sheet_144
+  - first:
+      213: 4622327017261239733
+    second: Goblin King Sprite Sheet_145
+  - first:
+      213: 8740469767077582836
+    second: Goblin King Sprite Sheet_146
+  - first:
+      213: -4816142470545291857
+    second: Goblin King Sprite Sheet_147
+  - first:
+      213: 313562737189795375
+    second: Goblin King Sprite Sheet_148
+  - first:
+      213: -3388698686474801936
+    second: Goblin King Sprite Sheet_149
+  - first:
+      213: -2928238727484440587
+    second: Goblin King Sprite Sheet_150
+  - first:
+      213: 4943522477582859060
+    second: Goblin King Sprite Sheet_151
+  - first:
+      213: -2586778315497410527
+    second: Goblin King Sprite Sheet_152
+  - first:
+      213: 4021729444523443741
+    second: Goblin King Sprite Sheet_153
+  - first:
+      213: -7979523624302311380
+    second: Goblin King Sprite Sheet_154
+  - first:
+      213: 1390436980349857576
+    second: Goblin King Sprite Sheet_155
+  - first:
+      213: 8987267461711021583
+    second: Goblin King Sprite Sheet_156
+  - first:
+      213: 2087520643913515789
+    second: Goblin King Sprite Sheet_157
+  - first:
+      213: 257047648645713840
+    second: Goblin King Sprite Sheet_158
+  - first:
+      213: 4087456064934686372
+    second: Goblin King Sprite Sheet_159
+  - first:
+      213: -1730715309367077292
+    second: Goblin King Sprite Sheet_160
+  - first:
+      213: -5106103400121134411
+    second: Goblin King Sprite Sheet_161
+  - first:
+      213: 6060340760498245817
+    second: Goblin King Sprite Sheet_162
+  - first:
+      213: -1893692730218923058
+    second: Goblin King Sprite Sheet_163
+  - first:
+      213: -2976524030580714729
+    second: Goblin King Sprite Sheet_164
+  - first:
+      213: -4171709110252615060
+    second: Goblin King Sprite Sheet_165
+  - first:
+      213: -2169016052196003285
+    second: Goblin King Sprite Sheet_166
+  - first:
+      213: -7891198004777535263
+    second: Goblin King Sprite Sheet_167
+  - first:
+      213: 4975614243837238871
+    second: Goblin King Sprite Sheet_168
+  - first:
+      213: 9078459873404243052
+    second: Goblin King Sprite Sheet_169
+  - first:
+      213: 6029116818651165051
+    second: Goblin King Sprite Sheet_170
+  - first:
+      213: 7149064489968353881
+    second: Goblin King Sprite Sheet_171
+  - first:
+      213: -1783572462184717864
+    second: Goblin King Sprite Sheet_172
+  - first:
+      213: -8283664638181875726
+    second: Goblin King Sprite Sheet_173
+  - first:
+      213: -3036042868733854260
+    second: Goblin King Sprite Sheet_174
+  - first:
+      213: 2428881584257254059
+    second: Goblin King Sprite Sheet_175
+  - first:
+      213: -4703915316572484583
+    second: Goblin King Sprite Sheet_176
+  - first:
+      213: -521591758544592978
+    second: Goblin King Sprite Sheet_177
+  - first:
+      213: 3277603787985577989
+    second: Goblin King Sprite Sheet_178
+  - first:
+      213: 5509039042833199215
+    second: Goblin King Sprite Sheet_179
+  - first:
+      213: -3110523575322229460
+    second: Goblin King Sprite Sheet_180
+  - first:
+      213: -8241440808444235581
+    second: Goblin King Sprite Sheet_181
+  - first:
+      213: 4997957616396394174
+    second: Goblin King Sprite Sheet_182
+  - first:
+      213: 9206964181731090193
+    second: Goblin King Sprite Sheet_183
+  - first:
+      213: 245433139337966295
+    second: Goblin King Sprite Sheet_184
+  - first:
+      213: -5274623185632826717
+    second: Goblin King Sprite Sheet_185
+  - first:
+      213: 6456533159975772041
+    second: Goblin King Sprite Sheet_186
+  - first:
+      213: 5009447476914392515
+    second: Goblin King Sprite Sheet_187
+  - first:
+      213: 2621803218850638241
+    second: Goblin King Sprite Sheet_188
+  - first:
+      213: 3145851703108175396
+    second: Goblin King Sprite Sheet_189
+  - first:
+      213: 6908455005213148113
+    second: Goblin King Sprite Sheet_190
+  - first:
+      213: -4662988625146877197
+    second: Goblin King Sprite Sheet_191
+  - first:
+      213: 1710287342399099658
+    second: Goblin King Sprite Sheet_192
+  - first:
+      213: 2536061702635494600
+    second: Goblin King Sprite Sheet_193
+  - first:
+      213: -9036364736740843749
+    second: Goblin King Sprite Sheet_194
+  - first:
+      213: -8743716122662506959
+    second: Goblin King Sprite Sheet_195
+  - first:
+      213: 7589698559272448207
+    second: Goblin King Sprite Sheet_196
+  - first:
+      213: 8188629229143644315
+    second: Goblin King Sprite Sheet_197
+  - first:
+      213: 2146419091438079094
+    second: Goblin King Sprite Sheet_198
+  - first:
+      213: -8985514326215326538
+    second: Goblin King Sprite Sheet_199
+  - first:
+      213: -7943082246145015880
+    second: Goblin King Sprite Sheet_200
+  - first:
+      213: 5275634523975151825
+    second: Goblin King Sprite Sheet_201
+  - first:
+      213: -8627211321497201489
+    second: Goblin King Sprite Sheet_202
+  - first:
+      213: 4384255961688667147
+    second: Goblin King Sprite Sheet_203
+  - first:
+      213: 2371550942426857798
+    second: Goblin King Sprite Sheet_204
+  - first:
+      213: -1920684451725771847
+    second: Goblin King Sprite Sheet_205
+  - first:
+      213: -8562896449805451441
+    second: Goblin King Sprite Sheet_206
+  - first:
+      213: 4509756020422558295
+    second: Goblin King Sprite Sheet_207
+  - first:
+      213: -2045696986313727097
+    second: Goblin King Sprite Sheet_208
+  - first:
+      213: -2287587209099546463
+    second: Goblin King Sprite Sheet_209
+  - first:
+      213: 8327393431296246515
+    second: Goblin King Sprite Sheet_210
+  - first:
+      213: 632051673320998232
+    second: Goblin King Sprite Sheet_211
+  - first:
+      213: 3888757515549166197
+    second: Goblin King Sprite Sheet_212
+  - first:
+      213: 1656404082256829001
+    second: Goblin King Sprite Sheet_213
+  - first:
+      213: -3509129334489180974
+    second: Goblin King Sprite Sheet_214
+  - first:
+      213: 1109762946747237325
+    second: Goblin King Sprite Sheet_215
+  - first:
+      213: -2096225181241801421
+    second: Goblin King Sprite Sheet_216
+  - first:
+      213: -1839873927512810199
+    second: Goblin King Sprite Sheet_217
+  - first:
+      213: -1656723675202754776
+    second: Goblin King Sprite Sheet_218
+  - first:
+      213: -3900870932567890737
+    second: Goblin King Sprite Sheet_219
+  - first:
+      213: -8070309166029448071
+    second: Goblin King Sprite Sheet_220
+  - first:
+      213: -5846560321582596371
+    second: Goblin King Sprite Sheet_221
+  - first:
+      213: 7964138159234341750
+    second: Goblin King Sprite Sheet_222
+  - first:
+      213: 2679064663162640663
+    second: Goblin King Sprite Sheet_223
+  - first:
+      213: -6523705123258707960
+    second: Goblin King Sprite Sheet_224
+  - first:
+      213: 430183330444481022
+    second: Goblin King Sprite Sheet_225
+  - first:
+      213: 5449860520663885185
+    second: Goblin King Sprite Sheet_226
+  - first:
+      213: -1123259419308840277
+    second: Goblin King Sprite Sheet_227
+  - first:
+      213: -6346489576911057669
+    second: Goblin King Sprite Sheet_228
+  - first:
+      213: 1935158505806087723
+    second: Goblin King Sprite Sheet_229
+  - first:
+      213: -5776219785458156787
+    second: Goblin King Sprite Sheet_230
+  - first:
+      213: -4359405984859929185
+    second: Goblin King Sprite Sheet_231
+  - first:
+      213: -283355067081348177
+    second: Goblin King Sprite Sheet_232
+  - first:
+      213: 9037329353023317472
+    second: Goblin King Sprite Sheet_233
+  - first:
+      213: 5853411670098305003
+    second: Goblin King Sprite Sheet_234
+  - first:
+      213: -710010379218322852
+    second: Goblin King Sprite Sheet_235
+  - first:
+      213: -606677732021008400
+    second: Goblin King Sprite Sheet_236
+  - first:
+      213: 2987483335426349772
+    second: Goblin King Sprite Sheet_237
+  - first:
+      213: 314444986785688805
+    second: Goblin King Sprite Sheet_238
+  - first:
+      213: 6923832776947845613
+    second: Goblin King Sprite Sheet_239
+  - first:
+      213: -1649491382371505011
+    second: Goblin King Sprite Sheet_240
+  - first:
+      213: 3166222307918275529
+    second: Goblin King Sprite Sheet_241
+  - first:
+      213: 2703917761474593189
+    second: Goblin King Sprite Sheet_242
+  - first:
+      213: 769592728098203835
+    second: Goblin King Sprite Sheet_243
+  - first:
+      213: -5549137383778973936
+    second: Goblin King Sprite Sheet_244
+  - first:
+      213: -4540454655067828136
+    second: Goblin King Sprite Sheet_245
+  - first:
+      213: 4540366097585111188
+    second: Goblin King Sprite Sheet_246
+  - first:
+      213: 8585068457156425164
+    second: Goblin King Sprite Sheet_247
+  - first:
+      213: 2369646474927222932
+    second: Goblin King Sprite Sheet_248
+  - first:
+      213: 5281580375587203221
+    second: Goblin King Sprite Sheet_249
+  - first:
+      213: 3355881900353482186
+    second: Goblin King Sprite Sheet_250
+  - first:
+      213: -5328302287841411596
+    second: Goblin King Sprite Sheet_251
+  - first:
+      213: -6126771319261682788
+    second: Goblin King Sprite Sheet_252
+  - first:
+      213: -2426309045976163193
+    second: Goblin King Sprite Sheet_253
+  - first:
+      213: 6561223998741195180
+    second: Goblin King Sprite Sheet_254
+  - first:
+      213: -1359549347241113641
+    second: Goblin King Sprite Sheet_255
+  - first:
+      213: -8751143462753326041
+    second: Goblin King Sprite Sheet_256
+  - first:
+      213: 7056880149667495159
+    second: Goblin King Sprite Sheet_257
+  - first:
+      213: 7582229710951926506
+    second: Goblin King Sprite Sheet_258
+  - first:
+      213: -9142930521845646250
+    second: Goblin King Sprite Sheet_259
+  - first:
+      213: 2922473223465961241
+    second: Goblin King Sprite Sheet_260
+  - first:
+      213: 6586670005163455263
+    second: Goblin King Sprite Sheet_261
+  - first:
+      213: 1347552013874573319
+    second: Goblin King Sprite Sheet_262
+  - first:
+      213: 4467597646792718638
+    second: Goblin King Sprite Sheet_263
+  - first:
+      213: 8511036101741970246
+    second: Goblin King Sprite Sheet_264
+  - first:
+      213: -6377996192029821500
+    second: Goblin King Sprite Sheet_265
+  - first:
+      213: -4024010829718578509
+    second: Goblin King Sprite Sheet_266
+  - first:
+      213: 2482701551444319006
+    second: Goblin King Sprite Sheet_267
+  - first:
+      213: 4948765072663505402
+    second: Goblin King Sprite Sheet_268
+  - first:
+      213: 6791491689503603337
+    second: Goblin King Sprite Sheet_269
+  - first:
+      213: -5147940592263560235
+    second: Goblin King Sprite Sheet_270
+  - first:
+      213: -6976022815772553307
+    second: Goblin King Sprite Sheet_271
+  - first:
+      213: 4128095046431622195
+    second: Goblin King Sprite Sheet_272
+  - first:
+      213: 3596059271337561353
+    second: Goblin King Sprite Sheet_273
+  - first:
+      213: 4489945313684995132
+    second: Goblin King Sprite Sheet_274
+  - first:
+      213: 5498129310907575694
+    second: Goblin King Sprite Sheet_275
+  - first:
+      213: -9028654114219741764
+    second: Goblin King Sprite Sheet_276
+  - first:
+      213: -2072201103781234731
+    second: Goblin King Sprite Sheet_277
+  - first:
+      213: -2319778587432313073
+    second: Goblin King Sprite Sheet_278
+  - first:
+      213: 7961145092755545170
+    second: Goblin King Sprite Sheet_279
+  - first:
+      213: 8380576347781157381
+    second: Goblin King Sprite Sheet_280
+  - first:
+      213: 3218648821124711095
+    second: Goblin King Sprite Sheet_281
+  - first:
+      213: -3355849221180244974
+    second: Goblin King Sprite Sheet_282
+  - first:
+      213: 8650227245481340847
+    second: Goblin King Sprite Sheet_283
+  - first:
+      213: -3106392446224789372
+    second: Goblin King Sprite Sheet_284
+  - first:
+      213: -2737122762832391195
+    second: Goblin King Sprite Sheet_285
+  - first:
+      213: -2853975165024340630
+    second: Goblin King Sprite Sheet_286
+  - first:
+      213: 530279172925710768
+    second: Goblin King Sprite Sheet_287
+  - first:
+      213: 6494930652630881403
+    second: Goblin King Sprite Sheet_288
+  - first:
+      213: 2743821836117852436
+    second: Goblin King Sprite Sheet_289
+  - first:
+      213: 239830676575102771
+    second: Goblin King Sprite Sheet_290
+  - first:
+      213: -7967305671724828541
+    second: Goblin King Sprite Sheet_291
+  - first:
+      213: 5815952198594249148
+    second: Goblin King Sprite Sheet_292
+  - first:
+      213: -2879078191025889954
+    second: Goblin King Sprite Sheet_293
+  - first:
+      213: -5574899631713024840
+    second: Goblin King Sprite Sheet_294
+  - first:
+      213: 889982082967729849
+    second: Goblin King Sprite Sheet_295
+  - first:
+      213: -2242774458294612775
+    second: Goblin King Sprite Sheet_296
+  - first:
+      213: -8703493632035725641
+    second: Goblin King Sprite Sheet_297
+  - first:
+      213: 3526897001836445371
+    second: Goblin King Sprite Sheet_298
+  - first:
+      213: -7589659241834849383
+    second: Goblin King Sprite Sheet_299
+  - first:
+      213: 7522141234053653549
+    second: Goblin King Sprite Sheet_300
+  - first:
+      213: -2535782560401744092
+    second: Goblin King Sprite Sheet_301
+  - first:
+      213: -5799987618627569822
+    second: Goblin King Sprite Sheet_302
+  - first:
+      213: 6131316251626756626
+    second: Goblin King Sprite Sheet_303
+  - first:
+      213: -2369253584709097118
+    second: Goblin King Sprite Sheet_304
+  - first:
+      213: 6110431575732962627
+    second: Goblin King Sprite Sheet_305
+  - first:
+      213: 7383155376690205520
+    second: Goblin King Sprite Sheet_306
+  - first:
+      213: 6331872898192020714
+    second: Goblin King Sprite Sheet_307
+  - first:
+      213: 7324413890009695925
+    second: Goblin King Sprite Sheet_308
+  - first:
+      213: -188367671667885697
+    second: Goblin King Sprite Sheet_309
+  - first:
+      213: 1602896986966389900
+    second: Goblin King Sprite Sheet_310
+  - first:
+      213: -5484273226131831528
+    second: Goblin King Sprite Sheet_311
+  - first:
+      213: -2231373373493704326
+    second: Goblin King Sprite Sheet_312
+  - first:
+      213: -1785169838233055099
+    second: Goblin King Sprite Sheet_313
+  - first:
+      213: 219857526733969372
+    second: Goblin King Sprite Sheet_314
+  - first:
+      213: -3465929323805769360
+    second: Goblin King Sprite Sheet_315
+  - first:
+      213: -6950162946484560807
+    second: Goblin King Sprite Sheet_316
+  - first:
+      213: 2452997301502086418
+    second: Goblin King Sprite Sheet_317
+  - first:
+      213: -146941367419876982
+    second: Goblin King Sprite Sheet_318
+  - first:
+      213: 3943032717177965785
+    second: Goblin King Sprite Sheet_319
+  - first:
+      213: -516323471540199674
+    second: Goblin King Sprite Sheet_320
+  - first:
+      213: -8227235090279586784
+    second: Goblin King Sprite Sheet_321
+  - first:
+      213: 8778065845281304243
+    second: Goblin King Sprite Sheet_322
+  - first:
+      213: -1618302209854110647
+    second: Goblin King Sprite Sheet_323
+  - first:
+      213: -2022318911623445482
+    second: Goblin King Sprite Sheet_324
+  - first:
+      213: -3656881140963991860
+    second: Goblin King Sprite Sheet_325
+  - first:
+      213: 8946364805211530717
+    second: Goblin King Sprite Sheet_326
+  - first:
+      213: 3081722665364545603
+    second: Goblin King Sprite Sheet_327
+  - first:
+      213: -2536342392640057981
+    second: Goblin King Sprite Sheet_328
+  - first:
+      213: -1913919994330569157
+    second: Goblin King Sprite Sheet_329
+  - first:
+      213: -4499470288413922950
+    second: Goblin King Sprite Sheet_330
+  - first:
+      213: 4511168409366364415
+    second: Goblin King Sprite Sheet_331
+  - first:
+      213: 8972294086792072004
+    second: Goblin King Sprite Sheet_332
+  - first:
+      213: 5784525525808657964
+    second: Goblin King Sprite Sheet_333
+  - first:
+      213: 3607625902001510231
+    second: Goblin King Sprite Sheet_334
+  - first:
+      213: -8652481230337881874
+    second: Goblin King Sprite Sheet_335
+  - first:
+      213: 4869809507256462769
+    second: Goblin King Sprite Sheet_336
+  - first:
+      213: -5038893249514815481
+    second: Goblin King Sprite Sheet_337
+  - first:
+      213: 4970870439322077934
+    second: Goblin King Sprite Sheet_338
+  - first:
+      213: -2053946743907622379
+    second: Goblin King Sprite Sheet_339
+  - first:
+      213: 3153350628563188341
+    second: Goblin King Sprite Sheet_340
+  - first:
+      213: -751093831228675151
+    second: Goblin King Sprite Sheet_341
+  - first:
+      213: 2218946131823415357
+    second: Goblin King Sprite Sheet_342
+  - first:
+      213: -9017959327259986308
+    second: Goblin King Sprite Sheet_343
+  - first:
+      213: -8305054954463202211
+    second: Goblin King Sprite Sheet_344
+  - first:
+      213: 1305911519448885802
+    second: Goblin King Sprite Sheet_345
+  - first:
+      213: -2873311338538263795
+    second: Goblin King Sprite Sheet_346
+  - first:
+      213: -8567372619541138139
+    second: Goblin King Sprite Sheet_347
+  - first:
+      213: 2317531581091070467
+    second: Goblin King Sprite Sheet_348
+  - first:
+      213: -2624873656314362923
+    second: Goblin King Sprite Sheet_349
+  - first:
+      213: 7098146104085438113
+    second: Goblin King Sprite Sheet_350
+  - first:
+      213: -6834629867398618974
+    second: Goblin King Sprite Sheet_351
+  - first:
+      213: -8808312110322031972
+    second: Goblin King Sprite Sheet_352
+  - first:
+      213: 2396027923812350303
+    second: Goblin King Sprite Sheet_353
+  - first:
+      213: 111700677231812065
+    second: Goblin King Sprite Sheet_354
+  - first:
+      213: 6517268697265239385
+    second: Goblin King Sprite Sheet_355
+  - first:
+      213: -8686660092601142991
+    second: Goblin King Sprite Sheet_356
+  - first:
+      213: -4980932605517233530
+    second: Goblin King Sprite Sheet_357
+  - first:
+      213: 1463800890939835051
+    second: Goblin King Sprite Sheet_358
+  - first:
+      213: -9080528287913617276
+    second: Goblin King Sprite Sheet_359
+  - first:
+      213: 4497928994207141211
+    second: Goblin King Sprite Sheet_360
+  - first:
+      213: -6538072269630779879
+    second: Goblin King Sprite Sheet_361
+  - first:
+      213: 6864973574705654655
+    second: Goblin King Sprite Sheet_362
+  - first:
+      213: -5010319631546296733
+    second: Goblin King Sprite Sheet_363
+  - first:
+      213: 3992614656565183712
+    second: Goblin King Sprite Sheet_364
+  - first:
+      213: 7673640503831738997
+    second: Goblin King Sprite Sheet_365
+  - first:
+      213: 5656318020531995371
+    second: Goblin King Sprite Sheet_366
+  - first:
+      213: 5232540042468303854
+    second: Goblin King Sprite Sheet_367
+  - first:
+      213: -1486027071471622638
+    second: Goblin King Sprite Sheet_368
+  - first:
+      213: -1213466539553152720
+    second: Goblin King Sprite Sheet_369
+  - first:
+      213: -2932422232769601550
+    second: Goblin King Sprite Sheet_370
+  - first:
+      213: -432989393778376406
+    second: Goblin King Sprite Sheet_371
+  - first:
+      213: 6832655281742723825
+    second: Goblin King Sprite Sheet_372
+  - first:
+      213: 704966609473846411
+    second: Goblin King Sprite Sheet_373
+  - first:
+      213: -6685887451670371651
+    second: Goblin King Sprite Sheet_374
+  - first:
+      213: -762067847898064381
+    second: Goblin King Sprite Sheet_375
+  - first:
+      213: 3640827580748805354
+    second: Goblin King Sprite Sheet_376
+  - first:
+      213: -4625255151946933561
+    second: Goblin King Sprite Sheet_377
+  - first:
+      213: -3472828762463102536
+    second: Goblin King Sprite Sheet_378
+  - first:
+      213: -1571380629026980010
+    second: Goblin King Sprite Sheet_379
+  - first:
+      213: -7559229199412199640
+    second: Goblin King Sprite Sheet_380
+  - first:
+      213: 2111018494283179686
+    second: Goblin King Sprite Sheet_381
+  - first:
+      213: 9013010999010433238
+    second: Goblin King Sprite Sheet_382
+  - first:
+      213: 3033710112778808152
+    second: Goblin King Sprite Sheet_383
+  - first:
+      213: -8876076885321420942
+    second: Goblin King Sprite Sheet_384
+  - first:
+      213: 9019183454508851802
+    second: Goblin King Sprite Sheet_385
+  - first:
+      213: 4977364290985796456
+    second: Goblin King Sprite Sheet_386
+  - first:
+      213: -4530579556138045664
+    second: Goblin King Sprite Sheet_387
+  - first:
+      213: -8610857198293052963
+    second: Goblin King Sprite Sheet_388
+  - first:
+      213: 1955755881390950822
+    second: Goblin King Sprite Sheet_389
+  - first:
+      213: 4766095132700285630
+    second: Goblin King Sprite Sheet_390
+  - first:
+      213: -5074344837580942582
+    second: Goblin King Sprite Sheet_391
+  - first:
+      213: -2416243224398064806
+    second: Goblin King Sprite Sheet_392
+  - first:
+      213: 8867957870712957022
+    second: Goblin King Sprite Sheet_393
+  - first:
+      213: -2543304263589177314
+    second: Goblin King Sprite Sheet_394
+  - first:
+      213: -7472941610368475431
+    second: Goblin King Sprite Sheet_395
+  - first:
+      213: 3162459285516458455
+    second: Goblin King Sprite Sheet_396
+  - first:
+      213: 5240872975950247109
+    second: Goblin King Sprite Sheet_397
+  - first:
+      213: 8212964371717785007
+    second: Goblin King Sprite Sheet_398
+  - first:
+      213: 5592576058430365525
+    second: Goblin King Sprite Sheet_399
+  - first:
+      213: -724729232449886320
+    second: Goblin King Sprite Sheet_400
+  - first:
+      213: 3122857815989073963
+    second: Goblin King Sprite Sheet_401
+  - first:
+      213: 7710063437809952905
+    second: Goblin King Sprite Sheet_402
+  - first:
+      213: -5364894683253791940
+    second: Goblin King Sprite Sheet_403
+  - first:
+      213: -8612587207782397851
+    second: Goblin King Sprite Sheet_404
+  - first:
+      213: -8038083534432782436
+    second: Goblin King Sprite Sheet_405
+  - first:
+      213: -4082142908187103321
+    second: Goblin King Sprite Sheet_406
+  - first:
+      213: -7352004220443461333
+    second: Goblin King Sprite Sheet_407
+  - first:
+      213: 8318650945978587463
+    second: Goblin King Sprite Sheet_408
+  - first:
+      213: 4565798731799935271
+    second: Goblin King Sprite Sheet_409
+  - first:
+      213: -8963909221754320807
+    second: Goblin King Sprite Sheet_410
+  - first:
+      213: 6442636542595884507
+    second: Goblin King Sprite Sheet_411
+  - first:
+      213: 7416537747276830282
+    second: Goblin King Sprite Sheet_412
+  - first:
+      213: -6082125440117372166
+    second: Goblin King Sprite Sheet_413
+  - first:
+      213: -3171985773649934101
+    second: Goblin King Sprite Sheet_414
+  - first:
+      213: 1037398593690744853
+    second: Goblin King Sprite Sheet_415
+  - first:
+      213: -8150428682822377238
+    second: Goblin King Sprite Sheet_416
+  - first:
+      213: 3987936756457713126
+    second: Goblin King Sprite Sheet_417
+  - first:
+      213: 5143812829540302652
+    second: Goblin King Sprite Sheet_418
+  - first:
+      213: -4867513936124518872
+    second: Goblin King Sprite Sheet_419
+  - first:
+      213: -37001549114700906
+    second: Goblin King Sprite Sheet_420
+  - first:
+      213: -7648623585288309090
+    second: Goblin King Sprite Sheet_421
+  - first:
+      213: -737453014992026225
+    second: Goblin King Sprite Sheet_422
+  - first:
+      213: -5296097508793577289
+    second: Goblin King Sprite Sheet_423
+  - first:
+      213: 5284447878252536330
+    second: Goblin King Sprite Sheet_424
+  - first:
+      213: -7494377791086620960
+    second: Goblin King Sprite Sheet_425
+  - first:
+      213: -5024803874208565021
+    second: Goblin King Sprite Sheet_426
+  - first:
+      213: 8951164049925863461
+    second: Goblin King Sprite Sheet_427
+  - first:
+      213: 260241816941337754
+    second: Goblin King Sprite Sheet_428
+  - first:
+      213: -4773255755671626949
+    second: Goblin King Sprite Sheet_429
+  - first:
+      213: 336254912842314233
+    second: Goblin King Sprite Sheet_430
+  - first:
+      213: 3768202178600480182
+    second: Goblin King Sprite Sheet_431
+  - first:
+      213: 7011828355592908650
+    second: Goblin King Sprite Sheet_432
+  - first:
+      213: -376914974825525215
+    second: Goblin King Sprite Sheet_433
+  - first:
+      213: -1820121078903545492
+    second: Goblin King Sprite Sheet_434
+  - first:
+      213: -7553072361156516311
+    second: Goblin King Sprite Sheet_435
+  - first:
+      213: -774337107678084547
+    second: Goblin King Sprite Sheet_436
+  - first:
+      213: -6192084940307144659
+    second: Goblin King Sprite Sheet_437
+  - first:
+      213: 2642396093440531091
+    second: Goblin King Sprite Sheet_438
+  - first:
+      213: -10364254462884431
+    second: Goblin King Sprite Sheet_439
+  - first:
+      213: 5731431066782547372
+    second: Goblin King Sprite Sheet_440
+  - first:
+      213: 3711112741159699123
+    second: Goblin King Sprite Sheet_441
+  - first:
+      213: 2550230695258749917
+    second: Goblin King Sprite Sheet_442
+  - first:
+      213: 6335782289833381358
+    second: Goblin King Sprite Sheet_443
+  - first:
+      213: 5720430163214649402
+    second: Goblin King Sprite Sheet_444
+  - first:
+      213: 2746338443081617671
+    second: Goblin King Sprite Sheet_445
+  - first:
+      213: -4074000869957908073
+    second: Goblin King Sprite Sheet_446
+  - first:
+      213: -7346746678797360014
+    second: Goblin King Sprite Sheet_447
+  - first:
+      213: -5113099458303581584
+    second: Goblin King Sprite Sheet_448
+  - first:
+      213: 4397229471498335573
+    second: Goblin King Sprite Sheet_449
+  - first:
+      213: -5431861377808282998
+    second: Goblin King Sprite Sheet_450
+  - first:
+      213: -4892183059278402802
+    second: Goblin King Sprite Sheet_451
+  - first:
+      213: -8274716056568926153
+    second: Goblin King Sprite Sheet_452
+  - first:
+      213: 4737991079257532491
+    second: Goblin King Sprite Sheet_453
+  - first:
+      213: 6688142058770297831
+    second: Goblin King Sprite Sheet_454
+  - first:
+      213: 7638053270618396106
+    second: Goblin King Sprite Sheet_455
+  - first:
+      213: 3014756004347062458
+    second: Goblin King Sprite Sheet_456
+  - first:
+      213: -4924284844742267257
+    second: Goblin King Sprite Sheet_457
+  - first:
+      213: -8708409976934079495
+    second: Goblin King Sprite Sheet_458
+  - first:
+      213: 2736601971026365169
+    second: Goblin King Sprite Sheet_459
+  - first:
+      213: 3870527978343806749
+    second: Goblin King Sprite Sheet_460
+  - first:
+      213: 8843655771166569983
+    second: Goblin King Sprite Sheet_461
+  - first:
+      213: 8061611753953088629
+    second: Goblin King Sprite Sheet_462
+  - first:
+      213: -1646097986672142712
+    second: Goblin King Sprite Sheet_463
+  - first:
+      213: 8568878609445452334
+    second: Goblin King Sprite Sheet_464
+  - first:
+      213: 8282801876940618318
+    second: Goblin King Sprite Sheet_465
+  - first:
+      213: 4596398255693415356
+    second: Goblin King Sprite Sheet_466
+  - first:
+      213: 2432662197229033875
+    second: Goblin King Sprite Sheet_467
+  - first:
+      213: 4109436921324092698
+    second: Goblin King Sprite Sheet_468
+  - first:
+      213: -5459826406715784830
+    second: Goblin King Sprite Sheet_469
+  - first:
+      213: -8356845799081147192
+    second: Goblin King Sprite Sheet_470
+  - first:
+      213: 8878813258482449329
+    second: Goblin King Sprite Sheet_471
+  - first:
+      213: 2676965087852516905
+    second: Goblin King Sprite Sheet_472
+  - first:
+      213: -2335168678661281668
+    second: Goblin King Sprite Sheet_473
+  - first:
+      213: -2242146057479749485
+    second: Goblin King Sprite Sheet_474
+  - first:
+      213: 4306220133775331509
+    second: Goblin King Sprite Sheet_475
+  - first:
+      213: -6476981242989913069
+    second: Goblin King Sprite Sheet_476
+  - first:
+      213: 5724862853020093383
+    second: Goblin King Sprite Sheet_477
+  - first:
+      213: 1509830084459953907
+    second: Goblin King Sprite Sheet_478
+  - first:
+      213: 8405286360242105209
+    second: Goblin King Sprite Sheet_479
+  - first:
+      213: 7166332168485420560
+    second: Goblin King Sprite Sheet_480
+  - first:
+      213: 3485420600389340520
+    second: Goblin King Sprite Sheet_481
+  - first:
+      213: 290308426231385900
+    second: Goblin King Sprite Sheet_482
+  - first:
+      213: -2212048963807104565
+    second: Goblin King Sprite Sheet_483
+  - first:
+      213: 2878452266690330872
+    second: Goblin King Sprite Sheet_484
+  - first:
+      213: -25492865035914368
+    second: Goblin King Sprite Sheet_485
+  - first:
+      213: 5114743761352803424
+    second: Goblin King Sprite Sheet_486
+  - first:
+      213: 887452600216847754
+    second: Goblin King Sprite Sheet_487
+  - first:
+      213: 8689125895577072997
+    second: Goblin King Sprite Sheet_488
+  - first:
+      213: 3396455224500488922
+    second: Goblin King Sprite Sheet_489
+  - first:
+      213: -4181372328567498387
+    second: Goblin King Sprite Sheet_490
+  - first:
+      213: -3777185040057091484
+    second: Goblin King Sprite Sheet_491
+  - first:
+      213: -7404576215869105034
+    second: Goblin King Sprite Sheet_492
+  - first:
+      213: -4732712811553155915
+    second: Goblin King Sprite Sheet_493
+  - first:
+      213: -3087240484699822145
+    second: Goblin King Sprite Sheet_494
+  - first:
+      213: 3120534490353397257
+    second: Goblin King Sprite Sheet_495
+  - first:
+      213: -2400767907602426369
+    second: Goblin King Sprite Sheet_496
+  - first:
+      213: -8147971084597925289
+    second: Goblin King Sprite Sheet_497
+  - first:
+      213: 249578895883043424
+    second: Goblin King Sprite Sheet_498
+  - first:
+      213: 6647404996398423601
+    second: Goblin King Sprite Sheet_499
+  - first:
+      213: -3290157877436216697
+    second: Goblin King Sprite Sheet_500
+  - first:
+      213: -590047882083179628
+    second: Goblin King Sprite Sheet_501
+  - first:
+      213: -3315326160100054521
+    second: Goblin King Sprite Sheet_502
+  - first:
+      213: -3292646485024872171
+    second: Goblin King Sprite Sheet_503
+  - first:
+      213: -6328777407234976342
+    second: Goblin King Sprite Sheet_504
+  - first:
+      213: -4707341341834898934
+    second: Goblin King Sprite Sheet_505
+  - first:
+      213: 5670147965266844310
+    second: Goblin King Sprite Sheet_506
+  - first:
+      213: 7197603988442430452
+    second: Goblin King Sprite Sheet_507
+  - first:
+      213: -67133825235256780
+    second: Goblin King Sprite Sheet_508
+  - first:
+      213: 9096628013743201973
+    second: Goblin King Sprite Sheet_509
+  - first:
+      213: 2399059618544816248
+    second: Goblin King Sprite Sheet_510
+  - first:
+      213: -4376593107279161789
+    second: Goblin King Sprite Sheet_511
+  - first:
+      213: 7530873173611027800
+    second: Goblin King Sprite Sheet_512
+  - first:
+      213: 1145678039041558967
+    second: Goblin King Sprite Sheet_513
+  - first:
+      213: 3398685488407940797
+    second: Goblin King Sprite Sheet_514
+  - first:
+      213: 4748153079403112902
+    second: Goblin King Sprite Sheet_515
+  - first:
+      213: 8816752620849474851
+    second: Goblin King Sprite Sheet_516
+  - first:
+      213: 4717320953792559650
+    second: Goblin King Sprite Sheet_517
+  - first:
+      213: -2380671361219297872
+    second: Goblin King Sprite Sheet_518
+  - first:
+      213: 5039855292582965422
+    second: Goblin King Sprite Sheet_519
+  - first:
+      213: 3771367130766204670
+    second: Goblin King Sprite Sheet_520
+  - first:
+      213: -4614519157260614605
+    second: Goblin King Sprite Sheet_521
+  - first:
+      213: -6284503408492580340
+    second: Goblin King Sprite Sheet_522
+  - first:
+      213: 8464717253567967303
+    second: Goblin King Sprite Sheet_523
+  - first:
+      213: 6275395972939009169
+    second: Goblin King Sprite Sheet_524
+  - first:
+      213: -4570416166574563375
+    second: Goblin King Sprite Sheet_525
+  - first:
+      213: -7187138037088774131
+    second: Goblin King Sprite Sheet_526
+  - first:
+      213: -8736739242022924308
+    second: Goblin King Sprite Sheet_527
+  - first:
+      213: -1295224653911136180
+    second: Goblin King Sprite Sheet_528
+  - first:
+      213: 3267585383061317305
+    second: Goblin King Sprite Sheet_529
+  - first:
+      213: 5008144851263470488
+    second: Goblin King Sprite Sheet_530
+  - first:
+      213: 2079815975736619575
+    second: Goblin King Sprite Sheet_531
+  - first:
+      213: 5896518103086841237
+    second: Goblin King Sprite Sheet_532
+  - first:
+      213: 3577313002612172807
+    second: Goblin King Sprite Sheet_533
+  - first:
+      213: -888179395778195852
+    second: Goblin King Sprite Sheet_534
+  - first:
+      213: -346370818190675516
+    second: Goblin King Sprite Sheet_535
+  - first:
+      213: -4561206077730638929
+    second: Goblin King Sprite Sheet_536
+  - first:
+      213: -4354514257705626974
+    second: Goblin King Sprite Sheet_537
+  - first:
+      213: 6597659072635409905
+    second: Goblin King Sprite Sheet_538
+  - first:
+      213: -4999857228962194745
+    second: Goblin King Sprite Sheet_539
+  - first:
+      213: 1337838792420541845
+    second: Goblin King Sprite Sheet_540
+  - first:
+      213: -879648248428072963
+    second: Goblin King Sprite Sheet_541
+  - first:
+      213: -6870282321214116063
+    second: Goblin King Sprite Sheet_542
+  - first:
+      213: 2015901135191910916
+    second: Goblin King Sprite Sheet_543
+  - first:
+      213: -3467566592898511904
+    second: Goblin King Sprite Sheet_544
+  - first:
+      213: -5573222617836994054
+    second: Goblin King Sprite Sheet_545
+  - first:
+      213: -5774992741130257710
+    second: Goblin King Sprite Sheet_546
+  - first:
+      213: 7390446971661327823
+    second: Goblin King Sprite Sheet_547
+  - first:
+      213: 6827060299913772814
+    second: Goblin King Sprite Sheet_548
+  - first:
+      213: -7775000697593513944
+    second: Goblin King Sprite Sheet_549
+  - first:
+      213: -8616099643324053965
+    second: Goblin King Sprite Sheet_550
+  - first:
+      213: 6354389881744257312
+    second: Goblin King Sprite Sheet_551
+  - first:
+      213: 642111266203301181
+    second: Goblin King Sprite Sheet_552
+  - first:
+      213: 5719933029846588492
+    second: Goblin King Sprite Sheet_553
+  - first:
+      213: -78187827321664983
+    second: Goblin King Sprite Sheet_554
+  - first:
+      213: 1877233260478354320
+    second: Goblin King Sprite Sheet_555
+  - first:
+      213: 3594266325311818484
+    second: Goblin King Sprite Sheet_556
+  - first:
+      213: 7980264269196490597
+    second: Goblin King Sprite Sheet_557
+  - first:
+      213: -1619396544530264820
+    second: Goblin King Sprite Sheet_558
+  - first:
+      213: -2595940101348798510
+    second: Goblin King Sprite Sheet_559
+  - first:
+      213: -9054356769115790556
+    second: Goblin King Sprite Sheet_560
+  - first:
+      213: -9000093077194262061
+    second: Goblin King Sprite Sheet_561
+  - first:
+      213: -7179991916208941182
+    second: Goblin King Sprite Sheet_562
+  - first:
+      213: 239883942364922023
+    second: Goblin King Sprite Sheet_563
+  - first:
+      213: -7309556766054840797
+    second: Goblin King Sprite Sheet_564
+  - first:
+      213: -7154805318155671689
+    second: Goblin King Sprite Sheet_565
+  - first:
+      213: 5402871897901427100
+    second: Goblin King Sprite Sheet_566
+  - first:
+      213: -3610946998906721125
+    second: Goblin King Sprite Sheet_567
+  - first:
+      213: -5922975456545951424
+    second: Goblin King Sprite Sheet_568
+  - first:
+      213: 3598607426495700358
+    second: Goblin King Sprite Sheet_569
+  - first:
+      213: -1694977766958136842
+    second: Goblin King Sprite Sheet_570
+  - first:
+      213: 2068138387210800828
+    second: Goblin King Sprite Sheet_571
+  - first:
+      213: 5114182931595717251
+    second: Goblin King Sprite Sheet_572
+  - first:
+      213: -4909049152284776685
+    second: Goblin King Sprite Sheet_573
+  - first:
+      213: -2077000795684054605
+    second: Goblin King Sprite Sheet_574
+  - first:
+      213: 8334871900698405762
+    second: Goblin King Sprite Sheet_575
+  - first:
+      213: 6818804309605070685
+    second: Goblin King Sprite Sheet_576
+  - first:
+      213: 8471791926014348654
+    second: Goblin King Sprite Sheet_577
+  - first:
+      213: 5353694580661128693
+    second: Goblin King Sprite Sheet_578
+  - first:
+      213: -6386067205234363337
+    second: Goblin King Sprite Sheet_579
+  - first:
+      213: 409180926338377273
+    second: Goblin King Sprite Sheet_580
+  - first:
+      213: 2269064769150016033
+    second: Goblin King Sprite Sheet_581
+  - first:
+      213: -7658305451439237210
+    second: Goblin King Sprite Sheet_582
+  - first:
+      213: 6565933118729777730
+    second: Goblin King Sprite Sheet_583
+  - first:
+      213: 3971595280086150686
+    second: Goblin King Sprite Sheet_584
+  - first:
+      213: 5309925132043313109
+    second: Goblin King Sprite Sheet_585
+  - first:
+      213: 4218167649309090464
+    second: Goblin King Sprite Sheet_586
+  - first:
+      213: -414933400730321106
+    second: Goblin King Sprite Sheet_587
+  - first:
+      213: 5903948005756866421
+    second: Goblin King Sprite Sheet_588
+  - first:
+      213: -8238713935232685213
+    second: Goblin King Sprite Sheet_589
+  - first:
+      213: -9045532881228803019
+    second: Goblin King Sprite Sheet_590
+  - first:
+      213: 9213754233137947969
+    second: Goblin King Sprite Sheet_591
+  - first:
+      213: -4435395838915400606
+    second: Goblin King Sprite Sheet_592
+  - first:
+      213: 2703579864494582833
+    second: Goblin King Sprite Sheet_593
+  - first:
+      213: -6744125238151339739
+    second: Goblin King Sprite Sheet_594
+  - first:
+      213: 200584367406628814
+    second: Goblin King Sprite Sheet_595
+  - first:
+      213: -8298876409504447873
+    second: Goblin King Sprite Sheet_596
+  - first:
+      213: -7670044509566644280
+    second: Goblin King Sprite Sheet_597
+  - first:
+      213: 3016683142166498241
+    second: Goblin King Sprite Sheet_598
+  - first:
+      213: 1817111361456875596
+    second: Goblin King Sprite Sheet_599
+  - first:
+      213: 7249169059600060256
+    second: Goblin King Sprite Sheet_600
+  - first:
+      213: -4237716460025253761
+    second: Goblin King Sprite Sheet_601
+  - first:
+      213: 6782693009537530330
+    second: Goblin King Sprite Sheet_602
+  - first:
+      213: 3607684418968001547
+    second: Goblin King Sprite Sheet_603
+  - first:
+      213: 6788685228609910198
+    second: Goblin King Sprite Sheet_604
+  - first:
+      213: 4261105713651754234
+    second: Goblin King Sprite Sheet_605
+  - first:
+      213: 3640597567269037493
+    second: Goblin King Sprite Sheet_606
+  - first:
+      213: -219880197790785854
+    second: Goblin King Sprite Sheet_607
+  - first:
+      213: -8311008191536714507
+    second: Goblin King Sprite Sheet_608
+  - first:
+      213: -2827143137296330981
+    second: Goblin King Sprite Sheet_609
+  - first:
+      213: -1232327290252936984
+    second: Goblin King Sprite Sheet_610
+  - first:
+      213: 2459716258777411061
+    second: Goblin King Sprite Sheet_611
+  - first:
+      213: 5036527014315672832
+    second: Goblin King Sprite Sheet_612
+  - first:
+      213: -5414820890343099411
+    second: Goblin King Sprite Sheet_613
+  - first:
+      213: 1660786167571171652
+    second: Goblin King Sprite Sheet_614
+  - first:
+      213: 7045525019795461146
+    second: Goblin King Sprite Sheet_615
+  - first:
+      213: 2790009537790594649
+    second: Goblin King Sprite Sheet_616
+  - first:
+      213: 3326028288738719634
+    second: Goblin King Sprite Sheet_617
+  - first:
+      213: 7961427818526543326
+    second: Goblin King Sprite Sheet_618
+  - first:
+      213: 1470941307264199073
+    second: Goblin King Sprite Sheet_619
+  - first:
+      213: -151760394353582382
+    second: Goblin King Sprite Sheet_620
+  - first:
+      213: -8581472044703373501
+    second: Goblin King Sprite Sheet_621
+  - first:
+      213: -6629810207943174764
+    second: Goblin King Sprite Sheet_622
+  - first:
+      213: -3270335338523929994
+    second: Goblin King Sprite Sheet_623
+  - first:
+      213: -3777872573021808045
+    second: Goblin King Sprite Sheet_624
+  - first:
+      213: -6367708875696515077
+    second: Goblin King Sprite Sheet_625
+  - first:
+      213: -5031332032633359050
+    second: Goblin King Sprite Sheet_626
+  - first:
+      213: -1260263406017575152
+    second: Goblin King Sprite Sheet_627
+  - first:
+      213: -6536122441475657539
+    second: Goblin King Sprite Sheet_628
+  - first:
+      213: -2777174464597901447
+    second: Goblin King Sprite Sheet_629
+  - first:
+      213: -5544106750709571972
+    second: Goblin King Sprite Sheet_630
+  - first:
+      213: -7384449184353395116
+    second: Goblin King Sprite Sheet_631
+  - first:
+      213: 9167169771071977471
+    second: Goblin King Sprite Sheet_632
+  - first:
+      213: -7935893890347426943
+    second: Goblin King Sprite Sheet_633
+  - first:
+      213: 7283574767156880877
+    second: Goblin King Sprite Sheet_634
+  - first:
+      213: 8492187367837003489
+    second: Goblin King Sprite Sheet_635
+  - first:
+      213: -9135176870427114380
+    second: Goblin King Sprite Sheet_636
+  - first:
+      213: 3014935744953374062
+    second: Goblin King Sprite Sheet_637
+  - first:
+      213: 370922884568030572
+    second: Goblin King Sprite Sheet_638
+  - first:
+      213: -1148865664511273494
+    second: Goblin King Sprite Sheet_639
+  - first:
+      213: -2469332296316445002
+    second: Goblin King Sprite Sheet_640
+  - first:
+      213: -3134133752712105942
+    second: Goblin King Sprite Sheet_641
+  - first:
+      213: 8442653724428907693
+    second: Goblin King Sprite Sheet_642
+  - first:
+      213: 638593754456003883
+    second: Goblin King Sprite Sheet_643
+  - first:
+      213: -6597332703432557004
+    second: Goblin King Sprite Sheet_644
+  - first:
+      213: -6710523319646876064
+    second: Goblin King Sprite Sheet_645
+  - first:
+      213: -1976389187961005072
+    second: Goblin King Sprite Sheet_646
+  - first:
+      213: 3172848704121330270
+    second: Goblin King Sprite Sheet_647
+  - first:
+      213: 6441952648436671477
+    second: Goblin King Sprite Sheet_648
+  - first:
+      213: 6281078027959628025
+    second: Goblin King Sprite Sheet_649
+  - first:
+      213: -2823180752954854324
+    second: Goblin King Sprite Sheet_650
+  - first:
+      213: 6480590187626617101
+    second: Goblin King Sprite Sheet_651
+  - first:
+      213: 1881246672071972797
+    second: Goblin King Sprite Sheet_652
+  - first:
+      213: 3227778114836079900
+    second: Goblin King Sprite Sheet_653
+  - first:
+      213: -3963198446931816914
+    second: Goblin King Sprite Sheet_654
+  - first:
+      213: 5888754721344640339
+    second: Goblin King Sprite Sheet_655
+  - first:
+      213: 7057595655102917005
+    second: Goblin King Sprite Sheet_656
+  - first:
+      213: -3224468111583346857
+    second: Goblin King Sprite Sheet_657
+  - first:
+      213: 641134486769234340
+    second: Goblin King Sprite Sheet_658
+  - first:
+      213: -4043641947478473394
+    second: Goblin King Sprite Sheet_659
+  - first:
+      213: 2082893050577654766
+    second: Goblin King Sprite Sheet_660
+  - first:
+      213: -6278235630825433971
+    second: Goblin King Sprite Sheet_661
+  - first:
+      213: 4122076259977203878
+    second: Goblin King Sprite Sheet_662
+  - first:
+      213: -8092975495509582591
+    second: Goblin King Sprite Sheet_663
+  - first:
+      213: -6131747444830355053
+    second: Goblin King Sprite Sheet_664
+  - first:
+      213: -3170463659537464187
+    second: Goblin King Sprite Sheet_665
+  - first:
+      213: -5723754715590505689
+    second: Goblin King Sprite Sheet_666
+  - first:
+      213: 4715802096637679963
+    second: Goblin King Sprite Sheet_667
+  - first:
+      213: 8337040264994364057
+    second: Goblin King Sprite Sheet_668
+  - first:
+      213: 2331571295573793835
+    second: Goblin King Sprite Sheet_669
+  - first:
+      213: 8641533711533705126
+    second: Goblin King Sprite Sheet_670
+  - first:
+      213: -7495916778649220089
+    second: Goblin King Sprite Sheet_671
+  - first:
+      213: -8427035713783760592
+    second: Goblin King Sprite Sheet_672
+  - first:
+      213: 1359912844010445360
+    second: Goblin King Sprite Sheet_673
+  - first:
+      213: -3156981490835331673
+    second: Goblin King Sprite Sheet_674
+  - first:
+      213: 5505606402416846933
+    second: Goblin King Sprite Sheet_675
+  - first:
+      213: 8293708839804852436
+    second: Goblin King Sprite Sheet_676
+  - first:
+      213: 5302916892584410219
+    second: Goblin King Sprite Sheet_677
+  - first:
+      213: 157483474557750482
+    second: Goblin King Sprite Sheet_678
+  - first:
+      213: -9105144941432751085
+    second: Goblin King Sprite Sheet_679
+  - first:
+      213: 4019284821634413915
+    second: Goblin King Sprite Sheet_680
+  - first:
+      213: -8971669086845855026
+    second: Goblin King Sprite Sheet_681
+  - first:
+      213: 7185097947879671211
+    second: Goblin King Sprite Sheet_682
+  - first:
+      213: 6612564522390338578
+    second: Goblin King Sprite Sheet_683
+  - first:
+      213: 7163591247226889978
+    second: Goblin King Sprite Sheet_684
+  - first:
+      213: -7534142910348939821
+    second: Goblin King Sprite Sheet_685
+  - first:
+      213: -3901151982599108764
+    second: Goblin King Sprite Sheet_686
+  - first:
+      213: -4466622406219037215
+    second: Goblin King Sprite Sheet_687
+  - first:
+      213: -4237431875470314996
+    second: Goblin King Sprite Sheet_688
+  - first:
+      213: 3505169710633981798
+    second: Goblin King Sprite Sheet_689
+  - first:
+      213: -7906026325689259209
+    second: Goblin King Sprite Sheet_690
+  - first:
+      213: -2332757290408389971
+    second: Goblin King Sprite Sheet_691
+  - first:
+      213: 3966077684838069814
+    second: Goblin King Sprite Sheet_692
+  - first:
+      213: 6086051087303665266
+    second: Goblin King Sprite Sheet_693
+  - first:
+      213: 618737828924142735
+    second: Goblin King Sprite Sheet_694
+  - first:
+      213: -322557635633491210
+    second: Goblin King Sprite Sheet_695
+  - first:
+      213: 8151316752653743824
+    second: Goblin King Sprite Sheet_696
+  - first:
+      213: 2475572873337278982
+    second: Goblin King Sprite Sheet_697
+  - first:
+      213: 8440615732733979393
+    second: Goblin King Sprite Sheet_698
+  - first:
+      213: -7239691423224105730
+    second: Goblin King Sprite Sheet_699
+  - first:
+      213: -2954196068794823280
+    second: Goblin King Sprite Sheet_700
+  - first:
+      213: 4774207312223194998
+    second: Goblin King Sprite Sheet_701
+  - first:
+      213: -4124323021400475898
+    second: Goblin King Sprite Sheet_702
+  - first:
+      213: -6137314665218708757
+    second: Goblin King Sprite Sheet_703
+  - first:
+      213: 4461221971622316991
+    second: Goblin King Sprite Sheet_704
+  - first:
+      213: -3669536154802122412
+    second: Goblin King Sprite Sheet_705
+  - first:
+      213: 5206536846633260441
+    second: Goblin King Sprite Sheet_706
+  - first:
+      213: -2328375813356052961
+    second: Goblin King Sprite Sheet_707
+  - first:
+      213: -5712363153334697685
+    second: Goblin King Sprite Sheet_708
+  - first:
+      213: 29294756795021227
+    second: Goblin King Sprite Sheet_709
+  - first:
+      213: -1516490536984701303
+    second: Goblin King Sprite Sheet_710
+  - first:
+      213: 4408331303097871522
+    second: Goblin King Sprite Sheet_711
+  - first:
+      213: -512400444693143072
+    second: Goblin King Sprite Sheet_712
+  - first:
+      213: 7512614746895458487
+    second: Goblin King Sprite Sheet_713
+  - first:
+      213: -3855109862476108005
+    second: Goblin King Sprite Sheet_714
+  - first:
+      213: 9076498273804329923
+    second: Goblin King Sprite Sheet_715
+  - first:
+      213: 8713912619328018062
+    second: Goblin King Sprite Sheet_716
+  - first:
+      213: -8707790208638256787
+    second: Goblin King Sprite Sheet_717
+  - first:
+      213: 244198458710851066
+    second: Goblin King Sprite Sheet_718
+  - first:
+      213: -1541516443726527178
+    second: Goblin King Sprite Sheet_719
+  - first:
+      213: 3891845994900147627
+    second: Goblin King Sprite Sheet_720
+  - first:
+      213: -1238608221037981902
+    second: Goblin King Sprite Sheet_721
+  - first:
+      213: -465545690064578311
+    second: Goblin King Sprite Sheet_722
+  - first:
+      213: -7040834714834774045
+    second: Goblin King Sprite Sheet_723
+  - first:
+      213: 6195198097558277094
+    second: Goblin King Sprite Sheet_724
+  - first:
+      213: 5843511649470331829
+    second: Goblin King Sprite Sheet_725
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e98e7afd0c135d0800000000000000
+      internalID: -3084472202944799101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c9bb92faf66a2d0800000000000000
+      internalID: -3267801681500595072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd0e2f8d2e88fd70800000000000000
+      internalID: 9077161375292067266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364d4dd0477393050800000000000000
+      internalID: 5780712568294528099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148288139cb69e4a0800000000000000
+      internalID: -6563596470052181951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b09daad00a9a00800000000000000
+      internalID: 763924026007532991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46641b1d767628590800000000000000
+      internalID: -7673457119488555420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5f5a16606d79ea0800000000000000
+      internalID: -5865984666730367549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abebf425d3ceafcc0800000000000000
+      internalID: -3676366397676470598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0155f7b484e67bc90800000000000000
+      internalID: -7154128226271406832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962fc04ec2c2f3890800000000000000
+      internalID: -7476208285095497111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c71a1c3eee142450800000000000000
+      internalID: 6063005006906922945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6917a4791e4440800000000000000
+      internalID: 4921899431572892617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ef8ba40d44a5e0800000000000000
+      internalID: -1899308460389963783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9070ae46bf02edf00800000000000000
+      internalID: 1143387619500623625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9fe3b85fa8e4190800000000000000
+      internalID: -7976285102818788903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437043b98eedc1ca0800000000000000
+      internalID: -6044711509220391116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089bbc352ddf1e080800000000000000
+      internalID: -9159761087304058496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab577ae3521b82b0800000000000000
+      internalID: -5581347161570321500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635c6cc94a33dd770800000000000000
+      internalID: 8637116442464404790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ee7e4630459da50800000000000000
+      internalID: 6546355906914283033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61adfb098c3b88e40800000000000000
+      internalID: 5658970605794351638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be896cf600914f040800000000000000
+      internalID: 4680393402410768619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa59a3845e7fc42a0800000000000000
+      internalID: -6751749177203845713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8608f3a332e834280800000000000000
+      internalID: -9060241743387066264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 793ee05a583aa8a30800000000000000
+      internalID: 4218363795381085079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f083790eb9da300800000000000000
+      internalID: 265039341996740417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10abfa03ba8fbac0800000000000000
+      internalID: -3837195855908331489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0effa18f02f6da6f0800000000000000
+      internalID: -671758582016180256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4cc0d58a862d400800000000000000
+      internalID: 347455193585861809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8bbfb36220e4d50800000000000000
+      internalID: 6723313656949094593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4675ebb3a4a89130800000000000000
+      internalID: 3573787327457490507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c03804d6fb09c20800000000000000
+      internalID: 3211277010269834289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3041909c9bc0cc0800000000000000
+      internalID: -3743412917159853134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1e22c43dc675a10800000000000000
+      internalID: 1898105422731207118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5e095fd659b8d180800000000000000
+      internalID: -9090312065081864612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c8c6c4914fc0d10800000000000000
+      internalID: 2093316316313979930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f308b96f2dc23970800000000000000
+      internalID: 8733268230945637360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8346d9bb91ab5cd60800000000000000
+      internalID: 7909932940230747192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baec26a2fed4540c0800000000000000
+      internalID: -4592178555430711637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c073545008a16380800000000000000
+      internalID: -8979711462631837503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55ddbee12b816190800000000000000
+      internalID: -7970936887613467301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e38bfac6e3921010800000000000000
+      internalID: 1158150673644880871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b7f4cce67516520800000000000000
+      internalID: 2693530185530047293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fccfd1c48104d50800000000000000
+      internalID: 6719397359236468548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5ea75d04a424a30800000000000000
+      internalID: 4197999444982687157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8419f92688f7270800000000000000
+      internalID: 8250462999531309229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d51f51d0c3e681f0800000000000000
+      internalID: -1042895846403795502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfe818777a4803e0800000000000000
+      internalID: -2087336550309761094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a2ec402a7e1a6b0800000000000000
+      internalID: -5286689804504913268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e55a74dc8b01e90800000000000000
+      internalID: -7056937424279740845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b042f2e8d652e0c0800000000000000
+      internalID: -4547977184170327881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9738807c13e1420800000000000000
+      internalID: 2602572365577812413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3a7f3262b9b0510800000000000000
+      internalID: 1516476287654798328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec1098ef5c9dc010800000000000000
+      internalID: 1210795810570116323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a5a3c0f2c5b4280800000000000000
+      internalID: -9058044868387251622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bd7673dd3509900800000000000000
+      internalID: 689142952570116947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d175aa7af0aa0e60800000000000000
+      internalID: 7929327091599110614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2867e4b801323ea20800000000000000
+      internalID: 3090352323269916290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6527c8e14de6df0f0800000000000000
+      internalID: -1081586478174408106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee04e4a5b04afc670800000000000000
+      internalID: 8561241785321275630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7068d11a5263cb80800000000000000
+      internalID: -8375742742993018753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f6e8b527b105a40800000000000000
+      internalID: 5354810134919802727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f2e02873dc09850800000000000000
+      internalID: 6381826310272855877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe8303586160630800000000000000
+      internalID: 3892823689203871618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e67f7b645fff7f0800000000000000
+      internalID: -576472543197172139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7badb65ee11660640800000000000000
+      internalID: 5045827217841183415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5c9428dc5712f10800000000000000
+      internalID: 2243203614921836026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca62d23680858070800000000000000
+      internalID: 8108028018017069762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d2438300b77ee0800000000000000
+      internalID: -1263347641320548524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef462c2ee3ab1a8f0800000000000000
+      internalID: -530938501797878530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9883c8c1ebc56d0800000000000000
+      internalID: -3000314221914715701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e09948e16d87ef20800000000000000
+      internalID: 3451883091051253988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe35b065c7136c8f0800000000000000
+      internalID: -520674296825424913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f730e1576180980800000000000000
+      internalID: -8572577198429208771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bebcff5fcce49310800000000000000
+      internalID: 1411012958686592694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cde294d364cba780800000000000000
+      internalID: -8670620724524552765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c939c44e832cad20800000000000000
+      internalID: 3291044521647356353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93051ebcf24bd2bb0800000000000000
+      internalID: -4959109497288044487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dabc4de10ed55f0800000000000000
+      internalID: -766209938559357557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfc1645976a17d20800000000000000
+      internalID: 3274581444112011216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40983653b3b010740800000000000000
+      internalID: 5116383000596285700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bd3da09aecb3260800000000000000
+      internalID: 7078478464769317726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b58d4bb83e000e0800000000000000
+      internalID: -2305592820039656584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed71d6abe34348c0800000000000000
+      internalID: -4016291763289227803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57741fa47cf0d91e0800000000000000
+      internalID: -2189576495201958027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7a180d6a0a5d20800000000000000
+      internalID: 3267935943014383293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ddee32c592f9380800000000000000
+      internalID: -8962399257727410804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

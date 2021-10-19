@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  characterName: Goblin
+  level: 0
+  playerID: 0
+  pos: 0
+  description: 
+  image: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
+  battleImage: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
+  element: 0
+  role: 0
+  currentHp: 1
+  maxHp: 10
+  attack: 1
+  defense: 10
+  seletedSkills:
+  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
+  isActivePlayer: 0
+  isPlayer: 0
+  playerAnimator: {fileID: 9100000, guid: b621429e46d244f4cab0bcef3a6c266f, type: 2}
+  hasDied: 0
+  deadImage: {fileID: 1943264498384048869, guid: ebfbad8da58c30c4280bce708c1294c9, type: 3}

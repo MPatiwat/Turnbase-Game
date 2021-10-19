@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Encounter
+  - P
+  - Monster
+  - SkillTree
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1659815519
+    locked: 0
+  - name: Foreground
+    uniqueID: 153695823
+    locked: 0
+  - name: BattleZone
+    uniqueID: 1368384535
+    locked: 0
+  - name: UI Layer
+    uniqueID: 1092260445
+    locked: 0
+  - name: Player
+    uniqueID: 3723066411
+    locked: 0
