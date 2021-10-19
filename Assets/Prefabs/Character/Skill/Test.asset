@@ -22,3 +22,6 @@ MonoBehaviour:
   isUnlocked: 0
   isSelected: 0
   preSkill: []
+  cooldown: 0
+  currentCooldown: 0
+  isActivated: 0

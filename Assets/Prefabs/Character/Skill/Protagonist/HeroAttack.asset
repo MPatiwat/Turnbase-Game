@@ -16,9 +16,13 @@ MonoBehaviour:
   skillSprite: {fileID: 6934086728263231946, guid: b0f05bc87da87f24b95a58189ccb07eb, type: 3}
   skillName: AutoAttack
   skillLevel: 0
-  skillDamage: 10
+  skillDamage: 40
   elementSkill: 4
   skillDescription: 
   isUnlocked: 0
   isSelected: 0
   preSkill: []
+  cooldown: 0
+  currentCooldown: 0
+  isActivated: 0
+  animationName: attack

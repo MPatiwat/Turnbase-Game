@@ -16,7 +16,7 @@ MonoBehaviour:
   - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
     dialog: HI
   - characterSpeaker: {fileID: 11400000, guid: 320b129c29a2ef34282e8ab12bd50331, type: 2}
-    dialog: Hello
+    dialog: "Hello \u0E27\u0E27\u0E27\u0E27\u0E27"
   - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
     dialog: Sorry
   conName: kuy

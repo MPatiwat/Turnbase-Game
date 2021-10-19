@@ -20,7 +20,9 @@ public class SkillData : ScriptableObject
     public bool isSelected;
     public SkillData[] preSkill;
     [SerializeField] int cooldown;
+    [SerializeField] int currentCooldown;
     [SerializeField] bool isActivated;
+    [SerializeField] string animationName;
     public int getSkillID
     {
         get { return skillID; }
@@ -71,5 +73,15 @@ public class SkillData : ScriptableObject
     {
         get { return isActivated; }
         set { isActivated = value; }
+    }
+    public int CurrentCoolDown
+    {
+        get { return currentCooldown; }
+        set { currentCooldown = value; }
+    }
+    public string AnimationName
+    {
+        get { return animationName; }
+        set { animationName = value; }
     }
 }

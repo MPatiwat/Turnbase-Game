@@ -16,7 +16,7 @@ MonoBehaviour:
   - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
     dialog: Sawad Dee
   - characterSpeaker: {fileID: 11400000, guid: 3ce1acf50f5d3b0478268bbd590024f8, type: 2}
-    dialog: 'How are you ? '
+    dialog: "How are you ? \u0E27\u0E27\u0E27\u0E27\u0E27"
   - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
     dialog: I'm fine thank you
   conName: yedmaui

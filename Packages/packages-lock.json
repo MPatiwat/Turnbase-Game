@@ -144,13 +144,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.textmeshpro": {
-      "version": "3.0.4",
+      "version": "https://github.com/rutcreate/TextMesh-Pro-Thai.git",
       "depth": 0,
-      "source": "registry",
+      "source": "git",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
       },
-      "url": "https://packages.unity.com"
+      "hash": "8052f80680a6efa4103fac8f071cde58937a55c3"
     },
     "com.unity.timeline": {
       "version": "1.4.7",

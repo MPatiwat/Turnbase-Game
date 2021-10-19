@@ -23,4 +23,5 @@ MonoBehaviour:
   isSelected: 1
   preSkill: []
   cooldown: 3
+  currentCooldown: 3
   isActivated: 0

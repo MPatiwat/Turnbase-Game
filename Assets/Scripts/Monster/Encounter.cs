@@ -11,7 +11,7 @@ public class Encounter : MonoBehaviour
     {
         if (other.CompareTag("P"))
         {
-            if (Random.Range(100, 101) <= 100)
+            if (Random.Range(1, 101) <= 100)
             {
                 StartCoroutine(StartEncounter());
             }

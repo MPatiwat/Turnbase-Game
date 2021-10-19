@@ -43,10 +43,10 @@ public class LevelUP : MonoBehaviour
     private void Start()
     {
         nextLevelExp = new int[maxLevel];
-        nextLevelExp[1] = 1000;
-        for (int i = 2; i < maxLevel; i++)
+        //nextLevelExp[1] = 1;
+        for (int i = 1; i <= maxLevel; i++)
         {
-            nextLevelExp[i] = Mathf.RoundToInt(nextLevelExp[i - 1] * 1.1f);
+            nextLevelExp[i-1] = Mathf.RoundToInt(((i*i*i) * 4)/5);
         }
     }
     private void Update()

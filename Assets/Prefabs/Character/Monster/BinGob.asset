@@ -21,7 +21,7 @@ MonoBehaviour:
   battleImage: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
   element: 0
   role: 0
-  currentHp: 1
+  currentHp: 10
   maxHp: 10
   attack: 1
   defense: 10
@@ -32,3 +32,4 @@ MonoBehaviour:
   playerAnimator: {fileID: 9100000, guid: b621429e46d244f4cab0bcef3a6c266f, type: 2}
   hasDied: 0
   deadImage: {fileID: 1943264498384048869, guid: ebfbad8da58c30c4280bce708c1294c9, type: 3}
+  isActiveInStory: 0

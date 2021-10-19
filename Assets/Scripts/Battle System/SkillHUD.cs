@@ -23,22 +23,20 @@ public class SkillHUD : MonoBehaviour
     [SerializeField] TMP_Text coolDownText;
     [SerializeField] GameObject coolDown;
     [SerializeField] GameObject skillButton;
-    [SerializeField] BattleSystem _playerTurn;
-    [SerializeField] bool playerTurn;
+    /*[SerializeField] BattleSystem _activeEnemy;
+    [SerializeField] List<CharacterBase> activeEnemy;*/
     public void Start()
     {
         _activeBattlers = FindObjectOfType<BattleSystem>();
         activeBattlers = _activeBattlers.activeBattlers;
-        
-
+        /*_activeEnemy = FindObjectOfType<BattleSystem>();
+        activeEnemy = _activeEnemy.activeEnemy;*/
     }
 
     public void Update()
     {
         _resetColor = FindObjectOfType<BattleSystem>();
         resetColor = _resetColor.resetColor;
-        _playerTurn = FindObjectOfType<BattleSystem>();
-        playerTurn = _playerTurn.playerTurn;
 
         bool battleActive = _activeBattlers.battleActive;
         int currentTurn = _activeBattlers.currentTurn;
@@ -50,15 +48,22 @@ public class SkillHUD : MonoBehaviour
                 skillImage.sprite = skillslot.getSkillSprite;
                 if (skillslot.IsActivated==true)
                 {
-                    if (skillslot.CoolDown > 0)
+                    if (skillslot.CurrentCoolDown > 0)
                     {
                         coolDown.SetActive(true);
-                        coolDownText.text = skillslot.CoolDown.ToString();
+                        coolDownText.text = skillslot.CurrentCoolDown.ToString();
                         skillButton.GetComponent<Button>().enabled = false;
                         skillButton.GetComponent<Image>().color = Color.gray;
                     }
+                    else if (skillslot.CurrentCoolDown <= 0)
+                    {
+                        coolDown.SetActive(false);
+                        skillButton.GetComponent<Button>().enabled = true;
+                        skillButton.GetComponent<Image>().color = Color.white;
+                        skillslot.IsActivated = false;
+                        skillslot.CurrentCoolDown = skillslot.CoolDown;
+                    }
                 }
-                
             }
         }
         if (resetColor==true)

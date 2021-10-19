@@ -23,3 +23,6 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: 2381756dd9e3a2c409e861256ab55136, type: 2}
+  cooldown: 0
+  currentCooldown: 0
+  isActivated: 0

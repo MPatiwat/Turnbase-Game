@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Tilemaps;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -37,7 +38,11 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] GameObject gameoverCamera;
     [SerializeField] GameObject group;
-    [SerializeField] public bool playerTurn;
+    [SerializeField] List<SkillData> skillCooldown;
+    [SerializeField] GameObject[] coolDownText;
+    [SerializeField] GameObject encounterField;
+    /*[SerializeField] int enemyTurn;
+    [SerializeField] bool playerTurn;*/
 
 
     private void Start()
@@ -144,6 +149,14 @@ public class BattleSystem : MonoBehaviour
             turnWaiting = true;
             //playerTurn = true;
             currentTurn = Random.Range(0,activeBattlers.Count);
+            /*if (activeBattlers[currentTurn].IsPlayer)
+            {
+                playerTurn = true;
+            }
+            else
+            {
+                enemyTurn = activeEnemy.Count;
+            } */  
         }
           
     }
@@ -154,15 +167,34 @@ public class BattleSystem : MonoBehaviour
         if(currentTurn >= activeBattlers.Count)
         {
             currentTurn = 0;
+            
         }
-
-        turnWaiting = true;
-        if (activeBattlers[currentTurn].IsPlayer)
+        /*if (activeBattlers[currentTurn].IsPlayer)
         {
             playerTurn = true;
         }
+        else
+        {
+            playerTurn = false;
+        }
+        if (playerTurn == true)
+        {
+            enemyTurn = 0;
+        }
+        else
+        {
+            enemyTurn = activeEnemy.Count;
+        }*/
+        turnWaiting = true;
         
-
+        /*for(int i = 0; i< skillCooldown.Count; i++)
+        {
+            if (skillCooldown[i].CurrentCoolDown == 0)
+            {
+                skillCooldown.Remove(skillCooldown[i]);
+            }
+        }*/
+        
         UpdateBattle();
     }
 
@@ -244,6 +276,16 @@ public class BattleSystem : MonoBehaviour
                     currentTurn = 0;
                 }
             }
+            for (int i = 0; i < skillCooldown.Count; i++)
+            {
+                if (activeBattlers[currentTurn].SelectedSkills.Contains(skillCooldown[i]))
+                {
+                    if (skillCooldown[i].CurrentCoolDown > 0&&skillCooldown[i].IsActivated==true)
+                    {
+                        skillCooldown[i].CurrentCoolDown--;
+                    }
+                }
+            }
         }
     }
 
@@ -257,6 +299,7 @@ public class BattleSystem : MonoBehaviour
         }
         yield return new WaitForSeconds(1f);
         EnemyAttack();
+        //enemyTurn--;
         yield return new WaitForSeconds(3f);
         NextTurn();
     }
@@ -289,12 +332,13 @@ public class BattleSystem : MonoBehaviour
         }*/
         float atkPower = activeBattlers[currentTurn].Attack;
         float defPower = activeBattlers[target].Defense;
-        
-        float damageCal = (atkPower / defPower) * skillDamage * ElementCalculate(activeBattlers[currentTurn],activeBattlers[target]);
+
+        //float damageCal = (atkPower / defPower) * skillDamage * ElementCalculate(activeBattlers[currentTurn],activeBattlers[target]);
+        float damageCal = ((((((2 * activeBattlers[currentTurn].Level) / 5) + 2) * skillDamage * (atkPower/defPower))/50) + 2) * ElementCalculate(activeBattlers[currentTurn], activeBattlers[target]);
         Debug.Log("Multiple :  " + ElementCalculate(activeBattlers[currentTurn], activeBattlers[target]));
         int damageToGive = Mathf.RoundToInt(damageCal);
 
-        activeAnimator[currentTurn].GetComponent<Animator>().Play("attack");
+        activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
         yield return new WaitForSeconds(2.0f);
         Debug.Log(activeBattlers[currentTurn].Name + "is dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
         activeBattlers[target].CurrentHp -= damageToGive;
@@ -321,6 +365,11 @@ public class BattleSystem : MonoBehaviour
         selectTarget += setTarget; 
         float skillDamage = activeBattlers[currentTurn].SelectedSkills[skillSlotID].SkillDamage;
         activeBattlers[currentTurn].SelectedSkills[skillSlotID].IsActivated = true;
+        //activeBattlers[currentTurn].SelectedSkills[skillSlotID].CurrentCoolDown = activeBattlers[currentTurn].SelectedSkills[skillSlotID].CoolDown;
+        if (!skillCooldown.Contains(activeBattlers[currentTurn].SelectedSkills[skillSlotID]))
+        {
+            skillCooldown.Add(activeBattlers[currentTurn].SelectedSkills[skillSlotID]);
+        }
         StartCoroutine(DealDamage(selectTarget, skillDamage));
         
         StartCoroutine(PlayerCo());
@@ -378,15 +427,28 @@ public class BattleSystem : MonoBehaviour
         {
             group.transform.GetChild(i).GetComponent<Image>().color = Color.white;
         }
+        for (int i = 0; i< skillCooldown.Count; i++)
+        {
+            skillCooldown[i].IsActivated = false;
+            skillCooldown[i].CurrentCoolDown = skillCooldown[i].CoolDown;
+        }
+        for(int i = 0; i < coolDownText.Length; i++)
+        {
+            coolDownText[i].GetComponent<Button>().enabled = true;
+            coolDownText[i].transform.GetChild(0).gameObject.SetActive(false);        }
         yield return new WaitForSeconds(.5f);
 
         activePlayer.Clear();
         activeEnemy.Clear();
         activeBattlers.Clear();
         activeAnimator.Clear();
+        skillCooldown.Clear();
         currentTurn = 0;
         yield return new WaitForSeconds(1f);
         BattleReward.instance.OpenBattelRewardScreen(xpGain,goldGain,crystalGain);
+        encounterField.GetComponent<TilemapCollider2D>().enabled = false;
+        yield return new WaitForSeconds(5f);
+        encounterField.GetComponent<TilemapCollider2D>().enabled = true;
     }
     public IEnumerator GameOver()
     {
