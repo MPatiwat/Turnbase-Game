@@ -90,7 +90,7 @@ public class LevelUP : MonoBehaviour
     {
         predictLevel++;
         levelText.text = predictLevel.ToString();
-        currentExp += nextLevelExp[predictLevel - 1];
+        currentExp += (nextLevelExp[predictLevel] - nextLevelExp[predictLevel - 1]);
         expText.text = currentExp.ToString();
     }
     public void Minus()
@@ -99,7 +99,7 @@ public class LevelUP : MonoBehaviour
         {
             predictLevel--;
             levelText.text = predictLevel.ToString();
-            currentExp -= nextLevelExp[predictLevel];
+            currentExp -= (nextLevelExp[predictLevel+1] - nextLevelExp[predictLevel]);
             expText.text = currentExp.ToString();
         }    
     }
@@ -122,13 +122,16 @@ public class LevelUP : MonoBehaviour
             character.Level++;
             //Up Hp
             character.CurrentHp += (character.MaxHp - character.CurrentHp);
-            character.MaxHp = Mathf.RoundToInt(character.MaxHp * 1.2f);
+            character.MaxHp = Mathf.RoundToInt((((((2 * character.BMaxHP) + character.MMaxHP) + Mathf.RoundToInt(Mathf.Sqrt(nextLevelExp[character.Level])/4)) * character.Level) / 100f) + character.Level + 10);
+            Debug.Log("Max Hp : " + character.MaxHp);
             //player.MaxHp = currentHp;
             //Up Attack
-            character.Attack = Mathf.RoundToInt(character.Attack * 1.2f);
+            character.Attack = Mathf.RoundToInt((((((2 * character.BAttack) + character.MAttack) + Mathf.RoundToInt(Mathf.Sqrt(nextLevelExp[character.Level]) / 4)) * character.Level) / 100f) + 5);
+            Debug.Log("Atk : " + character.Attack);
             //player.Attack = atk;
             //Up Defense
-            character.Defense = Mathf.RoundToInt(character.Defense * 1.2f);
+            character.Defense = Mathf.RoundToInt((((((2 * character.BDefense) + character.MDefense) + Mathf.RoundToInt(Mathf.Sqrt(nextLevelExp[character.Level]) / 4)) * character.Level) / 100f) + 5);
+            Debug.Log("Def : " + character.Defense);
             //player.Defense = def;
         }
 

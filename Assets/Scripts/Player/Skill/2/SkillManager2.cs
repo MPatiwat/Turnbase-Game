@@ -67,7 +67,7 @@ public class SkillManager2 : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    private void Start()
+    private void Update()
     {
         UpdatePointUI();
     }

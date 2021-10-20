@@ -10,4 +10,7 @@ public class SaveState
 
     public float playerPosX;
     public float playerPosY;
+
+    public List<CharacterBase> character;
+
 }

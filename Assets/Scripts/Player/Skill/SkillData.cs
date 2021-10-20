@@ -84,4 +84,9 @@ public class SkillData : ScriptableObject
         get { return animationName; }
         set { animationName = value; }
     }
+    /*public float SkillFormula(CharacterBase character)
+    {
+        skillDamage = character.Attack;
+        return skillDamage;
+    }*/
 }

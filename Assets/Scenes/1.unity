@@ -931,8 +931,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.1, y: 0.086508}
-  m_SizeDelta: {x: 67.6481, y: 39.335}
+  m_AnchoredPosition: {x: 98.1, y: 0.086508}
+  m_SizeDelta: {x: 86.4617, y: 39.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &55258818
 MonoBehaviour:
@@ -7458,8 +7458,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.1, y: 0.086508}
-  m_SizeDelta: {x: 67.6481, y: 39.335}
+  m_AnchoredPosition: {x: 98.1, y: 0.086508}
+  m_SizeDelta: {x: 86.4617, y: 39.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &281857901
 MonoBehaviour:
@@ -9600,7 +9600,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &350796553
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10142,7 +10142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: 390b834d5bb14704ab1c52b5d8cea9ca, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -13961,7 +13961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: cf334754600419949aeb77b718b977d1, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -15243,9 +15243,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Load Last Save
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 882e490110ec704409298a2bbac486e9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc540c7e52e0bde408fc0c6aa0203034, type: 2}
   m_fixThaiVowel: 1
-  m_sharedMaterial: {fileID: 8784237197107551157, guid: 882e490110ec704409298a2bbac486e9, type: 2}
+  m_sharedMaterial: {fileID: 2704589471828388561, guid: bc540c7e52e0bde408fc0c6aa0203034, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15269,8 +15269,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15805,7 +15805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &572907376
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17402,9 +17402,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Role
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 882e490110ec704409298a2bbac486e9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: bc540c7e52e0bde408fc0c6aa0203034, type: 2}
   m_fixThaiVowel: 1
-  m_sharedMaterial: {fileID: 8784237197107551157, guid: 882e490110ec704409298a2bbac486e9, type: 2}
+  m_sharedMaterial: {fileID: 2704589471828388561, guid: bc540c7e52e0bde408fc0c6aa0203034, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17428,8 +17428,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -17569,7 +17569,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: 019c91205495a2345beb1bc49eb12278, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -20888,8 +20888,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.1, y: 0.086508}
-  m_SizeDelta: {x: 67.6481, y: 39.335}
+  m_AnchoredPosition: {x: 98.1, y: 0.086508}
+  m_SizeDelta: {x: 86.4617, y: 39.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &736485897
 MonoBehaviour:
@@ -22528,7 +22528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: b3196ce2a93a4aa45817e50e0ed0c884, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -24964,7 +24964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: ab3a366aae659a744a9a60f4526b932f, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -28882,7 +28882,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -31001,7 +31001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1163605875
 RectTransform:
   m_ObjectHideFlags: 0
@@ -33881,7 +33881,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1258230801
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37773,8 +37773,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.1, y: 0.086508}
-  m_SizeDelta: {x: 67.6481, y: 39.335}
+  m_AnchoredPosition: {x: 98.1, y: 0.086508}
+  m_SizeDelta: {x: 86.4617, y: 39.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382402194
 MonoBehaviour:
@@ -39205,7 +39205,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1416481475
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41149,8 +41149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 97.1, y: 0.086508}
-  m_SizeDelta: {x: 67.6481, y: 39.335}
+  m_AnchoredPosition: {x: 98.1, y: 0.086508}
+  m_SizeDelta: {x: 86.4617, y: 39.335}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1503545223
 MonoBehaviour:
@@ -41724,7 +41724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e440b7bfdec760049a32f92aea1bf426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skillData: {fileID: 11400000, guid: dd6d0662a9cd8c146ac059cf39a286aa, type: 2}
+  skillData: {fileID: 0}
   skillImage: {fileID: 1981445423}
   skillNameText: {fileID: 2065008638}
   skillDesText: {fileID: 1052332051}
@@ -42015,7 +42015,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85b6b0a2dd7830499dbe1d2681ed68e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentQuest: {fileID: 0}
+  currentQuest: {fileID: 11400000, guid: f6554d9b751187840aec6285b2b7d850, type: 2}
   player:
   - {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
   - {fileID: 11400000, guid: 320b129c29a2ef34282e8ab12bd50331, type: 2}
@@ -42034,6 +42034,7 @@ MonoBehaviour:
   - {fileID: 1772548332}
   - {fileID: 168037082}
   - {fileID: 1868166729}
+  questText: {fileID: 374534154}
 --- !u!4 &1539220302
 Transform:
   m_ObjectHideFlags: 0
@@ -42914,6 +42915,7 @@ MonoBehaviour:
   - {fileID: 1088982780}
   - {fileID: 2073015673}
   encounterField: {fileID: 1904561531}
+  selectAttack: 0
 --- !u!1 &1566267238
 GameObject:
   m_ObjectHideFlags: 0
@@ -49492,7 +49494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1789721069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52427,7 +52429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1885547872
 Transform:
   m_ObjectHideFlags: 0
@@ -52465,9 +52467,16 @@ MonoBehaviour:
   selectClose: {fileID: 1270025434}
   joyUI: {fileID: 1324889516}
   settingUI: {fileID: 1109529567}
+  gameoverUI: {fileID: 0}
   exp: {fileID: 11400000, guid: 424f9e0184f59be4eb5de67587be540f, type: 2}
   gold: {fileID: 11400000, guid: 54b4d55116f41d3488238460dda908ff, type: 2}
   crystal: {fileID: 11400000, guid: e9657b52cc590384dbeb4de727bb46fd, type: 2}
+  characters:
+  - {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
+  - {fileID: 11400000, guid: 320b129c29a2ef34282e8ab12bd50331, type: 2}
+  - {fileID: 11400000, guid: 8138fb0d99cb7b94d8af4811b4e4ee6e, type: 2}
+  - {fileID: 11400000, guid: c097421be93a25c4392a38c2a3f4339a, type: 2}
+  - {fileID: 11400000, guid: c10b62cc034aae54896952525f92c9cc, type: 2}
 --- !u!1 &1886932132
 GameObject:
   m_ObjectHideFlags: 0
@@ -56794,8 +56803,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0038643, y: 0.00033202}
-  m_SizeDelta: {x: 345.97, y: 49.23}
+  m_AnchoredPosition: {x: -0.0055542, y: 14}
+  m_SizeDelta: {x: 658.71, y: 108.92}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2046722073
 MonoBehaviour:

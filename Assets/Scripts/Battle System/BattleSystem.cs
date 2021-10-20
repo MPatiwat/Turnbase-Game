@@ -41,6 +41,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] List<SkillData> skillCooldown;
     [SerializeField] GameObject[] coolDownText;
     [SerializeField] GameObject encounterField;
+    [SerializeField] int selectAttack;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 
@@ -315,7 +316,7 @@ public class BattleSystem : MonoBehaviour
         }
         int selectedTarget = player[Random.Range(0, player.Count)];
 
-        int selectAttack = Random.Range(0, activeBattlers[currentTurn].SelectedSkills.Count);
+        selectAttack = Random.Range(0, activeBattlers[currentTurn].SelectedSkills.Count);
         float skillDamage = activeBattlers[currentTurn].SelectedSkills[selectAttack].SkillDamage;
 
 
@@ -337,10 +338,19 @@ public class BattleSystem : MonoBehaviour
         float damageCal = ((((((2 * activeBattlers[currentTurn].Level) / 5) + 2) * skillDamage * (atkPower/defPower))/50) + 2) * ElementCalculate(activeBattlers[currentTurn], activeBattlers[target]);
         Debug.Log("Multiple :  " + ElementCalculate(activeBattlers[currentTurn], activeBattlers[target]));
         int damageToGive = Mathf.RoundToInt(damageCal);
-
-        activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+        if (activeBattlers[currentTurn].IsPlayer)
+        {
+            activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+            Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
+        }
+        else
+        {
+            activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+            Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
+        }
+        
         yield return new WaitForSeconds(2.0f);
-        Debug.Log(activeBattlers[currentTurn].Name + "is dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
+        //Debug.Log(activeBattlers[currentTurn].Name +" use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " is dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
         activeBattlers[target].CurrentHp -= damageToGive;
         if(activeBattlers[target].CurrentHp < 0)
         {

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Protagonist
   m_EditorClassIdentifier: 
   characterName: Hero
-  level: 5
+  level: 6
   playerID: 0
   pos: 0
   description: The protagonist of game
@@ -21,10 +21,10 @@ MonoBehaviour:
   battleImage: {fileID: 21300000, guid: 0592e3a4fe473f9429fec28026dee456, type: 3}
   element: 4
   role: 0
-  currentHp: 20
-  maxHp: 20
-  attack: 12
-  defense: 10
+  currentHp: 18
+  maxHp: 18
+  attack: 9
+  defense: 8
   seletedSkills:
   - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
   - {fileID: 11400000, guid: 52a86a83d74bc93409668f305b26bc48, type: 2}
@@ -35,3 +35,9 @@ MonoBehaviour:
   hasDied: 0
   deadImage: {fileID: -1366419344341609702, guid: 587c808290818434aaf61bf1cb3e5bc8, type: 3}
   isActiveInStory: 1
+  b_maxHp: 12
+  b_attack: 8
+  b_defense: 4
+  m_maxHp: 39
+  m_attack: 60
+  m_defense: 40

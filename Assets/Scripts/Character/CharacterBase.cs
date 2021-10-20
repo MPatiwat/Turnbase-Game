@@ -55,6 +55,16 @@ public class CharacterBase : ScriptableObject
     [SerializeField] Sprite deadImage;
     [SerializeField] bool isActiveInStory; 
 
+    [Header("Stat For Level Up")]
+    [SerializeField] int b_maxHp;
+    [SerializeField] int b_attack;
+    [SerializeField] int b_defense;
+
+    [Header("Stat Multiplier")]
+    [SerializeField] int m_maxHp;
+    [SerializeField] int m_attack;
+    [SerializeField] int m_defense;
+
     public string Name
     {
         get { return characterName; }
@@ -167,6 +177,36 @@ public class CharacterBase : ScriptableObject
         get { return isActiveInStory; }
         set { isActiveInStory = value; }
     }
+    public int BMaxHP
+    {
+        get { return b_maxHp; }
+        set { b_maxHp = value; }
+    }
+    public int BAttack
+    {
+        get { return b_attack; }
+        set { b_attack = value; }
+    }
+    public int BDefense
+    {
+        get { return b_defense; }
+        set { b_defense = value; }
+    }
+    public int MMaxHP
+    {
+        get { return m_maxHp; }
+        set { m_maxHp = value; }
+    }
+    public int MAttack
+    {
+        get { return m_attack; }
+        set { m_attack = value; }
+    }
+    public int MDefense
+    {
+        get { return m_defense; }
+        set { m_defense = value; }
+    }
 }
 
 /*public class LearnableSkill
@@ -196,8 +236,8 @@ public enum ElementType
 public enum Role
 {
     DPS,
-    Support,
-    Buffer,
+    Sup,
+    Buff,
     Tank
 }
 

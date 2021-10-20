@@ -7,10 +7,9 @@ public class GameOver : MonoBehaviour
 {
     [SerializeField] GameObject menuCamera;
     [SerializeField] GameObject gameoverCamera;
-    public void ReturnToMenu()
+    public void ExitGame()
     {
-        gameoverCamera.SetActive(false);
-        menuCamera.SetActive(true);
+        Application.Quit();
     }
     public void LoadLastSave()
     {
