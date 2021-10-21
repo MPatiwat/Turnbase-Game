@@ -9,7 +9,7 @@ public class SkillData : ScriptableObject
     [SerializeField] Sprite skillSprite;
 
     [SerializeField] string skillName;
-    [SerializeField] int skillLevel;
+    //[SerializeField] int skillLevel;
     [SerializeField] float skillDamage;
     [SerializeField] ElementType elementSkill;
 
@@ -23,6 +23,8 @@ public class SkillData : ScriptableObject
     [SerializeField] int currentCooldown;
     [SerializeField] bool isActivated;
     [SerializeField] string animationName;
+    [SerializeField] int crystalRequire;
+    [SerializeField] int levelRequire;
     public int getSkillID
     {
         get { return skillID; }
@@ -41,10 +43,10 @@ public class SkillData : ScriptableObject
         set { skillName = value; }
     }
 
-    public int getSkillLevel
+    public int LevelRequire
     {
-        get { return skillLevel; }
-        set { skillLevel = value; }
+        get { return levelRequire; }
+        set { levelRequire = value; }
     }
 
     public ElementType getElementSkill
@@ -83,6 +85,11 @@ public class SkillData : ScriptableObject
     {
         get { return animationName; }
         set { animationName = value; }
+    }
+    public int CrystalRequire
+    {
+        get { return crystalRequire; }
+        set { crystalRequire = value; }
     }
     /*public float SkillFormula(CharacterBase character)
     {

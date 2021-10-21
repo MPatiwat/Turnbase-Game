@@ -11,6 +11,7 @@ public class SaveState
     public float playerPosX;
     public float playerPosY;
 
+    //Character
     public int[] level = new int[5];
     public int[] pos = new int[5];
     public int[] currentHp = new int[5];
@@ -20,6 +21,10 @@ public class SaveState
     public bool[] isActive= new bool[5];
     public bool[] isDied = new bool[5];
     public bool[] isActiveInStory = new bool[5];
+
+    //Skill
+    public bool[] skillIsUnlock = new bool[48];
+    public bool[] skillIsSelected = new bool[48];
     //public SkillData[] selectedSkill = new SkillData[15];
     
 }

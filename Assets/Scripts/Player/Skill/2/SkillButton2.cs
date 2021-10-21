@@ -28,12 +28,20 @@ public class SkillButton2 : MonoBehaviour
         if (skillData.isUnlocked == true)
         {
             skillSelect.GetComponent<Image>().color = Color.white;
-            skillSelect.transform.GetChild(1).gameObject.SetActive(true);
-            skillSelect.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = skillData.getSkillLevel.ToString();
+            //skillSelect.transform.GetChild(1).gameObject.SetActive(true);
+            //skillSelect.transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = skillData.getSkillLevel.ToString();
+        }
+        else
+        {
+            skillSelect.GetComponent<Image>().color = Color.gray;
         }
         if(skillData.isSelected == true)
         {
             skillSelect.transform.GetChild(0).GetComponent<Image>().color = Color.red;
+        }
+        else
+        {
+            skillSelect.transform.GetChild(0).GetComponent<Image>().color = Color.white;
         }
     }
 

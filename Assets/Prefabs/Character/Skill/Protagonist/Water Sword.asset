@@ -15,7 +15,6 @@ MonoBehaviour:
   skillID: 2
   skillSprite: {fileID: 21300000, guid: e991c865cfec048cb9595fd171cbe827, type: 3}
   skillName: Water Sword
-  skillLevel: 1
   skillDamage: 40
   elementSkill: 1
   skillDescription: Deal low ice damage
@@ -26,3 +25,5 @@ MonoBehaviour:
   currentCooldown: 2
   isActivated: 0
   animationName: water attack
+  crystalRequire: 0
+  levelRequire: 0

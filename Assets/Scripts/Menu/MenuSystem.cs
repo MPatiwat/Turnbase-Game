@@ -23,6 +23,7 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public Supply gold;
     [SerializeField] public Supply crystal;
     [SerializeField] public List<CharacterBase> characters;
+    [SerializeField] public List<SkillData> skills;
     // Start is called before the first frame update
     void Start()
     {
@@ -91,6 +92,12 @@ public class MenuSystem : MonoBehaviour
             }*/
             Debug.Log("Save " + characters[i].Name + " Success");
         }
+        for(int i = 0; i < skills.Count; i++)
+        {
+            save.skillIsSelected[i] = skills[i].isSelected;
+            save.skillIsUnlock[i] = skills[i].isUnlocked;
+            Debug.Log("Save " + skills[i].getSkillName + " Success");
+        }
 
         
         return save;
@@ -134,6 +141,12 @@ public class MenuSystem : MonoBehaviour
                 characters[i].IsDied = save.isDied[i];
                 characters[i].IsActiveInStory = save.isActiveInStory[i];
                 Debug.Log("Load " + characters[i].Name + " Success");
+            }
+            for(int i = 0; i < skills.Count; i++)
+            {
+                 skills[i].isSelected = save.skillIsSelected[i];
+                 skills[i].isUnlocked = save.skillIsUnlock[i];
+                Debug.Log("Load " + skills[i].getSkillName + " Success");
             }
             Debug.Log("Load Success");
         }

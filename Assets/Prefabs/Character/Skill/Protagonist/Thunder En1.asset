@@ -15,14 +15,16 @@ MonoBehaviour:
   skillID: 0
   skillSprite: {fileID: 0}
   skillName: 
-  skillLevel: 0
   skillDamage: 0
   elementSkill: 0
-  skillDescription: 
+  skillDescription: deal thunder damage
   isUnlocked: 0
   isSelected: 0
-  preSkill: []
+  preSkill:
+  - {fileID: 11400000, guid: 390b834d5bb14704ab1c52b5d8cea9ca, type: 2}
   cooldown: 0
   currentCooldown: 0
   isActivated: 0
   animationName: 
+  crystalRequire: 0
+  levelRequire: 0

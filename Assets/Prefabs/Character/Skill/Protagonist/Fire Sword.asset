@@ -15,7 +15,6 @@ MonoBehaviour:
   skillID: 1
   skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
   skillName: Fire Sword
-  skillLevel: 1
   skillDamage: 40
   elementSkill: 0
   skillDescription: Deal low fire damage
@@ -26,3 +25,5 @@ MonoBehaviour:
   currentCooldown: 2
   isActivated: 0
   animationName: fire attack
+  crystalRequire: 0
+  levelRequire: 0

@@ -30,6 +30,8 @@ public class SkillManager2 : MonoBehaviour
 
     [SerializeField] public CharacterBase character;
     [SerializeField] public SkillData selectedSkill;
+    //[SerializeField] MenuSystem _skills;
+    [SerializeField] List<SkillData> skill;
 
     [Header("Skill Point")]
     [SerializeField] public Supply crystal;
@@ -90,17 +92,17 @@ public class SkillManager2 : MonoBehaviour
         {
             return;
         }
-        //Skill ID 0-1,0-2
-        if(crystal.SupplyValue > 0 && selectedSkill.preSkill.Length == 0)
+        //Skill ID 0-1,0-2,0-3,0-4
+        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && selectedSkill.preSkill.Length == 0 )
         {
             UpdateSkill();
         }
         //Skill ID 0-3,...
-        if(crystal.SupplyValue > 0)
+        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && character.Level >= selectedSkill.LevelRequire)
         {
             for(int i = 0; i < selectedSkill.preSkill.Length; i++)
             {
-                if(selectedSkill.preSkill[i].isUnlocked == true)
+                if(selectedSkill.preSkill[i].isUnlocked == true&&selectedSkill.preSkill[i])
                 {
                     UpdateSkill();
                     break;
@@ -113,12 +115,12 @@ public class SkillManager2 : MonoBehaviour
     {
         //Change Color when Learn Skill to White and Activate Skill Level
         skillButtons[selectedSkill.getSkillID].GetComponent<Image>().color = Color.white;
-        skillButtons[selectedSkill.getSkillID].transform.GetChild(1).gameObject.SetActive(true);
-        selectedSkill.getSkillLevel++;
-        skillButtons[selectedSkill.getSkillID].transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = selectedSkill.getSkillLevel.ToString();
+        //skillButtons[selectedSkill.getSkillID].transform.GetChild(1).gameObject.SetActive(true);
+        //selectedSkill.getSkillLevel++;
+        //skillButtons[selectedSkill.getSkillID].transform.GetChild(1).GetChild(0).GetComponent<TMP_Text>().text = selectedSkill.getSkillLevel.ToString();
 
         //Point--
-        crystal.SupplyValue--;
+        crystal.SupplyValue-=selectedSkill.CrystalRequire;
         UpdatePointUI();
 
         //Unlock Skill
@@ -134,7 +136,7 @@ public class SkillManager2 : MonoBehaviour
     {
         if (selectedSkill.isUnlocked == true && selectedSkill.isSelected != true)
         {
-            if (selectedSkillCount < 2)
+            if (character.SelectedSkills.Count < 3)
             {
                 //change color selected skill
                 skillButtons[selectedSkill.getSkillID].transform.GetChild(0).GetComponent<Image>().color = Color.red;
@@ -146,7 +148,7 @@ public class SkillManager2 : MonoBehaviour
                 character.SelectedSkills.Add(selectedSkill);
 
                 //Update Select Count
-                selectedSkillCount++;
+                //character.SelectedSkills.Count++;
             }
         }else if (selectedSkill.isUnlocked == true && selectedSkill.isSelected == true)
         {
@@ -154,7 +156,7 @@ public class SkillManager2 : MonoBehaviour
             selectedSkill.isSelected = false;
             skillButtons[selectedSkill.getSkillID].UpdateSelectText();
             character.SelectedSkills.Remove(selectedSkill);
-            selectedSkillCount--;
+            //selectedSkillCount--;
         }
     }
 }
