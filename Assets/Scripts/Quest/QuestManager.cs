@@ -24,6 +24,11 @@ public class QuestManager : MonoBehaviour
                 characterUI[i].SetActive(true);
                 characterSkillTree[i].SetActive(true);
             }
+            else
+            {
+                characterUI[i].SetActive(false);
+                characterSkillTree[i].SetActive(false);
+            }
         }
     }
 }

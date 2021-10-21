@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Character" , menuName = "Character/Create new character")]
 public class CharacterBase : ScriptableObject
 {
+    //public static CharacterBase instance;
     public CharacterBase(CharacterBase newCharacter)
     {
         newCharacter.Name = characterName;
@@ -207,6 +208,20 @@ public class CharacterBase : ScriptableObject
         get { return m_defense; }
         set { m_defense = value; }
     }
+    /*public CharacterSaveData GetSaveData()
+    {
+        var savedata = new CharacterSaveData();
+        savedata.level = level;
+        savedata.pos = pos;
+        savedata.currentHp = currentHp;
+        savedata.maxHp = maxHp;
+        savedata.atk = attack;
+        savedata.def = defense;
+        savedata.isActive = isActivePlayer;
+        savedata.isDied = hasDied;
+        savedata.isActiveInStory = isActiveInStory;
+        return savedata;
+    }*/
 }
 
 /*public class LearnableSkill
@@ -240,4 +255,17 @@ public enum Role
     Buff,
     Tank
 }
+/*[System.Serializable]
+public class CharacterSaveData
+{
+    public int level = CharacterBase.instance.Level;
+    public int pos = CharacterBase.instance.Pos;
+    public int currentHp = CharacterBase.instance.CurrentHp;
+    public int maxHp = CharacterBase.instance.MaxHp;
+    public int atk = CharacterBase.instance.Attack;
+    public int def = CharacterBase.instance.Defense;
+    public bool isActive = CharacterBase.instance.IsActivePlayer;
+    public bool isDied = CharacterBase.instance.IsDied;
+    public bool isActiveInStory = CharacterBase.instance.IsActiveInStory;
+}*/
 
