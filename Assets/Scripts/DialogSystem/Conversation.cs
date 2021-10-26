@@ -8,6 +8,7 @@ public class Conversation : ScriptableObject
     [SerializeField] private DialogLine[] allLines;
     [SerializeField] string conName;
     [SerializeField] public Quest quest;
+    [SerializeField] public bool isDestroy;
 
     public DialogLine GetDialogLine(int index)
     {
@@ -25,5 +26,10 @@ public class Conversation : ScriptableObject
     public string GetQuestDescription()
     {
         return quest.GetDescription;
+    }
+    public bool IsDestroy
+    {
+        get { return isDestroy; }
+        set { isDestroy = value; }
     }
 }

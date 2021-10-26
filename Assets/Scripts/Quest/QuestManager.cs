@@ -11,10 +11,10 @@ public class QuestManager : MonoBehaviour
     [SerializeField] GameObject[] characterSkillTree;
     [SerializeField] TMP_Text questText;
 
-    private void Start()
+    /*private void Start()
     {
         questText.text = currentQuest.GetDescription;
-    }
+    }*/
     private void Update()
     {
         for(int i = 0; i < player.Length; i++)

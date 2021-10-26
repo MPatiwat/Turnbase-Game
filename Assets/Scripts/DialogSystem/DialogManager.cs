@@ -20,6 +20,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
     [SerializeField] TMP_Text questText;
+    [SerializeField] GameObject npc;
 
     private void Awake()
     {
@@ -54,6 +55,10 @@ public class DialogManager : MonoBehaviour
             settingUI.SetActive(true);
             questUI.SetActive(true);
             questText.text = currentConversation.GetQuestDescription();
+            if(currentConversation.isDestroy == true)
+            {
+                npc.SetActive(false);
+            }
             //conButton.SetActive(true);
             return;
         }

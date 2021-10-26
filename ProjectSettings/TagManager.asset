@@ -57,6 +57,12 @@ TagManager:
   - name: UI Layer
     uniqueID: 1092260445
     locked: 0
+  - name: Ladder
+    uniqueID: 222860247
+    locked: 0
+  - name: NPC
+    uniqueID: 2742894607
+    locked: 0
   - name: Player
     uniqueID: 3723066411
     locked: 0

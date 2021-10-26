@@ -144,9 +144,13 @@ public class MenuSystem : MonoBehaviour
             }
             for(int i = 0; i < skills.Count; i++)
             {
-                 skills[i].isSelected = save.skillIsSelected[i];
-                 skills[i].isUnlocked = save.skillIsUnlock[i];
+                skills[i].isSelected = save.skillIsSelected[i];
+                skills[i].isUnlocked = save.skillIsUnlock[i];
                 Debug.Log("Load " + skills[i].getSkillName + " Success");
+            }
+            for(int i = 0; i< characters.Count; i++)
+            {
+                //characters[i].SelectedSkills.Add
             }
             Debug.Log("Load Success");
         }

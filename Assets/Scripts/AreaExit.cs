@@ -8,7 +8,7 @@ public class AreaExit : MonoBehaviour
     [SerializeField] Vector2 cameraChange;
     [SerializeField] Vector3 playeChange;
     private CameraMovement cam;
-    //[SerializeField] bool shouldLoadAfterFade;
+    //[SerializeField] GameObject transition;
 
     private void Update()
     {
@@ -24,6 +24,7 @@ public class AreaExit : MonoBehaviour
             cam.minCamPosition += cameraChange;
             cam.maxCamPosition += cameraChange;
             other.transform.position += playeChange;
+            //transition.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }
