@@ -29,7 +29,13 @@ public class Conversation : ScriptableObject
     }
     public bool IsDestroy
     {
-        get { return isDestroy; }
+        get {
+            if (quest.isQuestComplete==true)
+            {
+                return isDestroy;
+            }
+            return false;
+            }
         set { isDestroy = value; }
     }
 }

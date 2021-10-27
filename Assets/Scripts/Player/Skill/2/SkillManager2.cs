@@ -18,6 +18,7 @@ public class SkillManager2 : MonoBehaviour
         questUI.SetActive(false);
         conButton.SetActive(false);
         DialogManager.StartConversation(conversation);
+        DialogManager.instance.npc = npc;
     }
     public void StartCon(Conversation con)
     {
@@ -52,6 +53,7 @@ public class SkillManager2 : MonoBehaviour
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
+    [SerializeField] public GameObject npc;
 
     private void Awake()
     {

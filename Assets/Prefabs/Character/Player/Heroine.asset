@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
   m_Name: Heroine
   m_EditorClassIdentifier: 
-  characterName: Heroine
+  characterName: Ellie
   level: 0
   playerID: 0
   pos: 0
@@ -31,3 +31,10 @@ MonoBehaviour:
   playerAnimator: {fileID: 0}
   hasDied: 0
   deadImage: {fileID: 0}
+  isActiveInStory: 0
+  b_maxHp: 0
+  b_attack: 0
+  b_defense: 0
+  m_maxHp: 0
+  m_attack: 0
+  m_defense: 0

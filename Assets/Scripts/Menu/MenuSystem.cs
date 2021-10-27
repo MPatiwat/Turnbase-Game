@@ -45,7 +45,7 @@ public class MenuSystem : MonoBehaviour
         joyUI.SetActive(true);
         settingUI.SetActive(true);
         player.SetActive(true);
-        player.transform.position = new Vector2(0, 0);
+        //player.transform.position = new Vector2(0, 0);
     }
     public void LoadGameButton()
     {

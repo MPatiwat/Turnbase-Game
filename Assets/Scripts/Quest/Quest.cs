@@ -8,7 +8,7 @@ public class Quest : ScriptableObject
     [TextArea]
     public string questDescrption;
     public bool isQuestComplete;
-
+    [SerializeField] public Quest questCondition;
     public string GetDescription
     {
         get { return questDescrption; }

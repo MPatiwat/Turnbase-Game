@@ -11,7 +11,7 @@ public class DialogManager : MonoBehaviour
 
     private int currentIndex;
     private Conversation currentConversation;
-    private static DialogManager instance;
+    public static DialogManager instance;
 
     private Animator dialogControl;
     private Coroutine typing;
@@ -20,7 +20,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
     [SerializeField] TMP_Text questText;
-    [SerializeField] GameObject npc;
+    [SerializeField] public GameObject npc;
 
     private void Awake()
     {
@@ -54,11 +54,19 @@ public class DialogManager : MonoBehaviour
             joyUI.SetActive(true);
             settingUI.SetActive(true);
             questUI.SetActive(true);
-            questText.text = currentConversation.GetQuestDescription();
-            if(currentConversation.isDestroy == true)
+            if (currentConversation.quest != null)
             {
-                npc.SetActive(false);
-            }
+                questText.text = currentConversation.GetQuestDescription();
+                if (currentConversation.isDestroy == true)
+                {
+                    npc.SetActive(false);
+                    if(currentConversation.quest.questCondition != null)
+                    {
+                        currentConversation.quest.questCondition.isQuestComplete = true;
+                    }
+                }
+                
+            }  
             //conButton.SetActive(true);
             return;
         }

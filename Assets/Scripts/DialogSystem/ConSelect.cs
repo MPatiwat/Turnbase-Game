@@ -9,6 +9,7 @@ public class ConSelect : MonoBehaviour
     [SerializeField] GameObject joyUI;
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject conButton;
+    [SerializeField] public GameObject npc;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -16,6 +17,7 @@ public class ConSelect : MonoBehaviour
         {
             conButton.SetActive(true);
             SkillManager2.instance.conversation = conversation;
+            SkillManager2.instance.npc = npc;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)

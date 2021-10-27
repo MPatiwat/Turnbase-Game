@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: Con2
   m_EditorClassIdentifier: 
   allLines:
-  - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
-    dialog: Sawad Dee
-  - characterSpeaker: {fileID: 11400000, guid: 3ce1acf50f5d3b0478268bbd590024f8, type: 2}
-    dialog: "How are you ? \u0E27\u0E27\u0E27\u0E27\u0E27"
-  - characterSpeaker: {fileID: 11400000, guid: ec488938b1c1d914a8452de425c3d601, type: 2}
-    dialog: I'm fine thank you
-  conName: yedmaui
-  quest: {fileID: 11400000, guid: f6554d9b751187840aec6285b2b7d850, type: 2}
+  - characterSpeaker: {fileID: 11400000, guid: 03b1def7493dd7e42be38573d0fec133, type: 2}
+    dialog: "\u0E44\u0E07 Hero \u0E44\u0E14\u0E49\u0E02\u0E48\u0E32\u0E27\u0E27\u0E48\u0E32\u0E19\u0E32\u0E22\u0E08\u0E30\u0E2D\u0E2D\u0E01\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07\u0E2B\u0E23\u0E2D"
+  - characterSpeaker: {fileID: 11400000, guid: 03b1def7493dd7e42be38573d0fec133, type: 2}
+    dialog: "\u0E21\u0E31\u0E19\u0E01\u0E47\u0E1C\u0E48\u0E32\u0E19\u0E21\u0E32\u0E2A\u0E31\u0E01\u0E1E\u0E31\u0E01\u0E25\u0E30\u0E0B\u0E34\u0E19\u0E30
+      \u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48 Chloe \u0E2B\u0E25\u0E31\u0E1A\u0E44\u0E1B"
+  - characterSpeaker: {fileID: 11400000, guid: 03b1def7493dd7e42be38573d0fec133, type: 2}
+    dialog: "\u0E22\u0E31\u0E07\u0E44\u0E07\u0E01\u0E48\u0E2D\u0E19\u0E08\u0E30\u0E2D\u0E2D\u0E01\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07\u0E01\u0E47\u0E44\u0E1B\u0E1A\u0E2D\u0E01\u0E25\u0E32\u0E2B\u0E19\u0E48\u0E2D\u0E22\u0E25\u0E30\u0E01\u0E31\u0E19"
+  conName: Go to Chloe
+  quest: {fileID: 0}
+  isDestroy: 0
