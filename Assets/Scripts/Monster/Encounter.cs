@@ -6,12 +6,13 @@ public class Encounter : MonoBehaviour
 {
     [SerializeField] BattleType[] potemtialBattles;
     [SerializeField] GameObject player;
+    [SerializeField] int encounterPercent;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("P"))
         {
-            if (Random.Range(1, 101) <= 100)
+            if (Random.Range(1, 101) <= encounterPercent)
             {
                 StartCoroutine(StartEncounter());
             }
