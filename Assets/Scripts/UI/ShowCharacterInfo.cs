@@ -15,7 +15,7 @@ public class ShowCharacterInfo : MonoBehaviour
     [SerializeField] TMP_Text level;
     [SerializeField] TMP_Text atk;
     [SerializeField] TMP_Text def;
-    [SerializeField] TMP_Text role;
+    [SerializeField] TMP_Text element;
     //[SerializeField] TMP_Text activeText;
 
     public void Update()
@@ -27,7 +27,7 @@ public class ShowCharacterInfo : MonoBehaviour
         level.text = character.Level.ToString();
         atk.text = character.Attack.ToString();
         def.text = character.Defense.ToString();
-        role.text = character.Role.ToString();
+        element.text = character.Element.ToString();
         
     }
     /*public void UpdateText()
