@@ -9,7 +9,7 @@ public class SkillHUD : MonoBehaviour
 {
 #pragma warning disable 0414
     //[SerializeField] CharacterBase character;
-    [SerializeField] SkillData skillslot;
+    [SerializeField] public SkillData skillslot;
     [SerializeField] public int skillSlotID;
 
     [SerializeField] Image skillImage;

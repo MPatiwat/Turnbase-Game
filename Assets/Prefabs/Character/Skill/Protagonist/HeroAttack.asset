@@ -15,8 +15,7 @@ MonoBehaviour:
   skillID: 0
   skillSprite: {fileID: 6934086728263231946, guid: b0f05bc87da87f24b95a58189ccb07eb, type: 3}
   skillName: HeroAttack
-  skillLevel: 0
-  skillDamage: 0
+  skillDamage: 30
   elementSkill: 4
   skillDescription: Deal Normal Damage
   isUnlocked: 0
@@ -26,3 +25,6 @@ MonoBehaviour:
   currentCooldown: 0
   isActivated: 0
   animationName: attack
+  crystalRequire: 0
+  levelRequire: 0
+  type: 1

@@ -25,6 +25,7 @@ public class SkillData : ScriptableObject
     [SerializeField] string animationName;
     [SerializeField] int crystalRequire;
     [SerializeField] int levelRequire;
+    [SerializeField] TargetType type;
     public int getSkillID
     {
         get { return skillID; }
@@ -91,9 +92,19 @@ public class SkillData : ScriptableObject
         get { return crystalRequire; }
         set { crystalRequire = value; }
     }
+    public TargetType getType 
+    {
+        get { return type; }
+        set { type = value; }
+    }
     /*public float SkillFormula(CharacterBase character)
     {
         skillDamage = character.Attack;
         return skillDamage;
     }*/
+    public enum TargetType 
+    { 
+        Allies,
+        Enemy
+    }
 }

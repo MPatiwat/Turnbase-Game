@@ -96,7 +96,28 @@ public class BattleSystem : MonoBehaviour
                     {
                         if (playerPrefabs[j].Pos == i)
                         {
-                            activePlayer.Add(playerPrefabs[j]);
+                            var newCharacter = ScriptableObject.CreateInstance<CharacterBase>();
+                            newCharacter.Name = playerPrefabs[j].Name;
+                            newCharacter.Level = playerPrefabs[j].Level;
+                            newCharacter.PlayerID = playerPrefabs[j].PlayerID;
+                            newCharacter.Pos = i;
+                            newCharacter.Description = playerPrefabs[j].Description;
+                            newCharacter.Sprite = playerPrefabs[j].Sprite;
+                            newCharacter.BattleSprite = playerPrefabs[j].BattleSprite;
+                            newCharacter.Element = playerPrefabs[j].Element;
+                            newCharacter.Role = playerPrefabs[j].Role;
+                            newCharacter.CurrentHp = playerPrefabs[j].CurrentHp;
+                            newCharacter.MaxHp = playerPrefabs[j].MaxHp;
+                            newCharacter.Attack = playerPrefabs[j].Attack;
+                            newCharacter.Defense = playerPrefabs[j].Defense;
+                            newCharacter.SelectedSkills = playerPrefabs[j].SelectedSkills;
+                            newCharacter.IsActivePlayer = playerPrefabs[j].IsActivePlayer;
+                            newCharacter.IsPlayer = playerPrefabs[j].IsPlayer;
+                            newCharacter.PlayerAnimator = playerPrefabs[j].PlayerAnimator;
+                            //newCharacter.hasDied = enemyPrefabs[j].Name;
+                            newCharacter.DeadImage = playerPrefabs[j].DeadImage;
+                            Debug.Log(newCharacter.Name);
+                            activePlayer.Add(newCharacter);
                             playerPos[i].gameObject.SetActive(true);
 
                             activeAnimator.Add(playerPos[i].transform.GetChild(0).gameObject);
@@ -385,17 +406,122 @@ public class BattleSystem : MonoBehaviour
         StartCoroutine(PlayerCo());
         //NextTurn();
     }
+    public void PlayerBuff(int selectTarget)
+    {
+        for (int i = 0; i < activeAnimator.Count; i++)
+        {
+            if (activeAnimator[i].name == "Player")
+            {
+                activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", false);
+                activeAnimator[i].GetComponent<Button>().enabled = false;
+            }
+        }
+        float statGain = activeBattlers[currentTurn].SelectedSkills[skillSlotID].SkillDamage;
+        activeBattlers[currentTurn].SelectedSkills[skillSlotID].IsActivated = true;
+        //activeBattlers[currentTurn].SelectedSkills[skillSlotID].CurrentCoolDown = activeBattlers[currentTurn].SelectedSkills[skillSlotID].CoolDown;
+        if (!skillCooldown.Contains(activeBattlers[currentTurn].SelectedSkills[skillSlotID]))
+        {
+            skillCooldown.Add(activeBattlers[currentTurn].SelectedSkills[skillSlotID]);
+        }
+        StartCoroutine(BuffStat(selectTarget, statGain));
+
+        StartCoroutine(PlayerCo());
+
+    }
+    public IEnumerator BuffStat(int target, float statGain)
+    {
+        if(activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Atk Buff")
+        {
+            float atkPower = activeBattlers[target].Attack;
+            float atkBuff = atkPower * statGain;
+            activeBattlers[target].Attack += Mathf.RoundToInt(atkBuff);
+
+            if (activeBattlers[currentTurn].IsPlayer)
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + atkBuff + " To " + activeBattlers[target].Name);
+            }
+            else
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + atkBuff + "To" + activeBattlers[target].Name);
+            }  
+        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Def Buff")
+        {
+            float defPower = activeBattlers[target].Defense;
+            float defBuff = defPower * statGain;
+            activeBattlers[target].Attack += Mathf.RoundToInt(defBuff);
+
+            if (activeBattlers[currentTurn].IsPlayer)
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + defBuff + " To " + activeBattlers[target].Name);
+            }
+            else
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + defBuff + "To" + activeBattlers[target].Name);
+            }
+        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Heal")
+        {
+            float currentHp = activeBattlers[target].CurrentHp;
+            float heal = currentHp * statGain;
+            activeBattlers[target].CurrentHp += Mathf.RoundToInt(heal);
+            if (activeBattlers[target].CurrentHp > activeBattlers[target].MaxHp)
+            {
+                activeBattlers[target].CurrentHp = activeBattlers[target].MaxHp;
+            }
+
+            if (activeBattlers[currentTurn].IsPlayer)
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + heal + " To " + activeBattlers[target].Name);
+            }
+            else
+            {
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + heal + "To" + activeBattlers[target].Name);
+            }
+        }
+        yield return new WaitForSeconds(2.0f);
+        
+        activeAnimator[target].GetComponent<Animator>().Play("hit");
+        yield return new WaitForSeconds(2.0f);
+    }
     public void ChooseSkill(int num)
     {
         _skillSlotID = FindObjectsOfType<SkillHUD>()[num];
         skillSlotID = _skillSlotID.skillSlotID;
         Debug.Log(skillSlotID);
-        for(int i=0; i < activeAnimator.Count; i++)
+        if (_skillSlotID.skillslot.getType == SkillData.TargetType.Allies)
         {
-            if(activeAnimator[i].name == "Monster")
+            for (int i = 0; i < activeAnimator.Count; i++)
             {
-                activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", true);
-                activeAnimator[i].GetComponent<Button>().enabled = true;
+                if (activeAnimator[i].name == "Player")
+                {
+                    activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", true);
+                    activeAnimator[i].GetComponent<Button>().enabled = true;
+                }
+                else
+                {
+                    activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", false);
+                    activeAnimator[i].GetComponent<Button>().enabled = false;
+                }
+            }
+        }else if (_skillSlotID.skillslot.getType == SkillData.TargetType.Enemy)
+        {
+            for (int i = 0; i < activeAnimator.Count; i++)
+            {
+                if (activeAnimator[i].name == "Monster")
+                {
+                    activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", true);
+                    activeAnimator[i].GetComponent<Button>().enabled = true;
+                }
+                else
+                {
+                    activeAnimator[i].GetComponent<Animator>().SetBool("isChooseSkill", false);
+                    activeAnimator[i].GetComponent<Button>().enabled = false;
+                }
             }
         }
     }
@@ -448,6 +574,16 @@ public class BattleSystem : MonoBehaviour
             coolDownText[i].transform.GetChild(0).gameObject.SetActive(false);        }
         yield return new WaitForSeconds(.5f);
 
+        for(int i = 0; i < activePlayer.Count; i++)
+        {
+            for(int j = 0; j < playerPrefabs.Length; j++)
+            {
+                if (activePlayer[i].Name == playerPrefabs[j].Name)
+                {
+                    playerPrefabs[j].CurrentHp = activePlayer[i].CurrentHp;
+                }
+            }
+        }
         activePlayer.Clear();
         activeEnemy.Clear();
         activeBattlers.Clear();

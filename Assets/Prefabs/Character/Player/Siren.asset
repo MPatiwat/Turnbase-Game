@@ -13,25 +13,31 @@ MonoBehaviour:
   m_Name: Siren
   m_EditorClassIdentifier: 
   characterName: Siren
-  level: 1
+  level: 5
   playerID: 2
   pos: -1
   description: 
   image: {fileID: 21300000, guid: 0c5d358e0b9656844846adae29442b80, type: 3}
   battleImage: {fileID: 21300000, guid: 6d6e75cbf94233841a09bae7539ec515, type: 3}
   element: 1
-  role: 0
-  currentHp: 8
-  maxHp: 8
-  attack: 15
-  defense: 5
+  role: 1
+  currentHp: 19
+  maxHp: 19
+  attack: 8
+  defense: 8
   seletedSkills:
-  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
-  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
-  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
+  - {fileID: 11400000, guid: d31e14c42cdcd984189e461d55d96bca, type: 2}
+  - {fileID: 11400000, guid: 0817817429e359640a2184b82f64ad1a, type: 2}
+  - {fileID: 11400000, guid: bec6d49a17d75004a9cee7febb58b092, type: 2}
   isActivePlayer: 0
   isPlayer: 1
   playerAnimator: {fileID: 0}
   hasDied: 0
   deadImage: {fileID: 0}
-  isActiveInStory: 0
+  isActiveInStory: 1
+  b_maxHp: 12
+  b_attack: 6
+  b_defense: 6
+  m_maxHp: 48
+  m_attack: 46
+  m_defense: 46
