@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Beetle
   m_EditorClassIdentifier: 
   characterName: Beetle
-  level: 1
+  level: 5
   playerID: 4
   pos: -1
   description: 
@@ -21,11 +21,23 @@ MonoBehaviour:
   battleImage: {fileID: 21300000, guid: ae5c3b68acf652348986a1c42c64842e, type: 3}
   element: 3
   role: 3
-  currentHp: 15
-  maxHp: 15
-  attack: 5
-  defense: 10
-  seletedSkills: []
+  currentHp: 18
+  maxHp: 18
+  attack: 6
+  defense: 11
+  seletedSkills:
+  - {fileID: 11400000, guid: ed31f21ff0e325f4aa7f61609e11d014, type: 2}
+  - {fileID: 11400000, guid: c5e3adb6024427e438e93834dd1f1969, type: 2}
+  - {fileID: 11400000, guid: 14c65541bbd110e4abb11fa36bdf7562, type: 2}
   isActivePlayer: 0
   isPlayer: 1
   playerAnimator: {fileID: 0}
+  hasDied: 0
+  deadImage: {fileID: 0}
+  isActiveInStory: 0
+  b_maxHp: 16
+  b_attack: 5
+  b_defense: 13
+  m_maxHp: 30
+  m_attack: 9
+  m_defense: 100

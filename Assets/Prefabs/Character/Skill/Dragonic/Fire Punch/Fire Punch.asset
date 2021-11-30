@@ -24,7 +24,7 @@ MonoBehaviour:
   cooldown: 2
   currentCooldown: 2
   isActivated: 0
-  animationName: fire attack
+  animationName: fire punch
   crystalRequire: 0
   levelRequire: 0
   type: 1

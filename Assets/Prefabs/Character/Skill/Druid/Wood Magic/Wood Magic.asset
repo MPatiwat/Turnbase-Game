@@ -10,18 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d784d6268d33c924984a66c7ad29fcd0, type: 3}
-  m_Name: Test
+  m_Name: Wood Magic
   m_EditorClassIdentifier: 
-  skillID: 8
-  skillSprite: {fileID: 21300000, guid: 77d335c0f8e17e94883e629b7b64e7cf, type: 3}
-  skillName: Test
-  skillLevel: 0
-  skillDamage: 1
-  elementSkill: 0
-  skillDescription: 
-  isUnlocked: 0
-  isSelected: 0
+  skillID: 49
+  skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
+  skillName: Wood Magic
+  skillDamage: 40
+  elementSkill: 2
+  skillDescription: Deal low wood damage
+  isUnlocked: 1
+  isSelected: 1
   preSkill: []
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
+  animationName: wood magic
+  crystalRequire: 0
+  levelRequire: 0
+  type: 1

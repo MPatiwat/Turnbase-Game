@@ -26,8 +26,8 @@ public class Encounter : MonoBehaviour
         //BattleSystem.instance.battleActive = true;
 
         int selectedBattle = Random.Range(0, potemtialBattles.Length);
-        BattleSystem.instance.xpGain = potemtialBattles[selectedBattle].rewardEXP;
-        BattleSystem.instance.goldGain = potemtialBattles[selectedBattle].rewardGold;
+        BattleSystem.instance.xpGain = potemtialBattles[selectedBattle].rewardEXP + Random.Range(0,6);
+        BattleSystem.instance.goldGain = potemtialBattles[selectedBattle].rewardGold + Random.Range(-50,50);
         BattleSystem.instance.crystalGain = potemtialBattles[selectedBattle].rewardCrystal;
 
         yield return new WaitForSeconds(1.5f);

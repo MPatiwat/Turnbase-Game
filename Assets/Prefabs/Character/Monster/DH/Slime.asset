@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
-  m_Name: BinGob
+  m_Name: Slime
   m_EditorClassIdentifier: 
-  characterName: BinGob
+  characterName: Slime
   level: 0
   playerID: 0
   pos: 0
@@ -21,10 +21,10 @@ MonoBehaviour:
   battleImage: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
   element: 0
   role: 0
-  currentHp: 10
-  maxHp: 10
-  attack: 1
-  defense: 10
+  currentHp: 12
+  maxHp: 12
+  attack: 2
+  defense: 8
   seletedSkills:
   - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
   isActivePlayer: 0
@@ -33,3 +33,9 @@ MonoBehaviour:
   hasDied: 0
   deadImage: {fileID: 1943264498384048869, guid: ebfbad8da58c30c4280bce708c1294c9, type: 3}
   isActiveInStory: 0
+  b_maxHp: 0
+  b_attack: 0
+  b_defense: 0
+  m_maxHp: 0
+  m_attack: 0
+  m_defense: 0

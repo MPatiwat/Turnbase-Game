@@ -24,7 +24,7 @@ MonoBehaviour:
   cooldown: 2
   currentCooldown: 2
   isActivated: 0
-  animationName: water attack
+  animationName: water gun
   crystalRequire: 0
   levelRequire: 0
   type: 1

@@ -22,10 +22,11 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: b3196ce2a93a4aa45817e50e0ed0c884, type: 2}
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
   animationName: wood attack
-  crystalRequire: 0
+  crystalRequire: 20
   levelRequire: 20
+  goldRequire: 2000
   type: 1

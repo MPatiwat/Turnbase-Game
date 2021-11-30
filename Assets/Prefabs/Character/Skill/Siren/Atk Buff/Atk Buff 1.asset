@@ -22,10 +22,11 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: bec6d49a17d75004a9cee7febb58b092, type: 2}
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 3
+  currentCooldown: 3
   isActivated: 0
-  animationName: 
-  crystalRequire: 0
+  animationName: Atk Buff
+  crystalRequire: 10
   levelRequire: 10
+  goldRequire: 1000
   type: 0

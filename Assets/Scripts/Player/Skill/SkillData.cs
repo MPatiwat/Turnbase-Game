@@ -25,6 +25,7 @@ public class SkillData : ScriptableObject
     [SerializeField] string animationName;
     [SerializeField] int crystalRequire;
     [SerializeField] int levelRequire;
+    [SerializeField] int goldRequire;
     [SerializeField] TargetType type;
     public int getSkillID
     {
@@ -91,6 +92,11 @@ public class SkillData : ScriptableObject
     {
         get { return crystalRequire; }
         set { crystalRequire = value; }
+    }
+    public int GoldRequire
+    {
+        get { return goldRequire; }
+        set { goldRequire = value; }
     }
     public TargetType getType 
     {

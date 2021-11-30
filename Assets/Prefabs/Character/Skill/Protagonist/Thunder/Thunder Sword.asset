@@ -21,8 +21,8 @@ MonoBehaviour:
   isUnlocked: 0
   isSelected: 0
   preSkill: []
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
   animationName: thunder attack
   crystalRequire: 0

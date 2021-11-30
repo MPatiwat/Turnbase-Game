@@ -12,8 +12,12 @@ public class SkillButton2 : MonoBehaviour
     public Image skillImage;
     public TMP_Text skillNameText;
     public TMP_Text skillDesText;
+    public TMP_Text levelRequireText;
+    public TMP_Text goldRequireText;
+    public TMP_Text crystalText;
 
     public TMP_Text selectText;
+    public TMP_Text learnText;
     [SerializeField] GameObject skillSelect;
     public void PressSkillButton()
     {
@@ -21,7 +25,10 @@ public class SkillButton2 : MonoBehaviour
 
         skillImage.sprite = skillData.getSkillSprite;
         skillDesText.text = skillData.getSkillDescription;
-        skillNameText.text = skillData.getSkillName;   
+        skillNameText.text = skillData.getSkillName;
+        levelRequireText.text = skillData.LevelRequire.ToString();
+        goldRequireText.text = skillData.GoldRequire.ToString();
+        crystalText.text = skillData.CrystalRequire.ToString();
     }
     private void Update()
     {
@@ -54,6 +61,20 @@ public class SkillButton2 : MonoBehaviour
         else if(skillData.isSelected == true)
         {
             selectText.text = "Deselect";
+        }
+       if(skillData.isUnlocked != true)
+        {
+            learnText.text = "Learn";
+            levelRequireText.gameObject.SetActive(true);
+            goldRequireText.gameObject.SetActive(true);
+            crystalText.gameObject.SetActive(true);
+        }
+        else if(skillData.isUnlocked == true)
+        {
+            learnText.text = "Learned";
+            levelRequireText.gameObject.SetActive(false);
+            goldRequireText.gameObject.SetActive(false);
+            crystalText.gameObject.SetActive(false);
         }
     }
 }

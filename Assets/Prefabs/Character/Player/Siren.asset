@@ -34,7 +34,7 @@ MonoBehaviour:
   playerAnimator: {fileID: 0}
   hasDied: 0
   deadImage: {fileID: 0}
-  isActiveInStory: 1
+  isActiveInStory: 0
   b_maxHp: 12
   b_attack: 6
   b_defense: 6

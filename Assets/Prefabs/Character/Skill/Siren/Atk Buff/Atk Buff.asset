@@ -21,10 +21,10 @@ MonoBehaviour:
   isUnlocked: 1
   isSelected: 1
   preSkill: []
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 3
+  currentCooldown: 3
   isActivated: 0
-  animationName: 
+  animationName: Atk Buff
   crystalRequire: 0
   levelRequire: 0
   type: 0

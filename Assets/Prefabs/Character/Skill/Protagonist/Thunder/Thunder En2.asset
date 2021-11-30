@@ -22,10 +22,11 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: e9605535f20f5234ca38f1035c7248cf, type: 2}
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
   animationName: thunder attack
-  crystalRequire: 0
+  crystalRequire: 20
   levelRequire: 20
+  goldRequire: 2000
   type: 1

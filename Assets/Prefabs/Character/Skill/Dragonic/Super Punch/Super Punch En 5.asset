@@ -25,7 +25,8 @@ MonoBehaviour:
   cooldown: 4
   currentCooldown: 4
   isActivated: 0
-  animationName: fire attack
-  crystalRequire: 0
+  animationName: super punch
+  crystalRequire: 50
   levelRequire: 50
+  goldRequire: 5000
   type: 1

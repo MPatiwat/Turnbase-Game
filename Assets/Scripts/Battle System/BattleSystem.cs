@@ -42,6 +42,9 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] GameObject[] coolDownText;
     [SerializeField] GameObject encounterField;
     [SerializeField] int selectAttack;
+    [SerializeField] GameObject groupOfStatue;
+    [SerializeField] Conversation falseToRevive;
+    [SerializeField] Conversation successToRevive;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 
@@ -144,10 +147,10 @@ public class BattleSystem : MonoBehaviour
                         newCharacter.BattleSprite = enemyPrefabs[j].BattleSprite;
                         newCharacter.Element = enemyPrefabs[j].Element;
                         newCharacter.Role = enemyPrefabs[j].Role;
-                        newCharacter.CurrentHp = enemyPrefabs[j].CurrentHp;
-                        newCharacter.MaxHp = enemyPrefabs[j].MaxHp;
-                        newCharacter.Attack = enemyPrefabs[j].Attack;
-                        newCharacter.Defense = enemyPrefabs[j].Defense;
+                        newCharacter.CurrentHp = Random.Range(enemyPrefabs[j].CurrentHp-2, enemyPrefabs[j].CurrentHp + 2);
+                        newCharacter.MaxHp = newCharacter.CurrentHp;
+                        newCharacter.Attack = Random.Range(enemyPrefabs[j].Attack-2, enemyPrefabs[j].Attack + 2);
+                        newCharacter.Defense = Random.Range(enemyPrefabs[j].Defense-2, enemyPrefabs[j].Defense + 2);
                         newCharacter.SelectedSkills = enemyPrefabs[j].SelectedSkills;
                         newCharacter.IsActivePlayer = enemyPrefabs[j].IsActivePlayer;
                         newCharacter.IsPlayer = enemyPrefabs[j].IsPlayer;
@@ -327,23 +330,38 @@ public class BattleSystem : MonoBehaviour
     }
     public void EnemyAttack()
     {
-        List<int> player = new List<int>();
-        for(int i = 0; i < activeBattlers.Count; i++)
-        {
-            if(activeBattlers[i].IsPlayer && activeBattlers[i].CurrentHp > 0)
-            {
-                player.Add(i);
-            }
-        }
-        int selectedTarget = player[Random.Range(0, player.Count)];
-
         selectAttack = Random.Range(0, activeBattlers[currentTurn].SelectedSkills.Count);
-        float skillDamage = activeBattlers[currentTurn].SelectedSkills[selectAttack].SkillDamage;
+        if(activeBattlers[currentTurn].SelectedSkills[selectAttack].getType == SkillData.TargetType.Allies)
+        {
+            Debug.Log("buff");
+            List<int> enemy = new List<int>();
+            for (int i = 0; i < activeBattlers.Count; i++)
+            {
+                if (activeBattlers[i].IsPlayer == false && activeBattlers[i].CurrentHp > 0)
+                {
+                    enemy.Add(i);
+                }
+            }
+            int selectedEnemies = enemy[Random.Range(0, enemy.Count)];
+            float statGain = activeBattlers[currentTurn].SelectedSkills[selectAttack].SkillDamage;
+            StartCoroutine(BuffStat(selectedEnemies,statGain));
+        }
+        else
+        {
+            Debug.Log("atk");
+            List<int> player = new List<int>();
+            for (int i = 0; i < activeBattlers.Count; i++)
+            {
+                if (activeBattlers[i].IsPlayer && activeBattlers[i].CurrentHp > 0)
+                {
+                    player.Add(i);
+                }
+            }
+            int selectedTarget = player[Random.Range(0, player.Count)];
+            float skillDamage = activeBattlers[currentTurn].SelectedSkills[selectAttack].SkillDamage;
 
-
-        //DealDamage(selectedTarget, skillDamage);
-        StartCoroutine(DealDamage(selectedTarget , skillDamage));
-        
+            StartCoroutine(DealDamage(selectedTarget, skillDamage));
+        }  
     }
 
     public IEnumerator DealDamage(int target, float skillDamage)
@@ -430,7 +448,7 @@ public class BattleSystem : MonoBehaviour
     }
     public IEnumerator BuffStat(int target, float statGain)
     {
-        if(activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Atk Buff")
+        if(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Atk Buff" || activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Atk Buff")
         {
             float atkPower = activeBattlers[target].Attack;
             float atkBuff = atkPower * statGain;
@@ -438,15 +456,15 @@ public class BattleSystem : MonoBehaviour
 
             if (activeBattlers[currentTurn].IsPlayer)
             {
-                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName );
                 Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + atkBuff + " To " + activeBattlers[target].Name);
             }
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + atkBuff + "To" + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + atkBuff + " To " + activeBattlers[target].Name);
             }  
-        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Def Buff")
+        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Def Buff" || activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Def Buff")
         {
             float defPower = activeBattlers[target].Defense;
             float defBuff = defPower * statGain;
@@ -460,12 +478,12 @@ public class BattleSystem : MonoBehaviour
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + defBuff + "To" + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + defBuff + " To " + activeBattlers[target].Name);
             }
-        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName == "Heal")
+        }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Heal"|| activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Heal")
         {
-            float currentHp = activeBattlers[target].CurrentHp;
-            float heal = currentHp * statGain;
+            float maxHp = activeBattlers[target].MaxHp;
+            float heal = maxHp * statGain;
             activeBattlers[target].CurrentHp += Mathf.RoundToInt(heal);
             if (activeBattlers[target].CurrentHp > activeBattlers[target].MaxHp)
             {
@@ -480,7 +498,7 @@ public class BattleSystem : MonoBehaviour
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + heal + "To" + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + heal + " To " + activeBattlers[target].Name);
             }
         }
         yield return new WaitForSeconds(2.0f);
@@ -613,6 +631,7 @@ public class BattleSystem : MonoBehaviour
 
     public void Revive()
     {
+        groupOfStatue.SetActive(false);
         if (BattleReward.instance.gold.SupplyValue >= 10)
         {
             for (int i = 0; i < playerPrefabs.Length; i++)
@@ -620,11 +639,13 @@ public class BattleSystem : MonoBehaviour
                 playerPrefabs[i].CurrentHp = playerPrefabs[i].MaxHp;
                 playerPrefabs[i].IsDied = false;
             }
+            SkillManager2.instance.StartCon(successToRevive);
             Debug.Log("Revive Success");
             BattleReward.instance.gold.SupplyValue -= 10;
         }
         else
         {
+            SkillManager2.instance.StartCon(falseToRevive);
             Debug.Log("Not Enough Money");
         }
         

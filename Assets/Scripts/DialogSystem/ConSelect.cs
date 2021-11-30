@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ConSelect : MonoBehaviour
 {
-    [SerializeField] Conversation conversation;
+    [SerializeField] public Conversation conversation;
     [SerializeField] GameObject joyUI;
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject conButton;

@@ -22,10 +22,11 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: 28bed5fea356db149bd9080ca89fbfb3, type: 2}
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
-  animationName: water attack
-  crystalRequire: 0
+  animationName: water gun
+  crystalRequire: 40
   levelRequire: 40
+  goldRequire: 4000
   type: 1

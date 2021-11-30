@@ -92,6 +92,7 @@ public class LevelUP : MonoBehaviour
         levelText.text = predictLevel.ToString();
         currentExp += (nextLevelExp[predictLevel] - nextLevelExp[predictLevel - 1]);
         expText.text = currentExp.ToString();
+        goldText.text = (predictLevel * 100).ToString();
     }
     public void Minus()
     {
@@ -101,11 +102,12 @@ public class LevelUP : MonoBehaviour
             levelText.text = predictLevel.ToString();
             currentExp -= (nextLevelExp[predictLevel+1] - nextLevelExp[predictLevel]);
             expText.text = currentExp.ToString();
+            goldText.text = (predictLevel * 100).ToString();
         }    
     }
     public void Submit()
     {
-        if (exp.SupplyValue >= currentExp)
+        if (exp.SupplyValue >= currentExp&&gold.SupplyValue>=predictLevel*100)
         {
             LevelUp();
             currentExp = 0;

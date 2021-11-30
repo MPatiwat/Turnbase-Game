@@ -38,6 +38,6 @@ MonoBehaviour:
   b_maxHp: 8
   b_attack: 14
   b_defense: 2
-  m_maxHp: 19
+  m_maxHp: 14
   m_attack: 120
-  m_defense: 10
+  m_defense: 5

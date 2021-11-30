@@ -25,7 +25,7 @@ public class SkillManager2 : MonoBehaviour
         joyUI.SetActive(false);
         settingUI.SetActive(false);
         questUI.SetActive(false);
-        //conButton.SetActive(false);
+        conButton.SetActive(false);
         DialogManager.StartConversation(con);
     }
 
@@ -36,6 +36,7 @@ public class SkillManager2 : MonoBehaviour
 
     [Header("Skill Point")]
     [SerializeField] public Supply crystal;
+    [SerializeField] public Supply gold;
     public TMP_Text pointText;
 
     [SerializeField] private SkillButton2[] skillButtons;
@@ -54,6 +55,8 @@ public class SkillManager2 : MonoBehaviour
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
     [SerializeField] public GameObject npc;
+
+    [SerializeField] Conversation upgradeCon;
 
     private void Awake()
     {
@@ -95,12 +98,12 @@ public class SkillManager2 : MonoBehaviour
             return;
         }
         //Skill ID 0-1,0-2,0-3,0-4
-        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && selectedSkill.preSkill.Length == 0 )
+        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && selectedSkill.preSkill.Length == 0 && gold.SupplyValue >= selectedSkill.GoldRequire)
         {
             UpdateSkill();
         }
         //Skill ID 0-3,...
-        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && character.Level >= selectedSkill.LevelRequire)
+        if(crystal.SupplyValue >= selectedSkill.CrystalRequire && character.Level >= selectedSkill.LevelRequire && gold.SupplyValue >= selectedSkill.GoldRequire)
         {
             for(int i = 0; i < selectedSkill.preSkill.Length; i++)
             {

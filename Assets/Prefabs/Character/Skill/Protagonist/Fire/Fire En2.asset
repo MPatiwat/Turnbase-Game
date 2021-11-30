@@ -22,10 +22,11 @@ MonoBehaviour:
   isSelected: 0
   preSkill:
   - {fileID: 11400000, guid: 019c91205495a2345beb1bc49eb12278, type: 2}
-  cooldown: 0
-  currentCooldown: 0
+  cooldown: 2
+  currentCooldown: 2
   isActivated: 0
   animationName: fire attack
-  crystalRequire: 0
+  crystalRequire: 20
   levelRequire: 20
+  goldRequire: 2000
   type: 1

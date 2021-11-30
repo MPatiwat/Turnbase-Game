@@ -25,7 +25,8 @@ MonoBehaviour:
   cooldown: 2
   currentCooldown: 2
   isActivated: 0
-  animationName: fire attack
-  crystalRequire: 0
-  levelRequire: 0
+  animationName: fire punch
+  crystalRequire: 10
+  levelRequire: 10
+  goldRequire: 1000
   type: 1
