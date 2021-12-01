@@ -15,7 +15,7 @@ public class BattleSystem : MonoBehaviour
 
     [SerializeField] public GameObject[] playerPos;
     [SerializeField] public GameObject[] enemyPos;
-    [SerializeField] CharacterBase[] playerPrefabs;
+    [SerializeField] public CharacterBase[] playerPrefabs;
     [SerializeField] CharacterBase[] enemyPrefabs;
     [SerializeField] public List<CharacterBase> activePlayer;
     [SerializeField] public List<CharacterBase> activeEnemy;
@@ -45,6 +45,8 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] GameObject groupOfStatue;
     [SerializeField] Conversation falseToRevive;
     [SerializeField] Conversation successToRevive;
+
+    [SerializeField] public List<SkillData> saveSkill;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 
@@ -462,7 +464,7 @@ public class BattleSystem : MonoBehaviour
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + atkBuff + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + atkBuff + " To " + activeBattlers[target].Name);
             }  
         }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Def Buff" || activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Def Buff")
         {
@@ -478,7 +480,7 @@ public class BattleSystem : MonoBehaviour
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + "Boost" + defBuff + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + defBuff + " To " + activeBattlers[target].Name);
             }
         }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Heal"|| activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Heal")
         {
@@ -610,9 +612,17 @@ public class BattleSystem : MonoBehaviour
         currentTurn = 0;
         yield return new WaitForSeconds(1f);
         BattleReward.instance.OpenBattelRewardScreen(xpGain,goldGain,crystalGain);
-        encounterField.GetComponent<TilemapCollider2D>().enabled = false;
+        //encounterField.SetActive(false);
+        for(int i =0; i < encounterField.transform.childCount; i++)
+        {
+            encounterField.transform.GetChild(1).GetComponent<TilemapCollider2D>().enabled = false;
+        }
         yield return new WaitForSeconds(5f);
-        encounterField.GetComponent<TilemapCollider2D>().enabled = true;
+        for (int i = 0; i < encounterField.transform.childCount; i++)
+        {
+            encounterField.transform.GetChild(1).GetComponent<TilemapCollider2D>().enabled = true;
+        }
+        //encounterField.SetActive(true);
     }
     public IEnumerator GameOver()
     {

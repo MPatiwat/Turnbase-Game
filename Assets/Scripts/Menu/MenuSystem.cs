@@ -22,14 +22,21 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public Supply exp;
     [SerializeField] public Supply gold;
     [SerializeField] public Supply crystal;
-    [SerializeField] public List<CharacterBase> characters;
+    [SerializeField] public CharacterBase[] characters;
     [SerializeField] public List<SkillData> skills;
+    [SerializeField] BattleSystem _character;
+    [SerializeField] BattleSystem _skill;
     // Start is called before the first frame update
     void Start()
     {
         gameUI.SetActive(false);
+        _character = FindObjectOfType<BattleSystem>();
+        _skill = FindObjectOfType<BattleSystem>();
+        characters = _character.playerPrefabs;
+        skills = _skill.saveSkill;
         //mainCamera.SetActive(false);
         //state = SaveManager.Load();
+
     }
 
     // Update is called once per frame
@@ -74,7 +81,7 @@ public class MenuSystem : MonoBehaviour
         save.playerPosX = player.transform.position.x;
         save.playerPosY = player.transform.position.y;
         //CharacterSaveData characterSave = new CharacterSaveData();
-        for(int i = 0; i < characters.Count; i++)
+        for(int i = 0; i < characters.Length; i++)
         {
             save.level[i] = characters[i].Level;
             save.pos[i] = characters[i].Pos;
@@ -96,7 +103,13 @@ public class MenuSystem : MonoBehaviour
         {
             save.skillIsSelected[i] = skills[i].isSelected;
             save.skillIsUnlock[i] = skills[i].isUnlocked;
-            Debug.Log("Save " + skills[i].getSkillName + " Success");
+            if (skills[i].isSelected)
+            {
+                save.skillPos[i] = skills[i].SkillPos;
+                Debug.Log(skills[i].getSkillName + " is selected have skill pos " + skills[i].SkillPos);
+            }
+            //save.skillPos[i] = skills[i].SkillPos;
+            //Debug.Log("Save " + skills[i].getSkillName + " Success");
         }
 
         
@@ -129,7 +142,7 @@ public class MenuSystem : MonoBehaviour
             exp.SupplyValue = save.exp; 
             gold.SupplyValue = save.gold;
             crystal.SupplyValue = save.crystal;
-            for (int i = 0; i < characters.Count; i++)
+            for (int i = 0; i < characters.Length; i++)
             {
                 characters[i].Level = save.level[i];
                 characters[i].Pos = save.pos[i];
@@ -146,12 +159,19 @@ public class MenuSystem : MonoBehaviour
             {
                 skills[i].isSelected = save.skillIsSelected[i];
                 skills[i].isUnlocked = save.skillIsUnlock[i];
+                skills[i].SkillPos = save.skillPos[i];
+                if (skills[i].isSelected && skills[i].isUnlocked)
+                {
+                    int id = skills[i].PlayerID;
+                    int pos = skills[i].SkillPos;
+                    characters[id].SelectedSkills[pos] = skills[i];
+                }
                 Debug.Log("Load " + skills[i].getSkillName + " Success");
             }
-            for(int i = 0; i< characters.Count; i++)
+            /*for(int i = 0; i< characters.Length; i++)
             {
-                //characters[i].SelectedSkills.Add
-            }
+                characters[i].SelectedSkills
+            }*/
             Debug.Log("Load Success");
         }
         else

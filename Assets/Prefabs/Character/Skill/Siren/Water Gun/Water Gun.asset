@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: 37
   skillSprite: {fileID: 21300000, guid: e991c865cfec048cb9595fd171cbe827, type: 3}
-  skillName: Water Sword
+  skillName: Water Gun
   skillDamage: 40
   elementSkill: 1
   skillDescription: Deal low ice damage
@@ -27,4 +27,7 @@ MonoBehaviour:
   animationName: water gun
   crystalRequire: 0
   levelRequire: 0
+  goldRequire: 0
   type: 1
+  playerID: 2
+  skillPos: 1

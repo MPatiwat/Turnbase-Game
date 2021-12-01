@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d784d6268d33c924984a66c7ad29fcd0, type: 3}
-  m_Name: AutoAttack
+  m_Name: F.Harden
   m_EditorClassIdentifier: 
   skillID: 0
   skillSprite: {fileID: 0}
-  skillName: Auto Attack
-  skillDamage: 30
-  elementSkill: 4
+  skillName: Harden
+  skillDamage: 0.2
+  elementSkill: 0
   skillDescription: 
   isUnlocked: 0
   isSelected: 0
@@ -24,8 +24,10 @@ MonoBehaviour:
   cooldown: 0
   currentCooldown: 0
   isActivated: 0
-  animationName: attack
+  animationName: Def Buff
   crystalRequire: 0
   levelRequire: 0
   goldRequire: 0
-  type: 1
+  type: 0
+  playerID: 0
+  skillPos: 0

@@ -29,3 +29,5 @@ MonoBehaviour:
   levelRequire: 0
   goldRequire: 0
   type: 0
+  playerID: 4
+  skillPos: 2

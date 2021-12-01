@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 50
   goldRequire: 5000
   type: 0
+  playerID: 3
+  skillPos: 0

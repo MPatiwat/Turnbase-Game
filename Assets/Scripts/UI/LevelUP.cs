@@ -25,6 +25,7 @@ public class LevelUP : MonoBehaviour
 
     [Header("Character Stat")]
     [SerializeField] int currentExp;
+    [SerializeField] int currentGold;
     [SerializeField] int currentLevel, maxLevel;
     [SerializeField] int currentHp;
     [SerializeField] int maxHp;
@@ -38,6 +39,7 @@ public class LevelUP : MonoBehaviour
         predictLevel = character.Level;
         levelText.text = predictLevel.ToString();
         currentExp = 0;
+        currentGold = 0;
         expText.text = currentExp.ToString();
     }
     private void Start()
@@ -91,8 +93,9 @@ public class LevelUP : MonoBehaviour
         predictLevel++;
         levelText.text = predictLevel.ToString();
         currentExp += (nextLevelExp[predictLevel] - nextLevelExp[predictLevel - 1]);
+        currentGold += predictLevel * 100; 
         expText.text = currentExp.ToString();
-        goldText.text = (predictLevel * 100).ToString();
+        goldText.text = currentGold.ToString();
     }
     public void Minus()
     {
@@ -101,8 +104,9 @@ public class LevelUP : MonoBehaviour
             predictLevel--;
             levelText.text = predictLevel.ToString();
             currentExp -= (nextLevelExp[predictLevel+1] - nextLevelExp[predictLevel]);
+            currentGold -= (predictLevel+1) * 100;
             expText.text = currentExp.ToString();
-            goldText.text = (predictLevel * 100).ToString();
+            goldText.text = currentGold.ToString();
         }    
     }
     public void Submit()
@@ -111,20 +115,25 @@ public class LevelUP : MonoBehaviour
         {
             LevelUp();
             currentExp = 0;
+            currentGold = 0;
             levelText.text = predictLevel.ToString();
             expText.text = currentExp.ToString();
+            goldText.text = currentGold.ToString();
         }
     }
     public void LevelUp()
     {
         exp.SupplyValue -= currentExp;
+        gold.SupplyValue -= predictLevel * 100;
         while(character.Level!=predictLevel)
         {
             //Up Level
             character.Level++;
             //Up Hp
-            character.CurrentHp += (character.MaxHp - character.CurrentHp);
+            int currentMaxHp = character.MaxHp;
             character.MaxHp = Mathf.RoundToInt((((((2 * character.BMaxHP) + character.MMaxHP) + Mathf.RoundToInt(Mathf.Sqrt(nextLevelExp[character.Level])/4)) * character.Level) / 100f) + character.Level + 10);
+            character.CurrentHp += character.MaxHp - currentMaxHp;
+
             Debug.Log("Max Hp : " + character.MaxHp);
             //player.MaxHp = currentHp;
             //Up Attack

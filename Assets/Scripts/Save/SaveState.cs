@@ -23,8 +23,9 @@ public class SaveState
     public bool[] isActiveInStory = new bool[5];
 
     //Skill
-    public bool[] skillIsUnlock = new bool[48];
-    public bool[] skillIsSelected = new bool[48];
+    public bool[] skillIsUnlock = new bool[100];
+    public bool[] skillIsSelected = new bool[100];
+    public int[] skillPos = new int[100];
     //public SkillData[] selectedSkill = new SkillData[15];
     
 }

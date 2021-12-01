@@ -27,6 +27,8 @@ public class SkillData : ScriptableObject
     [SerializeField] int levelRequire;
     [SerializeField] int goldRequire;
     [SerializeField] TargetType type;
+    [SerializeField] int playerID;
+    [SerializeField] int skillPos;
     public int getSkillID
     {
         get { return skillID; }
@@ -102,6 +104,16 @@ public class SkillData : ScriptableObject
     {
         get { return type; }
         set { type = value; }
+    }
+    public int PlayerID 
+    {
+        get { return playerID; }
+        set { playerID = value; }
+    }
+    public int SkillPos
+    {
+        get { return skillPos; }
+        set { skillPos = value; }
     }
     /*public float SkillFormula(CharacterBase character)
     {

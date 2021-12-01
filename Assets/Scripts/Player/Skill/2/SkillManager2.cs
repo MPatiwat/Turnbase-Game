@@ -151,7 +151,7 @@ public class SkillManager2 : MonoBehaviour
                 skillButtons[selectedSkill.getSkillID].UpdateSelectText();
 
                 character.SelectedSkills.Add(selectedSkill);
-
+                selectedSkill.SkillPos = character.SelectedSkills.Count-1;
                 //Update Select Count
                 //character.SelectedSkills.Count++;
             }
@@ -161,6 +161,7 @@ public class SkillManager2 : MonoBehaviour
             selectedSkill.isSelected = false;
             skillButtons[selectedSkill.getSkillID].UpdateSelectText();
             character.SelectedSkills.Remove(selectedSkill);
+            selectedSkill.SkillPos = 0;
             //selectedSkillCount--;
         }
     }

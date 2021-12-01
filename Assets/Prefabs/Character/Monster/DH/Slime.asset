@@ -19,14 +19,15 @@ MonoBehaviour:
   description: 
   image: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
   battleImage: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
-  element: 0
+  element: 4
   role: 0
   currentHp: 12
   maxHp: 12
   attack: 2
   defense: 8
   seletedSkills:
-  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
+  - {fileID: 11400000, guid: ec853e5791ab91d42a46390577c1e4ee, type: 2}
+  - {fileID: 11400000, guid: 6ba7ce8998a127e45a92d1a1d63cabeb, type: 2}
   isActivePlayer: 0
   isPlayer: 0
   playerAnimator: {fileID: 9100000, guid: b621429e46d244f4cab0bcef3a6c266f, type: 2}

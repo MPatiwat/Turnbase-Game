@@ -27,4 +27,7 @@ MonoBehaviour:
   animationName: Heal
   crystalRequire: 0
   levelRequire: 0
+  goldRequire: 0
   type: 0
+  playerID: 3
+  skillPos: 2

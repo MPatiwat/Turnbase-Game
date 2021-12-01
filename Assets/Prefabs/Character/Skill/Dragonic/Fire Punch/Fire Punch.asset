@@ -27,4 +27,7 @@ MonoBehaviour:
   animationName: fire punch
   crystalRequire: 0
   levelRequire: 0
+  goldRequire: 0
   type: 1
+  playerID: 1
+  skillPos: 1
