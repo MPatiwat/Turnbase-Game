@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3cf4f05cdc90aa4a82c813ab7395f46, type: 3}
   m_Name: Crystal
   m_EditorClassIdentifier: 
-  supplyValue: 5
+  supplyValue: 0
