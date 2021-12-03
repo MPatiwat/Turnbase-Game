@@ -15,7 +15,7 @@ MonoBehaviour:
   characterName: Siren
   level: 5
   playerID: 2
-  pos: -1
+  pos: 2
   description: 
   image: {fileID: 21300000, guid: 0c5d358e0b9656844846adae29442b80, type: 3}
   battleImage: {fileID: 21300000, guid: 6d6e75cbf94233841a09bae7539ec515, type: 3}
@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d31e14c42cdcd984189e461d55d96bca, type: 2}
   - {fileID: 11400000, guid: 0817817429e359640a2184b82f64ad1a, type: 2}
   - {fileID: 11400000, guid: bec6d49a17d75004a9cee7febb58b092, type: 2}
-  isActivePlayer: 0
+  isActivePlayer: 1
   isPlayer: 1
   playerAnimator: {fileID: 0}
   hasDied: 0

@@ -8,6 +8,7 @@ TagManager:
   - P
   - Monster
   - SkillTree
+  - NPC
   layers:
   - Default
   - TransparentFX

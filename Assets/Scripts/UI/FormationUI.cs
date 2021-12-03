@@ -7,13 +7,14 @@ using System.Linq;
 
 public class FormationUI : MonoBehaviour
 {
+    public static FormationUI instance;
     [SerializeField] CharacterBase[] characters;
     [Header("Formation")]
     [SerializeField] GameObject selectClose;
     [SerializeField] CharacterBase character;
     [SerializeField] bool isformationActived;
     [SerializeField] bool isSelectActive;
-    [SerializeField] CharacterBase[] activePlayer ;
+    [SerializeField] public CharacterBase[] activePlayer ;
     [SerializeField] int activeCount;
     
     [Header("Position")]
@@ -22,8 +23,17 @@ public class FormationUI : MonoBehaviour
     [SerializeField] GameObject posGroup;
     [SerializeField] GameObject chaUI;
     [SerializeField] TMP_Text activeText;
-
-
+    [SerializeField] TMP_Text[] posTextGroup;
+    /*private void Update()
+    {
+        for(int i = 0; i < characters.Length; i++)
+        {
+            if (characters[i].IsActivePlayer)
+            {
+                activePlayer[characters[i].Pos] = characters[i];
+            }
+        }
+    }*/
     public void Formation(CharacterBase selectCharacter)
     {
         character = selectCharacter;
@@ -36,6 +46,13 @@ public class FormationUI : MonoBehaviour
             isformationActived = true;
             formation.SetActive(true);
             selectClose.SetActive(false);
+            for (int i = 0; i < characters.Length; i++)
+            {
+                if (characters[i].IsActivePlayer)
+                {
+                    posTextGroup[characters[i].Pos].text = characters[i].Name;
+                }
+            }
         }
         
     }
@@ -60,7 +77,7 @@ public class FormationUI : MonoBehaviour
     }
     public void ActiveFormation()
     {
-        if(!activePlayer.Contains(character))
+        if(!activePlayer.Contains(character)&&!character.IsDied)
         {
             pos.text = character.Name;
             activePlayer[posId] = character;

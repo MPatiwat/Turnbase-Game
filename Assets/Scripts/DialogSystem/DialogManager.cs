@@ -10,7 +10,7 @@ public class DialogManager : MonoBehaviour
     public Image speakerSprite;
 
     private int currentIndex;
-    private Conversation currentConversation;
+    public Conversation currentConversation;
     public static DialogManager instance;
 
     private Animator dialogControl;
@@ -20,7 +20,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
     [SerializeField] TMP_Text questText;
-    [SerializeField] public GameObject npc;
+    [SerializeField] public GameObject[] npc;
 
     private void Awake()
     {
@@ -59,7 +59,11 @@ public class DialogManager : MonoBehaviour
                 questText.text = currentConversation.GetQuestDescription();
                 if (currentConversation.isDestroy == true)
                 {
-                    npc.SetActive(false);
+                    for(int i = 0; i < npc.Length; i++)
+                    {
+                        npc[i].SetActive(false);
+                        npc[i].GetComponent<Close>().isClose = true;
+                    }
                     if(currentConversation.quest.questCondition != null)
                     {
                         currentConversation.quest.questCondition.isQuestComplete = true;

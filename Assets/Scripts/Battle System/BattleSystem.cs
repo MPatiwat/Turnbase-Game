@@ -47,6 +47,8 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] Conversation successToRevive;
 
     [SerializeField] public List<SkillData> saveSkill;
+    [SerializeField] public List<Quest> saveQuest;
+    [SerializeField] public List<GameObject> npc;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 
@@ -149,10 +151,10 @@ public class BattleSystem : MonoBehaviour
                         newCharacter.BattleSprite = enemyPrefabs[j].BattleSprite;
                         newCharacter.Element = enemyPrefabs[j].Element;
                         newCharacter.Role = enemyPrefabs[j].Role;
-                        newCharacter.CurrentHp = Random.Range(enemyPrefabs[j].CurrentHp-2, enemyPrefabs[j].CurrentHp + 2);
+                        newCharacter.CurrentHp = Random.Range(enemyPrefabs[j].CurrentHp-1, enemyPrefabs[j].CurrentHp + 1);
                         newCharacter.MaxHp = newCharacter.CurrentHp;
-                        newCharacter.Attack = Random.Range(enemyPrefabs[j].Attack-2, enemyPrefabs[j].Attack + 2);
-                        newCharacter.Defense = Random.Range(enemyPrefabs[j].Defense-2, enemyPrefabs[j].Defense + 2);
+                        newCharacter.Attack = Random.Range(enemyPrefabs[j].Attack-1, enemyPrefabs[j].Attack + 1);
+                        newCharacter.Defense = Random.Range(enemyPrefabs[j].Defense-1, enemyPrefabs[j].Defense + 1);
                         newCharacter.SelectedSkills = enemyPrefabs[j].SelectedSkills;
                         newCharacter.IsActivePlayer = enemyPrefabs[j].IsActivePlayer;
                         newCharacter.IsPlayer = enemyPrefabs[j].IsPlayer;
@@ -615,12 +617,12 @@ public class BattleSystem : MonoBehaviour
         //encounterField.SetActive(false);
         for(int i =0; i < encounterField.transform.childCount; i++)
         {
-            encounterField.transform.GetChild(1).GetComponent<TilemapCollider2D>().enabled = false;
+            encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 0;
         }
         yield return new WaitForSeconds(5f);
         for (int i = 0; i < encounterField.transform.childCount; i++)
         {
-            encounterField.transform.GetChild(1).GetComponent<TilemapCollider2D>().enabled = true;
+            encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 35;
         }
         //encounterField.SetActive(true);
     }

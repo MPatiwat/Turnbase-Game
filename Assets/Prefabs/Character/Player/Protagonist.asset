@@ -21,7 +21,7 @@ MonoBehaviour:
   battleImage: {fileID: 21300000, guid: 0592e3a4fe473f9429fec28026dee456, type: 3}
   element: 4
   role: 0
-  currentHp: 17
+  currentHp: 18
   maxHp: 18
   attack: 9
   defense: 8

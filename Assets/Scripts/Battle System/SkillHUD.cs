@@ -25,6 +25,7 @@ public class SkillHUD : MonoBehaviour
     [SerializeField] GameObject skillButton;
     /*[SerializeField] BattleSystem _activeEnemy;
     [SerializeField] List<CharacterBase> activeEnemy;*/
+    [SerializeField] SkillData blank;
     public void Start()
     {
         _activeBattlers = FindObjectOfType<BattleSystem>();
@@ -44,9 +45,18 @@ public class SkillHUD : MonoBehaviour
         {
             if (activeBattlers[currentTurn].IsPlayer)
             {
-                skillslot = activeBattlers[currentTurn].SelectedSkills[skillSlotID];
+                if(activeBattlers[currentTurn].SelectedSkills.Count > skillSlotID)
+                {
+                    skillslot = activeBattlers[currentTurn].SelectedSkills[skillSlotID];
+                    skillButton.GetComponent<Button>().enabled = true;
+                }
+                else
+                {
+                    skillslot = blank;
+                    skillButton.GetComponent<Button>().enabled = false;
+                }
                 skillImage.sprite = skillslot.getSkillSprite;
-                if (skillslot.IsActivated==true)
+                if (skillslot.IsActivated == true)
                 {
                     if (skillslot.CurrentCoolDown > 0)
                     {
@@ -64,6 +74,7 @@ public class SkillHUD : MonoBehaviour
                         skillslot.CurrentCoolDown = skillslot.CoolDown;
                     }
                 }
+
             }
         }
         if (resetColor==true)

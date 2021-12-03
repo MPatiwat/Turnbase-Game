@@ -9,9 +9,15 @@ public class Quest : ScriptableObject
     public string questDescrption;
     public bool isQuestComplete;
     [SerializeField] public Quest questCondition;
+    [SerializeField] public int questID;
     public string GetDescription
     {
         get { return questDescrption; }
         set { questDescrption = value; }
+    }
+    public int getQuestID 
+    {
+        get { return questID; }
+        set { questID = value; }
     }
 }

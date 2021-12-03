@@ -111,7 +111,7 @@ public class LevelUP : MonoBehaviour
     }
     public void Submit()
     {
-        if (exp.SupplyValue >= currentExp&&gold.SupplyValue>=predictLevel*100)
+        if (exp.SupplyValue >= currentExp&&gold.SupplyValue>=predictLevel*100&&character!=null&&!character.IsDied)
         {
             LevelUp();
             currentExp = 0;

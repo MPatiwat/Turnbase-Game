@@ -27,4 +27,7 @@ MonoBehaviour:
   animationName: fire attack
   crystalRequire: 0
   levelRequire: 0
+  goldRequire: 0
   type: 1
+  playerID: 0
+  skillPos: 1

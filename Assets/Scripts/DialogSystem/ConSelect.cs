@@ -9,7 +9,7 @@ public class ConSelect : MonoBehaviour
     [SerializeField] GameObject joyUI;
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject conButton;
-    [SerializeField] public GameObject npc;
+    [SerializeField] public GameObject[] npc;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

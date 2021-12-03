@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO; // using File class
 using System.Runtime.Serialization.Formatters.Binary; // using BinaryFormattter class
 using UnityEngine;
+using TMPro;
 
 public class MenuSystem : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] GameObject joyUI;
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject gameoverUI;
+    [SerializeField] TMP_Text questText;
 
     [Header("Save Data")]
     [SerializeField] public Supply exp;
@@ -24,16 +26,26 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public Supply crystal;
     [SerializeField] public CharacterBase[] characters;
     [SerializeField] public List<SkillData> skills;
+    [SerializeField] public List<Quest> quest;
+    [SerializeField] public List<GameObject> npc;
+    [SerializeField] public int questID;
     [SerializeField] BattleSystem _character;
     [SerializeField] BattleSystem _skill;
+    [SerializeField] BattleSystem _questList;
+    [SerializeField] BattleSystem _npc;
+    [SerializeField] int loadQuestID = 0;
     // Start is called before the first frame update
     void Start()
     {
         gameUI.SetActive(false);
         _character = FindObjectOfType<BattleSystem>();
         _skill = FindObjectOfType<BattleSystem>();
+        _questList = FindObjectOfType<BattleSystem>();
+        _npc = FindObjectOfType<BattleSystem>();
         characters = _character.playerPrefabs;
         skills = _skill.saveSkill;
+        quest = _questList.saveQuest;
+        npc = _npc.npc;
         //mainCamera.SetActive(false);
         //state = SaveManager.Load();
 
@@ -80,8 +92,24 @@ public class MenuSystem : MonoBehaviour
         save.crystal = crystal.SupplyValue;
         save.playerPosX = player.transform.position.x;
         save.playerPosY = player.transform.position.y;
+        if(DialogManager.instance.currentConversation == null)
+        {
+            save.currentQuestID = loadQuestID;
+        }else if(DialogManager.instance.currentConversation.quest == null)
+        {
+            save.currentQuestID = loadQuestID;
+        }
+        else
+        {
+            save.currentQuestID = DialogManager.instance.currentConversation.quest.getQuestID;
+        }
+        Debug.Log(save.currentQuestID);
+        save.minCamX = mainCamera.GetComponent<CameraMovement>().minCamPosition.x;
+        save.minCamY = mainCamera.GetComponent<CameraMovement>().minCamPosition.y;
+        save.maxCamX = mainCamera.GetComponent<CameraMovement>().maxCamPosition.x;
+        save.maxCamY = mainCamera.GetComponent<CameraMovement>().maxCamPosition.y;
         //CharacterSaveData characterSave = new CharacterSaveData();
-        for(int i = 0; i < characters.Length; i++)
+        for (int i = 0; i < characters.Length; i++)
         {
             save.level[i] = characters[i].Level;
             save.pos[i] = characters[i].Pos;
@@ -111,6 +139,18 @@ public class MenuSystem : MonoBehaviour
             //save.skillPos[i] = skills[i].SkillPos;
             //Debug.Log("Save " + skills[i].getSkillName + " Success");
         }
+        /*for(int i = 0; i < characters.Length; i++)
+        {
+            for(int j = 1; j < characters[i].SelectedSkills.Count; j++)
+            {
+                save..Add(characters[i].SelectedSkills[j].getSkillID, characters[i].SelectedSkills[j].SkillPos);
+                Debug.Log(characters[i].SelectedSkills[j].getSkillName + " skill id : " + characters[i].SelectedSkills[j].getSkillID + " skill pos : " + characters[i].SelectedSkills[j].SkillPos);
+            }
+        }*/
+        for(int i = 0; i < npc.Count; i++)
+        {
+            save.npcClose[i] = npc[i].GetComponent<Close>().isClose;
+        }
 
         
         return save;
@@ -139,6 +179,10 @@ public class MenuSystem : MonoBehaviour
             fileStream.Close();
 
             player.transform.position = new Vector2(save.playerPosX, save.playerPosY);
+            mainCamera.GetComponent<CameraMovement>().minCamPosition.x = save.minCamX;
+            mainCamera.GetComponent<CameraMovement>().minCamPosition.y = save.minCamY;
+            mainCamera.GetComponent<CameraMovement>().maxCamPosition.x = save.maxCamX;
+            mainCamera.GetComponent<CameraMovement>().maxCamPosition.y = save.maxCamY;
             exp.SupplyValue = save.exp; 
             gold.SupplyValue = save.gold;
             crystal.SupplyValue = save.crystal;
@@ -153,6 +197,10 @@ public class MenuSystem : MonoBehaviour
                 characters[i].IsActivePlayer = save.isActive[i];
                 characters[i].IsDied = save.isDied[i];
                 characters[i].IsActiveInStory = save.isActiveInStory[i];
+                /*if (characters[i].IsActivePlayer)
+                {
+                    FormationUI.instance.activePlayer[characters[i].Pos] = characters[i];
+                }*/
                 Debug.Log("Load " + characters[i].Name + " Success");
             }
             for(int i = 0; i < skills.Count; i++)
@@ -168,10 +216,21 @@ public class MenuSystem : MonoBehaviour
                 }
                 Debug.Log("Load " + skills[i].getSkillName + " Success");
             }
-            /*for(int i = 0; i< characters.Length; i++)
+            for (int i = 0; i< quest.Count; i++)
             {
-                characters[i].SelectedSkills
-            }*/
+                if(save.currentQuestID == quest[i].getQuestID)
+                {
+                    loadQuestID = save.currentQuestID;
+                    questText.text = quest[i].GetDescription;
+                }
+            }
+            for (int i = 0; i < npc.Count; i++)
+            {
+                if (save.npcClose[i])
+                {
+                    npc[i].SetActive(false);
+                }
+            }
             Debug.Log("Load Success");
         }
         else

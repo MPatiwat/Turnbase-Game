@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: 0
   skillSprite: {fileID: 6934086728263231946, guid: b0f05bc87da87f24b95a58189ccb07eb, type: 3}
-  skillName: HeroAttack
+  skillName: DruidAttack
   skillDamage: 30
   elementSkill: 2
   skillDescription: Deal Normal Damage
@@ -27,4 +27,7 @@ MonoBehaviour:
   animationName: attack
   crystalRequire: 0
   levelRequire: 0
+  goldRequire: 0
   type: 1
+  playerID: 0
+  skillPos: 0

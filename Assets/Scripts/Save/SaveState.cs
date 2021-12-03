@@ -11,6 +11,12 @@ public class SaveState
     public float playerPosX;
     public float playerPosY;
 
+    //Camera Position
+    public float minCamX;
+    public float minCamY;
+    public float maxCamX;
+    public float maxCamY;
+
     //Character
     public int[] level = new int[5];
     public int[] pos = new int[5];
@@ -26,7 +32,12 @@ public class SaveState
     public bool[] skillIsUnlock = new bool[100];
     public bool[] skillIsSelected = new bool[100];
     public int[] skillPos = new int[100];
+    //public Dictionary<int, int> skillSelected = new Dictionary<int, int>();
     //public SkillData[] selectedSkill = new SkillData[15];
+
+    //Quest
+    public int currentQuestID;
+    public bool[] npcClose = new bool[100];
     
 }
 

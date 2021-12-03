@@ -6,7 +6,7 @@ public class Encounter : MonoBehaviour
 {
     [SerializeField] BattleType[] potemtialBattles;
     [SerializeField] GameObject player;
-    [SerializeField] int encounterPercent;
+    [SerializeField] public int encounterPercent;
 
     private void OnTriggerEnter2D(Collider2D other)
     {

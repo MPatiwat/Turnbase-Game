@@ -54,7 +54,7 @@ public class SkillManager2 : MonoBehaviour
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject questUI;
     [SerializeField] GameObject conButton;
-    [SerializeField] public GameObject npc;
+    [SerializeField] public GameObject[] npc;
 
     [SerializeField] Conversation upgradeCon;
 
