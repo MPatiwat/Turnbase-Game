@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbcb28f04ea60af4495d3667c0c533ab, type: 3}
   m_Name: Quest1
   m_EditorClassIdentifier: 
-  questDescrption: "\u0E2D\u0E2D\u0E01\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E17\u0E27\u0E35\u0E1B\u0E41\u0E2B\u0E48\u0E07\u0E44\u0E1F"
+  questDescrption: "\u0E2D\u0E2D\u0E01\u0E40\u0E14\u0E34\u0E19\u0E17\u0E32\u0E07\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E44\u0E1F"
   isQuestComplete: 0
   questCondition: {fileID: 11400000, guid: f6554d9b751187840aec6285b2b7d850, type: 2}
   questID: 1

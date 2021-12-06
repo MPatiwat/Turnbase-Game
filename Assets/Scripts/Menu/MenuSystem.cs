@@ -258,6 +258,7 @@ public class MenuSystem : MonoBehaviour
                     if(npc[i].name == save.npc[j])
                     {
                         npc[i].SetActive(false);
+                        npc[i].GetComponent<Close>().isClose = true;
                         Debug.Log(npc[i] + "Close Success");
                     }
                 }
@@ -267,10 +268,12 @@ public class MenuSystem : MonoBehaviour
                 if (save.signal[i] == signal[i].name)
                 {
                     signal[i].GetComponent<BoxCollider2D>().enabled = false;
+                    signal[i].GetComponent<TimelineTrigger>().trigger = true;
                 }
                 else
                 {
                     signal[i].GetComponent<BoxCollider2D>().enabled = true;
+                    signal[i].GetComponent<TimelineTrigger>().trigger = false;
                 }
             }
             Debug.Log("Load Success");
