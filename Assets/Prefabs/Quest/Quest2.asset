@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbcb28f04ea60af4495d3667c0c533ab, type: 3}
   m_Name: Quest2
   m_EditorClassIdentifier: 
-  questDescrption: 
+  questDescrption: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Dragon \u0E17\u0E35\u0E48\u0E43\u0E04\u0E23\u0E46
+    \u0E15\u0E48\u0E32\u0E07\u0E01\u0E47\u0E1E\u0E39\u0E14\u0E16\u0E36\u0E07"
   isQuestComplete: 0
-  questCondition: {fileID: 0}
+  questCondition: {fileID: 11400000, guid: bc4d22a1998fd1046b219dfc7920a72a, type: 2}
+  questID: 2
+  activeInStory: {fileID: 0}
+  reward: {fileID: 0}
+  gainReward: 0

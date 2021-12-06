@@ -622,7 +622,14 @@ public class BattleSystem : MonoBehaviour
         yield return new WaitForSeconds(5f);
         for (int i = 0; i < encounterField.transform.childCount; i++)
         {
-            encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 35;
+            if (encounterField.transform.GetChild(i).GetComponent<Encounter>().BossEncounter)
+            {
+                encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 0;
+            }
+            else
+            {
+                encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 35;
+            }
         }
         //encounterField.SetActive(true);
     }

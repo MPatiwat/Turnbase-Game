@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
   m_Name: F.Golem
   m_EditorClassIdentifier: 
-  characterName: BinGob
+  characterName: F.Golem
   level: 0
   playerID: 0
   pos: 0

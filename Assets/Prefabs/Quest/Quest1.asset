@@ -16,3 +16,6 @@ MonoBehaviour:
   isQuestComplete: 0
   questCondition: {fileID: 11400000, guid: f6554d9b751187840aec6285b2b7d850, type: 2}
   questID: 1
+  activeInStory: {fileID: 0}
+  reward: {fileID: 0}
+  gainReward: 0

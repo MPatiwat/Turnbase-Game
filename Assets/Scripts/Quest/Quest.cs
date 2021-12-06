@@ -10,6 +10,9 @@ public class Quest : ScriptableObject
     public bool isQuestComplete;
     [SerializeField] public Quest questCondition;
     [SerializeField] public int questID;
+    [SerializeField] public CharacterBase activeInStory;
+    [SerializeField] public Supply reward;
+    [SerializeField] public int gainReward;
     public string GetDescription
     {
         get { return questDescrption; }

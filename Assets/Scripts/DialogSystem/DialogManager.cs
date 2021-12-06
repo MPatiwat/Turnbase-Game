@@ -68,6 +68,14 @@ public class DialogManager : MonoBehaviour
                     {
                         currentConversation.quest.questCondition.isQuestComplete = true;
                     }
+                    if (currentConversation.quest.activeInStory != null)
+                    {
+                        currentConversation.quest.activeInStory.IsActiveInStory = true;
+                    }
+                    if(currentConversation.quest.reward != null)
+                    {
+                        currentConversation.quest.reward.SupplyValue += currentConversation.quest.gainReward;
+                    }
                 }
                 
             }  
