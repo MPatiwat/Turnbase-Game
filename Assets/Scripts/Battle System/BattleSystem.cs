@@ -49,6 +49,7 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] public List<SkillData> saveSkill;
     [SerializeField] public List<Quest> saveQuest;
     [SerializeField] public List<GameObject> npc;
+    [SerializeField] public List<GameObject> signal;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 

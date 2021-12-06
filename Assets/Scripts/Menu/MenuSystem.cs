@@ -28,11 +28,13 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public List<SkillData> skills;
     [SerializeField] public List<Quest> quest;
     [SerializeField] public List<GameObject> npc;
+    [SerializeField] public List<GameObject> signal;
     [SerializeField] public int questID;
     [SerializeField] BattleSystem _character;
     [SerializeField] BattleSystem _skill;
     [SerializeField] BattleSystem _questList;
     [SerializeField] BattleSystem _npc;
+    [SerializeField] BattleSystem _signal;
     [SerializeField] int loadQuestID = 0;
     // Start is called before the first frame update
     void Start()
@@ -42,10 +44,12 @@ public class MenuSystem : MonoBehaviour
         _skill = FindObjectOfType<BattleSystem>();
         _questList = FindObjectOfType<BattleSystem>();
         _npc = FindObjectOfType<BattleSystem>();
+        _signal = FindObjectOfType<BattleSystem>();
         characters = _character.playerPrefabs;
         skills = _skill.saveSkill;
         quest = _questList.saveQuest;
         npc = _npc.npc;
+        signal = _signal.signal;
         //mainCamera.SetActive(false);
         //state = SaveManager.Load();
 
@@ -147,9 +151,25 @@ public class MenuSystem : MonoBehaviour
                 Debug.Log(characters[i].SelectedSkills[j].getSkillName + " skill id : " + characters[i].SelectedSkills[j].getSkillID + " skill pos : " + characters[i].SelectedSkills[j].SkillPos);
             }
         }*/
-        for(int i = 0; i < npc.Count; i++)
+        /*for(int i = 0; i < npc.Count; i++)
         {
             save.npcClose[i] = npc[i].GetComponent<Close>().isClose;
+        }*/
+        for (int i = 0; i < npc.Count; i++)
+        {
+            if (npc[i].GetComponent<Close>().isClose)
+            {
+                save.npc[i] = npc[i].name;
+                Debug.Log("Save close : " + save.npc[i].ToString());
+            }
+        }
+        for (int i = 0; i < signal.Count; i++)
+        {
+            if (signal[i].GetComponent<TimelineTrigger>().trigger)
+            {
+                save.signal[i] = signal[i].name;
+                Debug.Log("Save close : " + save.signal[i].ToString());
+            }
         }
 
         
@@ -224,11 +244,33 @@ public class MenuSystem : MonoBehaviour
                     questText.text = quest[i].GetDescription;
                 }
             }
-            for (int i = 0; i < npc.Count; i++)
+            /*for (int i = 0; i < npc.Count; i++)
             {
                 if (save.npcClose[i])
                 {
                     npc[i].SetActive(false);
+                }
+            }*/
+            for (int i = 0; i < npc.Count; i++)
+            {
+                for(int j = 0; j < save.npc.Length; j++)
+                {
+                    if(npc[i].name == save.npc[j])
+                    {
+                        npc[i].SetActive(false);
+                        Debug.Log(npc[i] + "Close Success");
+                    }
+                }
+            }
+            for (int i = 0; i < signal.Count; i++)
+            {
+                if (save.signal[i] == signal[i].name)
+                {
+                    signal[i].GetComponent<BoxCollider2D>().enabled = false;
+                }
+                else
+                {
+                    signal[i].GetComponent<BoxCollider2D>().enabled = true;
                 }
             }
             Debug.Log("Load Success");

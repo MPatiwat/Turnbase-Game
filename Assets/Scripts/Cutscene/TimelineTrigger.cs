@@ -7,19 +7,28 @@ public class TimelineTrigger : MonoBehaviour
 {
     [SerializeField] private PlayableDirector director;
     [SerializeField] GameObject cutCollider;
+    [SerializeField] public bool trigger;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController moveScript = collision.GetComponent<PlayerController>();
         moveScript.canMove = false;
+
+        trigger = true;
         cutCollider.GetComponent<BoxCollider2D>().enabled = false;
         StartCoroutine(ControlFadeBlack());
         
     }
-    /*public IEnumerator Delay()
+    /*private void Update()
     {
-        yield return new WaitForSeconds(2.0f);
-        director.Play();
+        if (trigger)
+        {
+            
+        }
+        else
+        {
+            cutCollider.GetComponent<BoxCollider2D>().enabled = true;
+        }
     }*/
     public IEnumerator ControlFadeBlack()
     {

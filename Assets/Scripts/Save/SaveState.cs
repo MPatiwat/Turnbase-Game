@@ -37,7 +37,12 @@ public class SaveState
 
     //Quest
     public int currentQuestID;
-    public bool[] npcClose = new bool[100];
-    
+    //public bool[] npcClose = new bool[100];
+    public string[] npc = new string[100000];
+
+    //Signal
+    //public bool[] signalClose = new bool[100];
+    public string[] signal = new string[100000];
+
 }
 

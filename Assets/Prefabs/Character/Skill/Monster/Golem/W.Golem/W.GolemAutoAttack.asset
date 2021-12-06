@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillID: 0
   skillSprite: {fileID: 0}
-  skillName: W.Golem Auto Attack
-  skillDamage: 30
+  skillName: F.Golem Auto Attack
+  skillDamage: 60
   elementSkill: 1
   skillDescription: 
   isUnlocked: 0

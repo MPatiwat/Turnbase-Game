@@ -15,7 +15,7 @@ MonoBehaviour:
   skillID: 0
   skillSprite: {fileID: 0}
   skillName: F.Golem Auto Attack
-  skillDamage: 30
+  skillDamage: 50
   elementSkill: 0
   skillDescription: 
   isUnlocked: 0

@@ -12,21 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
   m_Name: T.Golem
   m_EditorClassIdentifier: 
-  characterName: BinGob
+  characterName: T.Golem
   level: 0
   playerID: 0
   pos: 0
   description: 
   image: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
   battleImage: {fileID: 21300000, guid: 87f01f515ef161d4faa5424c627897a6, type: 3}
-  element: 0
+  element: 3
   role: 0
-  currentHp: 10
-  maxHp: 10
-  attack: 1
-  defense: 10
+  currentHp: 139
+  maxHp: 139
+  attack: 123
+  defense: 123
   seletedSkills:
-  - {fileID: 11400000, guid: 8f909ebc5364f1740b93fb7b25c931e0, type: 2}
+  - {fileID: 11400000, guid: 590c34f1ecb5b4748aba064a5657a566, type: 2}
+  - {fileID: 11400000, guid: 12f770f3f17b96f4e9070e3e6e8505e9, type: 2}
+  - {fileID: 11400000, guid: 1e1e4c20882eef744ace110c6929473d, type: 2}
   isActivePlayer: 0
   isPlayer: 0
   playerAnimator: {fileID: 9100000, guid: b621429e46d244f4cab0bcef3a6c266f, type: 2}

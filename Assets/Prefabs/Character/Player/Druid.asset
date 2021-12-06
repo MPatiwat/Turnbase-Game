@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1497df833c6d09b49a30d09eaf9d0d3f, type: 3}
   m_Name: Druid
   m_EditorClassIdentifier: 
-  characterName: Druid
+  characterName: Dryad
   level: 5
   playerID: 3
   pos: -1
