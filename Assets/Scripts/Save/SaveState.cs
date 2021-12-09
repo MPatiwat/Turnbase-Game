@@ -31,6 +31,8 @@ public class SaveState
     //Skill
     public bool[] skillIsUnlock = new bool[100];
     public bool[] skillIsSelected = new bool[100];
+    public string[] skillUnlock = new string[100000];
+    public string[] skillSelected = new string[100000];
     public int[] skillPos = new int[100];
     //public Dictionary<int, int> skillSelected = new Dictionary<int, int>();
     //public SkillData[] selectedSkill = new SkillData[15];

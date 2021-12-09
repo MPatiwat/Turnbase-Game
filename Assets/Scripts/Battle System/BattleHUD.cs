@@ -14,8 +14,9 @@ public class BattleHUD : MonoBehaviour
     [SerializeField] GameObject playerAnimator;
 
     [Header("Active Player")]
-    [SerializeField] TMP_Text activePlayerName;
+    //[SerializeField] TMP_Text activePlayerName;
     [SerializeField] Image activePlayerSprite;
+    [SerializeField] Image activePlayerElement;
     [SerializeField] int currentHp, maxHp, attack, defense;
 
     [Header("Get From Battle System")]
@@ -46,7 +47,7 @@ public class BattleHUD : MonoBehaviour
                     if (activePlayer[i].Pos == posId)
                     {
                         character = activePlayer[i];
-                        activePlayerName.text = character.Name;
+                        //activePlayerName.text = character.Name;
                         currentHp = character.CurrentHp;
                         maxHp = character.MaxHp;
                         attack = character.Attack;
@@ -72,6 +73,7 @@ public class BattleHUD : MonoBehaviour
                         {
                         resetSprite = true;
                             activePlayerSprite.sprite = character.BattleSprite;
+                            activePlayerElement.sprite = character.ElementSprite;
                             playerAnimator.GetComponent<Animator>().enabled = true;
                         }
                         
@@ -85,7 +87,7 @@ public class BattleHUD : MonoBehaviour
                     if (activeEnemy[i].Pos == posId)
                     {
                         character = activeEnemy[i];
-                        activePlayerName.text = character.Name;
+                        //activePlayerName.text = character.Name;
                         currentHp = character.CurrentHp;
                         maxHp = character.MaxHp;
                         attack = character.Attack;
@@ -111,6 +113,7 @@ public class BattleHUD : MonoBehaviour
                         {
                         resetSprite = true;
                             activePlayerSprite.sprite = character.BattleSprite;
+                            activePlayerElement.sprite = character.ElementSprite;
                             playerAnimator.GetComponent<Animator>().enabled = true;
                         }
                        

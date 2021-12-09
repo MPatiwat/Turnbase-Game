@@ -21,7 +21,7 @@ MonoBehaviour:
   isUnlocked: 0
   isSelected: 0
   preSkill:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 1587b4f6e28d3e241a2699e6cef4fcd5, type: 2}
   cooldown: 2
   currentCooldown: 2
   isActivated: 0
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 10
   goldRequire: 1000
   type: 1
+  playerID: 0
+  skillPos: 0

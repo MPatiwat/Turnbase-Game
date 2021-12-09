@@ -38,6 +38,7 @@ public class CharacterBase : ScriptableObject
 
     [SerializeField] Sprite image;
     [SerializeField] Sprite battleImage;
+    [SerializeField] Sprite elementSrpite;
 
     [SerializeField] ElementType element;
     [SerializeField] Role role;
@@ -92,6 +93,11 @@ public class CharacterBase : ScriptableObject
     {
         get { return battleImage; }
         set { battleImage = value; }
+    }
+    public Sprite ElementSprite
+    {
+        get { return elementSrpite; }
+        set { elementSrpite = value; }
     }
 
     public ElementType Element

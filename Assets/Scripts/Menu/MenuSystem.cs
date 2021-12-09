@@ -133,12 +133,17 @@ public class MenuSystem : MonoBehaviour
         }
         for(int i = 0; i < skills.Count; i++)
         {
-            save.skillIsSelected[i] = skills[i].isSelected;
-            save.skillIsUnlock[i] = skills[i].isUnlocked;
             if (skills[i].isSelected)
             {
+                save.skillSelected[i] = skills[i].getSkillName;
                 save.skillPos[i] = skills[i].SkillPos;
-                Debug.Log(skills[i].getSkillName + " is selected have skill pos " + skills[i].SkillPos);
+                Debug.Log(skills[i].getSkillName + "is selected");
+                Debug.Log(skills[i].getSkillName + "is Pos" + skills[i].SkillPos);
+            }
+            if (skills[i].isUnlocked)
+            {
+                save.skillUnlock[i] = skills[i].getSkillName;
+                Debug.Log(skills[i].getSkillName + "Unlocked");
             }
             //save.skillPos[i] = skills[i].SkillPos;
             //Debug.Log("Save " + skills[i].getSkillName + " Success");
@@ -223,11 +228,74 @@ public class MenuSystem : MonoBehaviour
                 }*/
                 Debug.Log("Load " + characters[i].Name + " Success");
             }
+            /*for(int i = 0; i < save.skillSelected.Length; i++)
+            {
+                for(int j = 0; j < skills.Count; j++)
+                {
+                    if(save.skillSelected[i] == skills[j].getSkillName)
+                    {
+                        characters[skills[j].PlayerID].SelectedSkills[save.skillPos[i]] = skills[j];
+                        skills[j].isSelected = true;
+                        skills[j].SkillPos = save.skillPos[i];
+                        Debug.Log(skills[j].getSkillName + "is selected" + "have skill pos" + save.skillPos[i]);
+                    }
+                    else
+                    {
+                        skills[j].isSelected = false;
+                        skills[j].SkillPos = 0;
+                    }
+                }
+            }*/
             for(int i = 0; i < skills.Count; i++)
             {
-                skills[i].isSelected = save.skillIsSelected[i];
-                skills[i].isUnlocked = save.skillIsUnlock[i];
-                skills[i].SkillPos = save.skillPos[i];
+                for(int j = 0; j < save.skillSelected.Length; j++)
+                {
+                    if(skills[i].getSkillName == save.skillSelected[j])
+                    {
+                        characters[skills[i].PlayerID].SelectedSkills[save.skillPos[j]] = skills[i];
+                        skills[i].isSelected = true;
+                        skills[i].SkillPos = save.skillPos[j];
+                        Debug.Log(skills[i].getSkillName + "is selected" + "have skill pos" + save.skillPos[j]);
+                        break;
+                    }
+                    else
+                    {
+                        skills[i].isSelected = false;
+                        skills[i].SkillPos = 0;
+                    }
+                }
+            }
+            for(int i = 0;i< skills.Count; i++)
+            {
+                for(int j = 0; j < save.skillUnlock.Length; j++)
+                {
+                    if(skills[i].getSkillName == save.skillUnlock[j])
+                    {
+                        skills[i].isUnlocked = true;
+                        break;
+                    }
+                    else
+                    {
+                        skills[i].isUnlocked = false;
+                    }
+                }
+            }
+            /*for(int i = 0; i < save.skillUnlock.Length; i++)
+            {
+                for(int j = 0; j < skills.Count; j++)
+                {
+                    if(save.skillUnlock[i] == skills[j].getSkillName)
+                    {
+                        skills[j].isUnlocked = true;
+                    }
+                    else
+                    {
+                        skills[j].isUnlocked = false;
+                    }
+                }
+            }*/
+            /*for(int i = 0; i < skills.Count; i++)
+            {
                 if (skills[i].isSelected && skills[i].isUnlocked)
                 {
                     int id = skills[i].PlayerID;
@@ -235,7 +303,7 @@ public class MenuSystem : MonoBehaviour
                     characters[id].SelectedSkills[pos] = skills[i];
                 }
                 Debug.Log("Load " + skills[i].getSkillName + " Success");
-            }
+            }*/
             for (int i = 0; i< quest.Count; i++)
             {
                 if(save.currentQuestID == quest[i].getQuestID)

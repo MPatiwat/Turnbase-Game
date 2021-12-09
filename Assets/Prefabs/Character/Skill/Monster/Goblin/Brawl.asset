@@ -24,8 +24,10 @@ MonoBehaviour:
   cooldown: 0
   currentCooldown: 0
   isActivated: 0
-  animationName: attack
+  animationName: Super Attack
   crystalRequire: 0
   levelRequire: 0
   goldRequire: 0
   type: 1
+  playerID: 0
+  skillPos: 0

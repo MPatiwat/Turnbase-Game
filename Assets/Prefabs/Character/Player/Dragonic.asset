@@ -19,6 +19,7 @@ MonoBehaviour:
   description: Aniki of Fire Town
   image: {fileID: 21300000, guid: 230a03bb62924d6489368204bfa3eec0, type: 3}
   battleImage: {fileID: 21300000, guid: ca3ee1a2810c518498cf5e4cb4fdb3b6, type: 3}
+  elementSrpite: {fileID: 21300000, guid: d54e40f854efa9b428c3237bade5e166, type: 3}
   element: 0
   role: 0
   currentHp: 17

@@ -19,6 +19,7 @@ MonoBehaviour:
   description: 
   image: {fileID: 21300000, guid: 0c5d358e0b9656844846adae29442b80, type: 3}
   battleImage: {fileID: 21300000, guid: 6d6e75cbf94233841a09bae7539ec515, type: 3}
+  elementSrpite: {fileID: 21300000, guid: 9d4e1aaa9c7d7734bab06614e3dab9df, type: 3}
   element: 1
   role: 1
   currentHp: 19

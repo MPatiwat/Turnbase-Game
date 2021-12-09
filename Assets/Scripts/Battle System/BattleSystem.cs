@@ -112,6 +112,7 @@ public class BattleSystem : MonoBehaviour
                             newCharacter.Description = playerPrefabs[j].Description;
                             newCharacter.Sprite = playerPrefabs[j].Sprite;
                             newCharacter.BattleSprite = playerPrefabs[j].BattleSprite;
+                            newCharacter.ElementSprite = playerPrefabs[j].ElementSprite;
                             newCharacter.Element = playerPrefabs[j].Element;
                             newCharacter.Role = playerPrefabs[j].Role;
                             newCharacter.CurrentHp = playerPrefabs[j].CurrentHp;
@@ -150,6 +151,7 @@ public class BattleSystem : MonoBehaviour
                         newCharacter.Description = enemyPrefabs[j].Description;
                         newCharacter.Sprite = enemyPrefabs[j].Sprite;
                         newCharacter.BattleSprite = enemyPrefabs[j].BattleSprite;
+                        newCharacter.ElementSprite = enemyPrefabs[j].ElementSprite;
                         newCharacter.Element = enemyPrefabs[j].Element;
                         newCharacter.Role = enemyPrefabs[j].Role;
                         newCharacter.CurrentHp = Random.Range(enemyPrefabs[j].CurrentHp-1, enemyPrefabs[j].CurrentHp + 1);
@@ -482,7 +484,7 @@ public class BattleSystem : MonoBehaviour
             }
             else
             {
-                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
                 Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + defBuff + " To " + activeBattlers[target].Name);
             }
         }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Heal"|| activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Heal")
@@ -508,8 +510,6 @@ public class BattleSystem : MonoBehaviour
         }
         yield return new WaitForSeconds(2.0f);
         
-        activeAnimator[target].GetComponent<Animator>().Play("hit");
-        yield return new WaitForSeconds(2.0f);
     }
     public void ChooseSkill(int num)
     {
