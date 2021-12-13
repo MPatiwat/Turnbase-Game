@@ -17,8 +17,8 @@ MonoBehaviour:
   playerID: 0
   pos: 0
   description: The protagonist of game
-  image: {fileID: 21300000, guid: 8d0c8870cd51647c487b25acfe241c60, type: 3}
-  battleImage: {fileID: 21300000, guid: 0592e3a4fe473f9429fec28026dee456, type: 3}
+  image: {fileID: 3527941269923181139, guid: 79f4a7574644a38498713b475159fc6b, type: 3}
+  battleImage: {fileID: -8538980089687374507, guid: 583ce3044519a3f449db254e591b4978, type: 3}
   elementSrpite: {fileID: 21300000, guid: e30e0615a2b03f64a8072596bc43ca4c, type: 3}
   element: 4
   role: 0

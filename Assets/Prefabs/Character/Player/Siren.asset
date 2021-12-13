@@ -17,8 +17,8 @@ MonoBehaviour:
   playerID: 2
   pos: -1
   description: 
-  image: {fileID: 21300000, guid: 0c5d358e0b9656844846adae29442b80, type: 3}
-  battleImage: {fileID: 21300000, guid: 6d6e75cbf94233841a09bae7539ec515, type: 3}
+  image: {fileID: -3378049741473731828, guid: b41df9317d0fec642ab70e9851574c52, type: 3}
+  battleImage: {fileID: 5916281833206745938, guid: a5d25361da61ab84b964c3e197974c20, type: 3}
   elementSrpite: {fileID: 21300000, guid: 9d4e1aaa9c7d7734bab06614e3dab9df, type: 3}
   element: 1
   role: 1
@@ -32,9 +32,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: bec6d49a17d75004a9cee7febb58b092, type: 2}
   isActivePlayer: 0
   isPlayer: 1
-  playerAnimator: {fileID: 0}
+  playerAnimator: {fileID: 9100000, guid: f3eb98844152a184c8c75c4de8aa0dcd, type: 2}
   hasDied: 0
-  deadImage: {fileID: 0}
+  deadImage: {fileID: 3411084292018446902, guid: a5d25361da61ab84b964c3e197974c20, type: 3}
   isActiveInStory: 0
   b_maxHp: 12
   b_attack: 6
