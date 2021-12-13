@@ -24,7 +24,7 @@ MonoBehaviour:
   cooldown: 0
   currentCooldown: 0
   isActivated: 0
-  animationName: attack
+  animationName: skill1
   crystalRequire: 0
   levelRequire: 0
   goldRequire: 0

@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: fa16854335ded424394c8385be7cd2ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3179525618254227939
+    second: druid_0
+  - first:
+      213: -5909552637308527068
+    second: druid_1
+  - first:
+      213: 4205379659341602205
+    second: druid_2
+  - first:
+      213: -3202415041742134954
+    second: druid_3
+  - first:
+      213: -3737845182488515967
+    second: druid_4
+  - first:
+      213: -5362931038419918610
+    second: druid_5
+  - first:
+      213: -2031127577534476680
+    second: druid_6
+  - first:
+      213: -3893305145316915879
+    second: druid_7
+  - first:
+      213: -3929387872628627749
+    second: druid_8
+  - first:
+      213: -2541306718568452331
+    second: druid_9
+  - first:
+      213: -8897393955270795717
+    second: druid_10
+  - first:
+      213: 4153543229660957341
+    second: druid_11
+  - first:
+      213: 9134638243248576287
+    second: druid_12
+  - first:
+      213: 2731685321900361133
+    second: druid_13
+  - first:
+      213: -6120643738026869824
+    second: druid_14
+  - first:
+      213: -3663914802858245921
+    second: druid_15
+  - first:
+      213: -7119809150171974828
+    second: druid_16
+  - first:
+      213: 1710274656731738726
+    second: druid_17
+  - first:
+      213: -978497014410271155
+    second: druid_18
+  - first:
+      213: -117426674852627515
+    second: druid_19
+  - first:
+      213: -2124268024574693520
+    second: druid_20
+  - first:
+      213: 1730287419716081304
+    second: druid_21
+  - first:
+      213: 5230387218291055400
+    second: druid_22
+  - first:
+      213: -458485328678849477
+    second: druid_23
+  - first:
+      213: 1137302090561992254
+    second: druid_24
+  - first:
+      213: -5215013379086933825
+    second: druid_25
+  - first:
+      213: -3990352840251953545
+    second: druid_26
+  - first:
+      213: 7560691727786463075
+    second: druid_27
+  - first:
+      213: -6277521714456318517
+    second: druid_28
+  - first:
+      213: 572825268492801490
+    second: druid_29
+  - first:
+      213: -2016637561117357976
+    second: druid_30
+  - first:
+      213: -4287142483455001290
+    second: druid_31
+  - first:
+      213: 6337991708120798922
+    second: druid_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: druid_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16d3b9cb4e00e3d0800000000000000
+      internalID: -3179525618254227939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e90cfbf2d0dfda0800000000000000
+      internalID: -5909552637308527068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_2
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d95b4e4828c5a30800000000000000
+      internalID: 4205379659341602205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1460
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651a7959c7cbe83d0800000000000000
+      internalID: -3202415041742134954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_4
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18aed584c91802cc0800000000000000
+      internalID: -3737845182488515967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_5
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0601472aa0395b0800000000000000
+      internalID: -5362931038419918610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_6
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 1242
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ece87ca3cffc3e0800000000000000
+      internalID: -2031127577534476680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 832
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9554f23199338f9c0800000000000000
+      internalID: -3893305145316915879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_8
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 832
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd62e337c820879c0800000000000000
+      internalID: -3929387872628627749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_9
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1051
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe96ef0077bbcd0800000000000000
+      internalID: -2541306718568452331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_10
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 832
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e506d865b168480800000000000000
+      internalID: -8897393955270795717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1004
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a8b2b9f8954a930800000000000000
+      internalID: 4153543229660957341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_12
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1008
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f179788b511c4ce70800000000000000
+      internalID: 9134638243248576287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_13
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 835
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da50502c355e8e520800000000000000
+      internalID: 2731685321900361133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_14
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 1008
+        width: 97
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb7036e2fa1f0ba0800000000000000
+      internalID: -6120643738026869824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_15
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 1032
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0c65826e8272dc0800000000000000
+      internalID: -3663914802858245921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_16
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 835
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4537c6fdc4b513d90800000000000000
+      internalID: -7119809150171974828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_17
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 991
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66239d62dbd1cb710800000000000000
+      internalID: 1710274656731738726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_18
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 976
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46ab42562eab62f0800000000000000
+      internalID: -978497014410271155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_19
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 991
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbf046bf01de5ef0800000000000000
+      internalID: -117426674852627515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_20
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 976
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f218b8c751582e0800000000000000
+      internalID: -2124268024574693520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_21
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 947
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8961183ad37330810800000000000000
+      internalID: 1730287419716081304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_22
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 944
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b5bf79671169840800000000000000
+      internalID: 5230387218291055400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_23
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 948
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b347e51d50223a9f0800000000000000
+      internalID: -458485328678849477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_24
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 943
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36b146c93288cf00800000000000000
+      internalID: 1137302090561992254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_25
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 951
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb02d9846fc80a7b0800000000000000
+      internalID: -5215013379086933825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_26
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 905
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eaf4ccb3b6f98c0800000000000000
+      internalID: -3990352840251953545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_27
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 834
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f42f27119fce860800000000000000
+      internalID: 7560691727786463075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_28
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 834
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcda70ca243c1e8a0800000000000000
+      internalID: -6277521714456318517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 389
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d591e6fb8513f700800000000000000
+      internalID: 572825268492801490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 650
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c3e0a2d67304e0800000000000000
+      internalID: -2016637561117357976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_31
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 389
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63dbd2420a20184c0800000000000000
+      internalID: -4287142483455001290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: druid_32
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 205
+        width: 376
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac659efd0e115f750800000000000000
+      internalID: 6337991708120798922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,7 +22,7 @@ MonoBehaviour:
   elementSrpite: {fileID: 21300000, guid: d54e40f854efa9b428c3237bade5e166, type: 3}
   element: 0
   role: 0
-  currentHp: 17
+  currentHp: 11
   maxHp: 17
   attack: 13
   defense: 6
