@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Heal En5
   m_EditorClassIdentifier: 
   skillID: 60
-  skillSprite: {fileID: 21300000, guid: e1dbd0b6f144143f893aaee3c5facc25, type: 3}
+  skillSprite: {fileID: 21300000, guid: ba44e9af737195a4bbf6db1c0f906315, type: 3}
   skillName: Heal En5
   skillDamage: 1
   elementSkill: 1

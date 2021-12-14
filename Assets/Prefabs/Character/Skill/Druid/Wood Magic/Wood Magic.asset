@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wood Magic
   m_EditorClassIdentifier: 
   skillID: 49
-  skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
+  skillSprite: {fileID: 21300000, guid: 5b93289afdc857d4cb4aaff4c4784426, type: 3}
   skillName: Wood Magic
   skillDamage: 40
   elementSkill: 2

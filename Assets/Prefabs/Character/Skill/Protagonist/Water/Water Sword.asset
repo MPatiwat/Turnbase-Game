@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Water Sword
   m_EditorClassIdentifier: 
   skillID: 2
-  skillSprite: {fileID: 21300000, guid: e991c865cfec048cb9595fd171cbe827, type: 3}
+  skillSprite: {fileID: -8282125883468779623, guid: 588f15163f7e9b049a3db0bc1b7aceac, type: 3}
   skillName: Water Sword
   skillDamage: 40
   elementSkill: 1

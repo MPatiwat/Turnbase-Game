@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wood En4
   m_EditorClassIdentifier: 
   skillID: 19
-  skillSprite: {fileID: 21300000, guid: f60435091fbf04767b289c7e0e6d87df, type: 3}
+  skillSprite: {fileID: 21300000, guid: d64546c92d7f7b74985ba5f7bf6b095a, type: 3}
   skillName: Skill Wood En4
   skillDamage: 90
   elementSkill: 2
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 40
   goldRequire: 4000
   type: 1
+  playerID: 0
+  skillPos: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Heal En4
   m_EditorClassIdentifier: 
   skillID: 58
-  skillSprite: {fileID: 21300000, guid: e1dbd0b6f144143f893aaee3c5facc25, type: 3}
+  skillSprite: {fileID: 21300000, guid: eb71671474acd7f40aa534c6d06a61a8, type: 3}
   skillName: Heal En4
   skillDamage: 0.8
   elementSkill: 1

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Thunder Sword
   m_EditorClassIdentifier: 
   skillID: 4
-  skillSprite: {fileID: 21300000, guid: d43dcd6015ebb4d17a8c2f8f4c87e53c, type: 3}
+  skillSprite: {fileID: 6358040702757662528, guid: 8c8226d1695bc4045811c42391920ddd, type: 3}
   skillName: Thunder sword
   skillDamage: 40
   elementSkill: 3

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fire En5
   m_EditorClassIdentifier: 
   skillID: 21
-  skillSprite: {fileID: 21300000, guid: 0329aeb7290a645d58c2dbe87f22f830, type: 3}
+  skillSprite: {fileID: 21300000, guid: 9145805e79af3e34bb2d2c3b9d20c51e, type: 3}
   skillName: Skill Fire En5
   skillDamage: 120
   elementSkill: 0
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 50
   goldRequire: 5000
   type: 1
+  playerID: 0
+  skillPos: 0

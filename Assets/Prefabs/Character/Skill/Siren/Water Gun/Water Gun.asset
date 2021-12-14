@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Water Gun
   m_EditorClassIdentifier: 
   skillID: 37
-  skillSprite: {fileID: 21300000, guid: e991c865cfec048cb9595fd171cbe827, type: 3}
+  skillSprite: {fileID: 21300000, guid: 4e4465bed135bbf45a107e84c73503d8, type: 3}
   skillName: Water Gun
   skillDamage: 40
   elementSkill: 1

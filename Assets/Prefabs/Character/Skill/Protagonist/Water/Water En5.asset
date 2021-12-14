@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Water En5
   m_EditorClassIdentifier: 
   skillID: 22
-  skillSprite: {fileID: 21300000, guid: b49d5f0d7447e4805b3c7b30fbe44046, type: 3}
+  skillSprite: {fileID: 21300000, guid: 3f5471361a034aa41bbc46fde7a7adae, type: 3}
   skillName: Skill Water En5
   skillDamage: 120
   elementSkill: 1
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 50
   goldRequire: 5000
   type: 1
+  playerID: 0
+  skillPos: 0

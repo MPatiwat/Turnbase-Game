@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Thunder En5
   m_EditorClassIdentifier: 
   skillID: 24
-  skillSprite: {fileID: 21300000, guid: cfa74cee167804cb499fa448f09cd33a, type: 3}
+  skillSprite: {fileID: 21300000, guid: 7ed9f35706902b647bea3e5e2253e37b, type: 3}
   skillName: Thunder En5
   skillDamage: 120
   elementSkill: 3
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 50
   goldRequire: 5000
   type: 1
+  playerID: 0
+  skillPos: 0

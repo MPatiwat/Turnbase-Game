@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Thunder Force En1
   m_EditorClassIdentifier: 
   skillID: 63
-  skillSprite: {fileID: 21300000, guid: b49d5f0d7447e4805b3c7b30fbe44046, type: 3}
+  skillSprite: {fileID: 21300000, guid: 456a686bca36049499ad884d64f10281, type: 3}
   skillName: Thunder Force En1
   skillDamage: 50
   elementSkill: 3

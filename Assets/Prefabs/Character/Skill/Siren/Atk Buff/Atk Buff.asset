@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Atk Buff
   m_EditorClassIdentifier: 
   skillID: 38
-  skillSprite: {fileID: 21300000, guid: e1dbd0b6f144143f893aaee3c5facc25, type: 3}
+  skillSprite: {fileID: 21300000, guid: 2b6fdad09841f884fa4dd73bf6cda7a5, type: 3}
   skillName: Atk Buff
   skillDamage: 0.1
   elementSkill: 1

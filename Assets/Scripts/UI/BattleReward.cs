@@ -14,6 +14,7 @@ public class BattleReward : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] GameObject joyUI;
     [SerializeField] GameObject settingUI;
+    [SerializeField] GameObject questUI;
     [SerializeField] public Supply xp, gold, crystal;
 
     private void Start()
@@ -48,6 +49,7 @@ public class BattleReward : MonoBehaviour
         rewardScreen.SetActive(false);
         settingUI.SetActive(true);
         joyUI.SetActive(true);
+        questUI.SetActive(true);
         //player.GetComponent<PlayerController>().moveSpeed = 200;
         player.SetActive(true);
     }

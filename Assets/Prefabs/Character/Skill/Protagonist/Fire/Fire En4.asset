@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fire En4
   m_EditorClassIdentifier: 
   skillID: 17
-  skillSprite: {fileID: 21300000, guid: 0329aeb7290a645d58c2dbe87f22f830, type: 3}
+  skillSprite: {fileID: 21300000, guid: d6d3663da5f29684a8904bc10d011ec5, type: 3}
   skillName: Skill Fire En4
   skillDamage: 90
   elementSkill: 0
@@ -30,3 +30,5 @@ MonoBehaviour:
   levelRequire: 40
   goldRequire: 4000
   type: 1
+  playerID: 0
+  skillPos: 0

@@ -328,6 +328,12 @@ public class MenuSystem : MonoBehaviour
                         npc[i].SetActive(false);
                         npc[i].GetComponent<Close>().isClose = true;
                         Debug.Log(npc[i] + "Close Success");
+                        break;
+                    }
+                    else
+                    {
+                        npc[i].SetActive(true);
+                        npc[i].GetComponent<Close>().isClose = false;
                     }
                 }
             }

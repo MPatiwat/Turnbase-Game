@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Super Punch En 1
   m_EditorClassIdentifier: 
   skillID: 28
-  skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
-  skillName: Super Punch
+  skillSprite: {fileID: 21300000, guid: abdc6d33d07edb64aa5aefa2e9345616, type: 3}
+  skillName: Super Punch En1
   skillDamage: 85
   elementSkill: 4
   skillDescription: deal supreme fire damage

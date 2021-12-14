@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Def Buff2
   m_EditorClassIdentifier: 
   skillID: 66
-  skillSprite: {fileID: 21300000, guid: e1dbd0b6f144143f893aaee3c5facc25, type: 3}
+  skillSprite: {fileID: 21300000, guid: 21bd7362045be8d49af8c5a4fb65816a, type: 3}
   skillName: Def Buff En2
   skillDamage: 0.4
   elementSkill: 3

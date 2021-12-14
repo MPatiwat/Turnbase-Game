@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wood Sword
   m_EditorClassIdentifier: 
   skillID: 3
-  skillSprite: {fileID: 21300000, guid: 67d137063ecac4f5697cab92bf718a67, type: 3}
+  skillSprite: {fileID: 7886445919076324113, guid: b22a001ff00c60b478b56ff5facb8b94, type: 3}
   skillName: Wood Sword
   skillDamage: 40
   elementSkill: 2

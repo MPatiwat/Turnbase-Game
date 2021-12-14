@@ -17,8 +17,9 @@ MonoBehaviour:
   playerID: 0
   pos: 0
   description: 
-  image: {fileID: 21300000, guid: 53502b1b175143249b02c5b742841e5e, type: 3}
+  image: {fileID: 1709934011586498824, guid: 3d7e6d96eba0b85458d32aa3e53cf37c, type: 3}
   battleImage: {fileID: 0}
+  elementSrpite: {fileID: 0}
   element: 0
   role: 0
   currentHp: 0

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Fire Punch En 2
   m_EditorClassIdentifier: 
   skillID: 29
-  skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
-  skillName: Fire Punch
+  skillSprite: {fileID: 21300000, guid: ba2625002cc0a044f8efb42029e4b14f, type: 3}
+  skillName: Fire Punch En2
   skillDamage: 60
   elementSkill: 0
   skillDescription: Deal extreme fire damage

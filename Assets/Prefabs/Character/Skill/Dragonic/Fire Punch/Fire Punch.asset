@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Fire Punch
   m_EditorClassIdentifier: 
   skillID: 25
-  skillSprite: {fileID: 21300000, guid: fe18e0c7ddec54558b8afbb7d919958d, type: 3}
+  skillSprite: {fileID: 21300000, guid: 042ef3291eea4234c9c261bb6989509d, type: 3}
   skillName: Fire Punch
   skillDamage: 40
   elementSkill: 0

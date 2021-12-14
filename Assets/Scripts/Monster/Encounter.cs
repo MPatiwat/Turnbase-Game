@@ -8,6 +8,7 @@ public class Encounter : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] public int encounterPercent;
     [SerializeField] public bool BossEncounter;
+    [SerializeField] GameObject settingUI;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,6 +24,7 @@ public class Encounter : MonoBehaviour
     {
         //player.GetComponent<PlayerController>().moveSpeed = 0;
         player.SetActive(false);
+        settingUI.SetActive(false);
         UIFade.instance.FadeToBlack();
         //BattleSystem.instance.battleActive = true;
 

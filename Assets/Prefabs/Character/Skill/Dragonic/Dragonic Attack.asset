@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dragonic Attack
   m_EditorClassIdentifier: 
   skillID: 0
-  skillSprite: {fileID: 6934086728263231946, guid: b0f05bc87da87f24b95a58189ccb07eb, type: 3}
+  skillSprite: {fileID: 21300000, guid: 2bccb0b1ff6d7f743af3b8a85de77275, type: 3}
   skillName: DragonicAttack
   skillDamage: 30
   elementSkill: 0
