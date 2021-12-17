@@ -9,6 +9,9 @@ public class Encounter : MonoBehaviour
     [SerializeField] public int encounterPercent;
     [SerializeField] public bool BossEncounter;
     [SerializeField] GameObject settingUI;
+    [SerializeField] GameObject mainCamera;
+    [SerializeField] AudioClip bgm;
+    [SerializeField] public AudioClip beforeBattleBGM;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -17,6 +20,10 @@ public class Encounter : MonoBehaviour
             if (Random.Range(1, 101) <= encounterPercent)
             {
                 StartCoroutine(StartEncounter());
+                beforeBattleBGM = mainCamera.GetComponent<AudioSource>().clip;
+                FindObjectOfType<BattleSystem>().beforeBattleBGM = beforeBattleBGM;
+                mainCamera.GetComponent<AudioSource>().clip = bgm;
+                mainCamera.GetComponent<AudioSource>().Play(0);
             }
         }
     }

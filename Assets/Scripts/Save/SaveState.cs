@@ -46,5 +46,8 @@ public class SaveState
     //public bool[] signalClose = new bool[100];
     public string[] signal = new string[100000];
 
+    //BGM
+    public string bgm;
+
 }
 

@@ -29,6 +29,8 @@ public class BattleHUD : MonoBehaviour
     [SerializeField] GameObject posObj;
     //[SerializeField] BattleSystem _resetSprite;
     [SerializeField] bool resetSprite;
+    [SerializeField] TMP_Text charactercurrentHP;
+    [SerializeField] TMP_Text characterMaxHP;
     
     public void Start()
     {
@@ -49,7 +51,9 @@ public class BattleHUD : MonoBehaviour
                         character = activePlayer[i];
                         //activePlayerName.text = character.Name;
                         currentHp = character.CurrentHp;
+                        charactercurrentHP.text = currentHp.ToString();
                         maxHp = character.MaxHp;
+                        characterMaxHP.text = maxHp.ToString();
                         attack = character.Attack;
                         defense = character.Defense;
 
@@ -89,7 +93,9 @@ public class BattleHUD : MonoBehaviour
                         character = activeEnemy[i];
                         //activePlayerName.text = character.Name;
                         currentHp = character.CurrentHp;
+                        charactercurrentHP.text = currentHp.ToString();
                         maxHp = character.MaxHp;
+                        characterMaxHP.text = maxHp.ToString();
                         attack = character.Attack;
                         defense = character.Defense;
 

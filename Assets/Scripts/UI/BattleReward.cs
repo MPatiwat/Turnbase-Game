@@ -16,6 +16,8 @@ public class BattleReward : MonoBehaviour
     [SerializeField] GameObject settingUI;
     [SerializeField] GameObject questUI;
     [SerializeField] public Supply xp, gold, crystal;
+    [SerializeField] GameObject mainCamera;
+    [SerializeField] AudioClip bgm;
 
     private void Start()
     {
@@ -52,5 +54,7 @@ public class BattleReward : MonoBehaviour
         questUI.SetActive(true);
         //player.GetComponent<PlayerController>().moveSpeed = 200;
         player.SetActive(true);
+        mainCamera.GetComponent<AudioSource>().clip = FindObjectOfType<BattleSystem>().beforeBattleBGM;
+        mainCamera.GetComponent<AudioSource>().Play();
     }
 }

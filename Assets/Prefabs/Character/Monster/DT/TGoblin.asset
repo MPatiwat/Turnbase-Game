@@ -33,7 +33,7 @@ MonoBehaviour:
   isPlayer: 0
   playerAnimator: {fileID: 9100000, guid: 0798bbcc2c72ce8409ab41386115175d, type: 2}
   hasDied: 0
-  deadImage: {fileID: 1943264498384048869, guid: ebfbad8da58c30c4280bce708c1294c9, type: 3}
+  deadImage: {fileID: -2187131754239276102, guid: e460ce5aa8b2ed247bf63e6074c50989, type: 3}
   isActiveInStory: 0
   b_maxHp: 0
   b_attack: 0

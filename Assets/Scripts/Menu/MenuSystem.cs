@@ -29,13 +29,16 @@ public class MenuSystem : MonoBehaviour
     [SerializeField] public List<Quest> quest;
     [SerializeField] public List<GameObject> npc;
     [SerializeField] public List<GameObject> signal;
+    [SerializeField] public List<AudioClip> saveBGM;
     [SerializeField] public int questID;
     [SerializeField] BattleSystem _character;
     [SerializeField] BattleSystem _skill;
     [SerializeField] BattleSystem _questList;
     [SerializeField] BattleSystem _npc;
     [SerializeField] BattleSystem _signal;
+    [SerializeField] BattleSystem _saveBGM;
     [SerializeField] int loadQuestID = 0;
+    [SerializeField] AudioClip bgm;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,11 +48,13 @@ public class MenuSystem : MonoBehaviour
         _questList = FindObjectOfType<BattleSystem>();
         _npc = FindObjectOfType<BattleSystem>();
         _signal = FindObjectOfType<BattleSystem>();
+        _saveBGM = FindObjectOfType<BattleSystem>();
         characters = _character.playerPrefabs;
         skills = _skill.saveSkill;
         quest = _questList.saveQuest;
         npc = _npc.npc;
         signal = _signal.signal;
+        saveBGM = _saveBGM.bgm;
         //mainCamera.SetActive(false);
         //state = SaveManager.Load();
 
@@ -68,6 +73,8 @@ public class MenuSystem : MonoBehaviour
         joyUI.SetActive(true);
         settingUI.SetActive(true);
         player.SetActive(true);
+        mainCamera.GetComponent<AudioSource>().clip = bgm;
+        mainCamera.GetComponent<AudioSource>().Play();
         //player.transform.position = new Vector2(0, 0);
     }
     public void LoadGameButton()
@@ -176,7 +183,8 @@ public class MenuSystem : MonoBehaviour
                 Debug.Log("Save close : " + save.signal[i].ToString());
             }
         }
-
+        save.bgm = mainCamera.GetComponent<AudioSource>().clip.name;
+        Debug.Log(save.bgm + "Saved");
         
         return save;
     }
@@ -348,6 +356,14 @@ public class MenuSystem : MonoBehaviour
                 {
                     signal[i].GetComponent<BoxCollider2D>().enabled = true;
                     signal[i].GetComponent<TimelineTrigger>().trigger = false;
+                }
+            }
+            for(int i = 0; i < saveBGM.Count; i++)
+            {
+                if (save.bgm == saveBGM[i].name)
+                {
+                    mainCamera.GetComponent<AudioSource>().clip = saveBGM[i];
+                    mainCamera.GetComponent<AudioSource>().Play();
                 }
             }
             Debug.Log("Load Success");

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
+using TMPro;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -50,6 +51,12 @@ public class BattleSystem : MonoBehaviour
     [SerializeField] public List<Quest> saveQuest;
     [SerializeField] public List<GameObject> npc;
     [SerializeField] public List<GameObject> signal;
+    [SerializeField] public List<AudioClip> bgm;
+    [SerializeField] public AudioClip beforeBattleBGM;
+    [SerializeField] public AudioClip gameoverBGM;
+    [SerializeField] public AudioClip victoryBGM;
+    [SerializeField] GameObject mainCamera;
+    [SerializeField] TMP_Text battleLog;
     /*[SerializeField] int enemyTurn;
     [SerializeField] bool playerTurn;*/
 
@@ -388,11 +395,13 @@ public class BattleSystem : MonoBehaviour
         {
             activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
             Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
+            battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name;
         }
         else
         {
             activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
             Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name);
+            battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " dealing " + damageCal + " (" + damageToGive + ") " + activeBattlers[target].Name;
         }
         
         yield return new WaitForSeconds(2.0f);
@@ -459,39 +468,46 @@ public class BattleSystem : MonoBehaviour
         {
             float atkPower = activeBattlers[target].Attack;
             float atkBuff = atkPower * statGain;
-            activeBattlers[target].Attack += Mathf.RoundToInt(atkBuff);
+            int atkgain = Mathf.RoundToInt(atkBuff);
+            activeBattlers[target].Attack += atkgain;
 
             if (activeBattlers[currentTurn].IsPlayer)
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName );
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + atkBuff + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + atkgain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + atkgain + " atk "+ " To " + activeBattlers[target].Name;
             }
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + atkBuff + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + atkgain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + atkgain + " atk " + " To " + activeBattlers[target].Name;
             }  
         }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Def Buff" || activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Def Buff")
         {
             float defPower = activeBattlers[target].Defense;
             float defBuff = defPower * statGain;
-            activeBattlers[target].Attack += Mathf.RoundToInt(defBuff);
+            int defGain = Mathf.RoundToInt(defBuff);
+            activeBattlers[target].Attack += defGain;
 
             if (activeBattlers[currentTurn].IsPlayer)
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + defBuff + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + defGain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + defGain + " def " + " To " + activeBattlers[target].Name;
             }
             else
             {
-                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + defBuff + " To " + activeBattlers[target].Name);
+                activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + defGain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + defGain + " def " + " To " + activeBattlers[target].Name;
             }
         }else if (activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName == "Heal"|| activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName == "Heal")
         {
             float maxHp = activeBattlers[target].MaxHp;
             float heal = maxHp * statGain;
-            activeBattlers[target].CurrentHp += Mathf.RoundToInt(heal);
+            int healGain = Mathf.RoundToInt(heal);
+            activeBattlers[target].CurrentHp += healGain;
             if (activeBattlers[target].CurrentHp > activeBattlers[target].MaxHp)
             {
                 activeBattlers[target].CurrentHp = activeBattlers[target].MaxHp;
@@ -500,12 +516,14 @@ public class BattleSystem : MonoBehaviour
             if (activeBattlers[currentTurn].IsPlayer)
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[skillSlotID].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + heal + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Boost " + healGain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[skillSlotID].getSkillName + " Heal " + healGain + " To " + activeBattlers[target].Name;
             }
             else
             {
                 activeAnimator[currentTurn].GetComponent<Animator>().Play(activeBattlers[currentTurn].SelectedSkills[selectAttack].AnimationName);
-                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + heal + " To " + activeBattlers[target].Name);
+                Debug.Log(activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Boost " + healGain + " To " + activeBattlers[target].Name);
+                battleLog.text = activeBattlers[currentTurn].Name + " use " + activeBattlers[currentTurn].SelectedSkills[selectAttack].getSkillName + " Heal " + healGain + " To " + activeBattlers[target].Name;
             }
         }
         yield return new WaitForSeconds(2.0f);
@@ -560,6 +578,8 @@ public class BattleSystem : MonoBehaviour
     }
     public IEnumerator EndBattle()
     {
+        mainCamera.GetComponent<AudioSource>().clip = victoryBGM;
+        mainCamera.GetComponent<AudioSource>().Play();
         battleActive = false;
         uiButtonClose.SetActive(false);
 
@@ -647,6 +667,8 @@ public class BattleSystem : MonoBehaviour
         UIFade.instance.FadeFromBlack();
         battleCamera.SetActive(false);
         gameoverCamera.SetActive(true);
+        mainCamera.GetComponent<AudioSource>().clip = gameoverBGM;
+        mainCamera.GetComponent<AudioSource>().Play();
     }
 
     public void Revive()
