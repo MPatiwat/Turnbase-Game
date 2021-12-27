@@ -468,7 +468,7 @@ public class BattleSystem : MonoBehaviour
         {
             float atkPower = activeBattlers[target].Attack;
             float atkBuff = atkPower * statGain;
-            int atkgain = Mathf.RoundToInt(atkBuff);
+            int atkgain = Mathf.CeilToInt(atkBuff);
             activeBattlers[target].Attack += atkgain;
 
             if (activeBattlers[currentTurn].IsPlayer)
@@ -487,7 +487,7 @@ public class BattleSystem : MonoBehaviour
         {
             float defPower = activeBattlers[target].Defense;
             float defBuff = defPower * statGain;
-            int defGain = Mathf.RoundToInt(defBuff);
+            int defGain = Mathf.CeilToInt(defBuff);
             activeBattlers[target].Attack += defGain;
 
             if (activeBattlers[currentTurn].IsPlayer)
@@ -506,7 +506,7 @@ public class BattleSystem : MonoBehaviour
         {
             float maxHp = activeBattlers[target].MaxHp;
             float heal = maxHp * statGain;
-            int healGain = Mathf.RoundToInt(heal);
+            int healGain = Mathf.CeilToInt(heal);
             activeBattlers[target].CurrentHp += healGain;
             if (activeBattlers[target].CurrentHp > activeBattlers[target].MaxHp)
             {
@@ -652,6 +652,7 @@ public class BattleSystem : MonoBehaviour
                 encounterField.transform.GetChild(i).GetComponent<Encounter>().encounterPercent = 35;
             }
         }
+        battleLog.text = "";
         //encounterField.SetActive(true);
     }
     public IEnumerator GameOver()
